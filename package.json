@@ -1,0 +1,26 @@
+{
+  "name": "trains-and-trails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/server.js"
+  },
+  "keywords": [],
+  "author": "Ricky Reusser",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^2.0.2",
+    "browserify": "^17.0.0",
+    "budo": "^11.6.4",
+    "envify": "^4.1.0",
+    "mapbox-gl": "^2.4.1",
+    "preact": "^10.5.14",
+    "preact-hyperscript": "^0.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "babelify": "^10.0.0"
+  }
+}
