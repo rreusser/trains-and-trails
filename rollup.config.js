@@ -34,7 +34,7 @@ export default [
   plugins: [
     replace({
       values: {
-        'process.env.MAPBOX_ACCESS_TOKEN': credentials.MAPBOX_ACCESS_TOKEN
+        'process.env.MAPBOX_ACCESS_TOKEN': `"${credentials.MAPBOX_ACCESS_TOKEN}"`
       },
       preventAssignment: true
     }),
