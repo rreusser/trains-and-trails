@@ -17,7 +17,7 @@ budo.cli(['src/index.js'], {
   watchGlob: '**/*.{html,css,js,md}',
   dir: [
     'src',
-    'build',
+    'docs',
     'node_modules/mapbox-gl/dist'
   ],
   browserify: {

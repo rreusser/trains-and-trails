@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node scripts/server.js",
-    "build:watch": "nodemon scripts/build.js -e html,js,css,md,geojson --ignore build",
+    "build:watch": "nodemon scripts/build.js -e html,js,css,md,geojson --ignore docs",
     "build": "node scripts/build.js"
   },
   "keywords": [],
