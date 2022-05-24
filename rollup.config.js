@@ -1,9 +1,18 @@
 // rollup.config.js
 //import commonjs from '@rollup/plugin-commonjs';
 import nodeResolve from '@rollup/plugin-node-resolve';
+import replace from '@rollup/plugin-replace';
 import { babel } from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import json from '@rollup/plugin-json';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+import { readFileSync } from 'fs';
+
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const credentials = JSON.parse(readFileSync(join(__dirname, 'credentials.json'), 'utf8'));
+
 
 export default [
   {
@@ -23,6 +32,12 @@ export default [
     sourcemap: true,
   },
   plugins: [
+    replace({
+      values: {
+        'process.env.MAPBOX_ACCESS_TOKEN': credentials.MAPBOX_ACCESS_TOKEN
+      },
+      preventAssignment: true
+    }),
     nodeResolve({
       browser: true,
     }),
