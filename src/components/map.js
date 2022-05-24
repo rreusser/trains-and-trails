@@ -1,22 +1,14 @@
-import { h, Component, render } from 'preact';
+import { html } from 'htm/preact';
+import { useRef, useState, useEffect, useContext } from 'preact/hooks';
+import mapContext from '../data/map-context.js';
 
-mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN;
+export default function MapView (props) {
+  const map = useContext(mapContext);
+  const mapEl = useRef(null);
 
-class MbxMap extends Component {
-  createMap (element) {
-    this.map = new mapboxgl.Map({
-      container: element,
-      style: 'mapbox://styles/rsreusser/ckt5f72080l7r18quyld7h4si/draft'
-    });
-  }
+  useEffect(() => {
+    map.initialize(mapEl.current, props.initialBounds, !props.isHome);
+  }, []);
 
-  render () {
-    return h('div', {
-      className: 'mbxmap',
-      ref: this.createMap.bind(this)
-    });
-  }
+  return html`<div ref=${mapEl} class="mbxmap"/>`
 }
-
-export default MbxMap;
-

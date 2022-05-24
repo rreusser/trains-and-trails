@@ -3,24 +3,37 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node scripts/server.js"
+    "start": "node scripts/server.js",
+    "build:watch": "nodemon scripts/build.js -e html,js,css,md,geojson --ignore build",
+    "build": "node scripts/build.js"
   },
   "keywords": [],
   "author": "Ricky Reusser",
   "license": "ISC",
   "dependencies": {
+    "@turf/turf": "^6.5.0",
     "brfs": "^2.0.2",
     "browserify": "^17.0.0",
-    "budo": "^11.6.4",
     "envify": "^4.1.0",
+    "htm": "^3.1.1",
     "mapbox-gl": "^2.4.1",
     "preact": "^10.5.14",
     "preact-hyperscript": "^0.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.15.4",
-    "@babel/preset-env": "^7.15.4",
-    "babelify": "^10.0.0"
+    "@babel/preset-env": "^7.18.0",
+    "babelify": "^10.0.0",
+    "budo": "^11.7.0",
+    "glob": "^8.0.3",
+    "gray-matter": "^4.0.3",
+    "handlebars": "^4.7.7",
+    "mkdirp": "^1.0.4",
+    "preact-render-to-string": "^5.2.0",
+    "react-markdown": "^8.0.3",
+    "rehype-sanitize": "^5.0.1",
+    "rehype-stringify": "^9.0.3"
   }
 }
