@@ -8,7 +8,7 @@ import json from '@rollup/plugin-json';
 export default [
   {
     input: 'src/index.js',
-    output: 'dist/index.js',
+    output: 'docs/index.js',
     format: 'umd',
     name: 'App',
     babelPresets: [],
