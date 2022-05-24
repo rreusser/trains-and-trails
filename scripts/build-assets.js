@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import buildPage from './build-page.js';
 import { createHash } from 'crypto';
 import bbox from '@turf/bbox';
+import mkdirp from 'mkdirp';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const pagesPath = join(__dirname, '..', 'src', 'pages');
@@ -32,6 +33,8 @@ export default function buildAssets(metadata) {
     }
 
     assets[label] = outName;
+
+    mkdirp.sync(dirname(outPath));
     writeFileSync(outPath, data);
   }
 }

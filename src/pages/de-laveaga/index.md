@@ -3,7 +3,6 @@ title: 'De Laveaga Trail'
 date: 'May 21, 2022'
 assets:
   route: route.geojson
-  tofu: tofu.jpg
 ---
 
 - Accessibility: 🚇🚇🚇🚇🚇
