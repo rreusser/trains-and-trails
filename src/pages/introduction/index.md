@@ -5,4 +5,4 @@ isFront: true
 
 My name is Ricky. 👋
 
-[Back](/)
+[Back](../)
