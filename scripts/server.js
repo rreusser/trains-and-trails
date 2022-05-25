@@ -10,7 +10,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const credentials = JSON.parse(readFileSync(join(__dirname, '..', 'credentials.json')));
 
-budo.cli(['src/index.js'], {
+budo.cli([`src/index.js:${join(process.env.BASE_URL, 'bundle.js')}`], {
   host: 'localhost',
   live: true,
   open: false,

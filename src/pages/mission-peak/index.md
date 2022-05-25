@@ -7,5 +7,4 @@ assets:
 
 The trail is blah blah blah
 
-[Back](../)
-
+[Back]()

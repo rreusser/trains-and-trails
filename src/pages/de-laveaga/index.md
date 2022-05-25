@@ -14,5 +14,5 @@ assets:
 
 All factors considered, the [De Laveaga](https://www.ebmud.com/recreation/east-bay/east-bay-trails) trail is one of the very best in the area. My favorite variation is a one-way trip from Orinda to Berkeley.
 
-[Back](../)
+[Back]()
 

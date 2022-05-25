@@ -8,7 +8,7 @@ import mkdirp from 'mkdirp';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const pagesPath = join(__dirname, '..', 'src', 'pages');
-const buildPath = join(__dirname, '..', 'docs');
+const buildPath = join(__dirname, '..', 'docs', 'trains-and-trails');
 
 export default function buildAssets(metadata) {
   const assets = metadata.assets;
@@ -32,7 +32,9 @@ export default function buildAssets(metadata) {
       metadata.bounds = bounds;
     }
 
-    assets[label] = outName;
+    console.log(` - ${label}: ${outName}`);
+
+    assets[label] = join(metadata.path, outName);
 
     mkdirp.sync(dirname(outPath));
     writeFileSync(outPath, data);

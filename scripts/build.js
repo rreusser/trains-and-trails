@@ -9,13 +9,20 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pagesPath = join(__dirname, '..', 'src', 'pages');
 const mdFiles = glob.sync(join(pagesPath, '**', '*.md'));
-const buildPath = join(__dirname, '..', 'docs');
+const buildPath = join(__dirname, '..', 'docs', 'trains-and-trails');
 
 mkdirp.sync(buildPath);
 
 function normalizePath(path) {
-  return `/${path}/`.replace(/\.\//, '');
+  return `${path}/`.replace(/\.\//, '');
 }
+
+function copy (from, to) {
+  writeFileSync(join(buildPath, to), readFileSync(join(__dirname, from)));
+}
+copy(join('..', 'node_modules', 'mapbox-gl', 'dist', 'mapbox-gl.js'), 'mapbox-gl.js');
+copy(join('..', 'node_modules', 'mapbox-gl', 'dist', 'mapbox-gl.css'), 'mapbox-gl.css');
+copy(join('..', 'src', 'styles.css'), 'styles.css');
 
 async function processPage(mdPath) {
   const relMdPath = relative(pagesPath, mdPath);

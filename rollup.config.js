@@ -13,11 +13,10 @@ import { readFileSync } from 'fs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const credentials = JSON.parse(readFileSync(join(__dirname, 'credentials.json'), 'utf8'));
 
-
 export default [
   {
     input: 'src/index.js',
-    output: 'docs/index.js',
+    output: 'docs/bundle.js',
     format: 'umd',
     name: 'App',
     babelPresets: [],
@@ -34,7 +33,8 @@ export default [
   plugins: [
     replace({
       values: {
-        'process.env.MAPBOX_ACCESS_TOKEN': `"${credentials.MAPBOX_ACCESS_TOKEN}"`
+        'process.env.MAPBOX_ACCESS_TOKEN': `"${credentials.MAPBOX_ACCESS_TOKEN}"`,
+        'process.env.BASE_URL': `"${process.env.BASE_URL}"`
       },
       preventAssignment: true
     }),

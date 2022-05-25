@@ -10,7 +10,7 @@ function Article ({page, setPath}) {
   const contentContainer = useRef(null);
   const map = useContext(mapContext);
 
-  const isHome = page.metadata.path === '/';
+  const isHome = page.metadata.path === '';
   const isFront = page.metadata.isFront;
 
   useEffect(async () => {
@@ -42,6 +42,8 @@ function Article ({page, setPath}) {
     if (EXTERNAL_URL_REGEX.test(href)) return;
 
     if (!href.endsWith('/')) href += '/';
+    if (href === '/') href = '';
+
     event.stopPropagation();
     event.preventDefault();
 
@@ -57,7 +59,7 @@ function Article ({page, setPath}) {
   return html`
     <div class="article_container ${isFront ? 'is-front' : ''}">
       <div class="article_header">
-        ${isHome ? '' : html`<a href="/" onClick=${event => navigate(event, '/')}>← Back</a>`}
+        ${isHome ? '' : html`<a href="" onClick=${event => navigate(event, '')}>← Back</a>`}
         <h1>${page.metadata.title}</h1>
         <div class="article_date">${page.metadata.date}</div>
       </div>

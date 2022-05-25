@@ -5,9 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node scripts/server.js",
-    "build:watch": "nodemon scripts/build.js -e html,js,css,md,geojson --ignore docs",
-    "build": "node scripts/build.js"
+    "start": "BASE_URL=/trains-and-trails/ node scripts/server.js",
+    "build:watch": "BASE_URL=/trains-and-trails/ nodemon scripts/build.js -e html,js,css,md,geojson --ignore docs",
+    "build:prod": "npm run build && BASE_URL=/trains-and-trails/ rollup -c rollup.config.js",
+    "build": "BASE_URL=/trains-and-trails/ node scripts/build.js"
   },
   "keywords": [],
   "author": "Ricky Reusser",
@@ -25,10 +26,10 @@
   "devDependencies": {
     "@babel/core": "^7.15.4",
     "@babel/preset-env": "^7.18.0",
-    "@rollup/plugin-replace": "^4.0.0",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
     "babelify": "^10.0.0",
     "budo": "^11.7.0",
     "glob": "^8.0.3",

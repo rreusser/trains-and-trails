@@ -25,25 +25,27 @@ function App (props) {
   const [fetching, setFetching] = useState(false);
 
   useEffect(() => {
-    history.pushState({page, path}, '', path);
+    const pagePath = `${page.baseURL}${path}`.replace(/\/\//g, '/');
+    history.pushState({page, path}, '', pagePath);
     function onChange (event) {
       setPath(event.state.path);
       setPage(event.state.page);
     }
     window.addEventListener('popstate', onChange);
   }, []);
-
+  
   useEffect(() => {
     if (path === page.metadata.path) return;
     if (fetching) return;
 
-    const pagePath = `${path}/index.json`.replace(/\/\//g, '/');
+    const pagePath = `${page.baseURL}${path}`.replace(/\/\//g, '/');
+    const contentPath = `${pagePath}index.json`;
     setFetching(true);
-    history.pushState({path: pagePath, page: null}, '', path);
-    getPage(pagePath)
+    history.pushState({path: pagePath, page: null}, '', pagePath);
+    getPage(contentPath)
       .then(page => {
         setPage(page);
-        history.replaceState({path, page}, '', path);
+        history.replaceState({path, page}, '', pagePath);
       })
       .then(
         () => setFetching(false),

@@ -20,10 +20,12 @@ export default async function (md, path) {
 
   const page = {
     articleHTML: renderedMarkdown,
-    metadata
+    metadata,
+    baseURL: process.env.BASE_URL || ''
   };
 
   const html = template({
+    baseUrl: process.env.BASE_URL,
     content: ssr(page),
     title: windowTitle,
     page: JSON.stringify(page)
