@@ -8,7 +8,7 @@ import mkdirp from 'mkdirp';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const pagesPath = join(__dirname, '..', 'src', 'pages');
-const buildPath = join(__dirname, '..', 'docs', 'trains-and-trails');
+const buildPath = join(__dirname, '..', 'docs');
 
 export default function buildAssets(metadata) {
   const assets = metadata.assets;

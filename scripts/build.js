@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pagesPath = join(__dirname, '..', 'src', 'pages');
 const mdFiles = glob.sync(join(pagesPath, '**', '*.md'));
-const buildPath = join(__dirname, '..', 'docs', 'trains-and-trails');
+const buildPath = join(__dirname, '..', 'docs');
 
 mkdirp.sync(buildPath);
 
