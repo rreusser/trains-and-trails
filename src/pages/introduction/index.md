@@ -7,7 +7,7 @@ assets:
 
 Hi, my name is Ricky. 👋 I've run for many years, but logging, quantifying, and analyzing my own running has always struck me as profoundly uninteresting. Quite simply, it's the running itself which I enjoy.
 
-Things change though. I used to cruise for miles along gravel roads of the Midwest, but my tendons now prefer a more moderately-paced slog up a steep hill. The monotony of gravel roads used to leave my head empty and calm, but dodging cars as I run through Oakland only leaves my head full of fear and anger. I have plenty of Opinions about cars, but I'm not sure anyone wants to know, and I don't enjoy [shouting into the void](https://twitter.com/).
+Things change though. I used to cruise for miles along gravel roads of the Midwest, but my tendons now prefer a more moderately-paced slog up a steep hill. The monotony of gravel roads used to leave my head empty and calm, but dodging cars on the streets of Oakland only leaves my head full of fear and anger. I have plenty of Opinions about cars, but I'm not sure anyone wants to know, and I don't enjoy [shouting into the void](https://twitter.com/).
 
 This blog represents my effort to channel frustration and ill-informed policy opinions into something positive.
 
