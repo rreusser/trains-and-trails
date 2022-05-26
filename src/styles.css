@@ -27,21 +27,59 @@ a:visited {
   color: #ca4747;
 }
 
-p {
-  margin-top: 2em;
-  margin-bottom: 2em;
+.article_body p {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .article_container {
-  margin: 60vh auto 2em auto;
   max-width: 640px;
-  background-color: white;
+  margin: 60vh auto 100px auto;
   color: #111;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  box-shadow: 0 0 40px rgb(0 0 0 / 30%);
 }
+
+.article_body p,
+.article_body ul
+{
+  background-color: white;
+  padding: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.article_body ul {
+  padding-left: 60px;
+  padding-top: 0;
+}
+.article_body:before,
+.article_body:after {
+  content: '';
+  display: block;
+  height: 20px;
+  width: 100%;
+  background-color: white;
+}
+.article_body p + p {
+  margin-top: -30px;
+}
+
+/*
+.article_spacer:before,
+.article_spacer:after {
+  content: '';
+  display: block;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.article_spacer:before { top: 0; }
+.article_spacer:after { bottom: 0; }
+*/
 
 .article_container.is-front {
   margin-top: 10vh;
@@ -62,35 +100,37 @@ p {
 }
 
 .article_body {
-  padding: 30px;
   margin-bottom: 50px;
   line-height: 1.6;
 }
 
 .article_body img {
-  margin-left: -30px;
-  margin-right: -30px;
-  max-width: calc(100% + 60px);
+  display: block;
+  max-width: 100%;
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 10000;
-  pointer-events: none;
-  /*opacity: 0;*/
-  /*background: rgba(0,0,0,0.5);*/
-  /*transition: opacity 200ms ease-in-out;*/
+.article_spacer {
+  height: 100vh;
+  position: relative;
+}
+.article_spacer-2 { height: 200vh; }
+.article_spacer-3 { height: 300vh; }
+.article_spacer-4 { height: 400vh; }
+.article_spacer-5 { height: 500vh; }
+.article_spacer-6 { height: 600vh; }
+.article_spacer-7 { height: 700vh; }
+.article_spacer-8 { height: 800vh; }
+.article_spacer-9 { height: 900vh; }
+.article_spacer-10 { height: 1000vh; }
+
+.ratings {
+  background-color: white;
+  padding: 30px 30px 0 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.overlay-isActive {
-  /*opacity: 1;*/
-  pointer-events: all;
-}
-
+/*
 @media (min-width:1200px) {
   .mbxmap {
     left: 640px;
@@ -104,3 +144,4 @@ p {
     margin-top: 0;
   }
 }
+*/

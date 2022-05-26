@@ -55,8 +55,9 @@ function App (props) {
 
   return html`
     <${MbxMap} initialBounds=${page.metadata.bounds} isHome=${page.metadata.path === '/'}/>
+    <div class="left-spacer"/>
     <${Article} key=${page.metadata.path} page=${page} setPath=${setPath}/>
-    <${Overlay} active=${fetching}/>
+    <div class="right-spacer"/>
   `
 }
 

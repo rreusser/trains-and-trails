@@ -1,9 +1,9 @@
 ---
-title: 'Trains and Trails'
+title: Trains and Trails
 bounds: [[ -122.604, 37.35], [ -121.761, 38.009 ]]
 ---
 
-Hi! I'm Ricky. Below, you'll find Bay Area running routes which I've explored via public transportation. This site represents a small effort to channel frustration with a world centered cars and car infrastructure into something positive. 
+Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've explored via public transportation.
 
 - [Introduction](introduction/)
 - [De Laveaga Trail](de-laveaga/)

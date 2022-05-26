@@ -13,7 +13,7 @@ const EMPTY_GEOJSON = {
 };
 
 function currentPadding () {
-  return window.innerWidth < 1200 ? {
+  return true || window.innerWidth < 1200 ? {
     bottom: window.innerHeight * 0.45,
     left: window.innerWidth * 0.1,
     right: window.innerWidth * 0.1,
@@ -34,7 +34,7 @@ class MbxMap {
   initialize (element, bounds) {
     this.map = window.map = new mapboxgl.Map({
       container: element,
-      style: 'mapbox://styles/rreusser/cl3jof9o3000g14le3tzu1ih9',
+      style: 'mapbox://styles/rreusser/cl3jof9o3000g14le3tzu1ih9/draft',
       scrollZoom: false,
       boxZoom: false,
       dragRotate: false,
@@ -59,7 +59,11 @@ class MbxMap {
         source: 'route',
         type: 'line',
         paint: {
-          'line-color': '#3388ff',
+          'line-color': ['case',
+            ['==', ['get', 'mode'], 'metro'], '#3388ff',
+            ['==', ['get', 'mode'], 'foot'], '#5cb83b',
+            'black'
+          ],
           'line-width': 4
         }
       });

@@ -1,7 +1,7 @@
 import { html } from 'htm/preact';
 import { useRef, useEffect, useContext } from 'preact/hooks';
 import mapContext from '../data/map-context.js';
-
+import Ratings from './ratings.js';
 
 const EXTERNAL_URL_REGEX = /^http/;
 let initialLoad = true;
@@ -63,7 +63,10 @@ function Article ({page, setPath}) {
         <h1>${page.metadata.title}</h1>
         <div class="article_date">${page.metadata.date}</div>
       </div>
-      <div class="article_body" ref=${contentContainer} dangerouslySetInnerHTML=${{__html: page.articleHTML}}/>
+      <div class="article_body">
+        ${page.metadata.ratings ? html`<${Ratings}/>` : null}
+        <div ref=${contentContainer} dangerouslySetInnerHTML=${{__html: page.articleHTML}}/>
+      </div>
     </div>`;
 }
 

@@ -12,11 +12,12 @@ const template = handlebars.compile(readFileSync(join(__dirname, '..', 'src', 'v
 
 export default async function (md, path) {
   const {content: mdInput, data: metadata} = matter(md);
-  const renderedMarkdown = await renderMarkdown(mdInput);
-  const windowTitle = metadata.title ? `${metadata.title} - Trains and Trails` : 'Trains and Trails';
-  metadata.path = path;
 
-  buildAssets(metadata);
+  metadata.path = path;
+  const mdAssets = await buildAssets(metadata);
+
+  const renderedMarkdown = await renderMarkdown(mdInput, mdAssets);
+  const windowTitle = metadata.title === 'Trains and Trails' ? metadata.title : `${metadata.title} - Trains and Trails`;
 
   const page = {
     articleHTML: renderedMarkdown,
