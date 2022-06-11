@@ -2,7 +2,7 @@ import MbxMap from './map.js';
 import { html } from 'htm/preact';
 import Article from './article.js';
 import Overlay from './overlay.js';
-import { useState, useEffect } from 'preact/hooks';
+import { useState, useEffect, useContext } from 'preact/hooks';
 import mapContext from '../data/map-context.js';
 
 const pageCache = new Map();
@@ -23,6 +23,7 @@ function App (props) {
   const [path, setPath] = useState(props.page.metadata.path);
   const [page, setPage] = useState(props.page);
   const [fetching, setFetching] = useState(false);
+  const map = useContext(mapContext);
 
   useEffect(() => {
     const pagePath = `${page.baseURL}${path}`.replace(/\/\//g, '/');
@@ -30,6 +31,7 @@ function App (props) {
     function onChange (event) {
       setPath(event.state.path);
       setPage(event.state.page);
+      map.stop();
     }
     window.addEventListener('popstate', onChange);
   }, []);
@@ -53,10 +55,15 @@ function App (props) {
       );
   });
 
+  function navigate(...args) {
+    setPath(...args);
+    window.scrollTo(0,0);
+  }
+
   return html`
     <${MbxMap} initialBounds=${page.metadata.bounds} isHome=${page.metadata.path === '/'}/>
     <div class="left-spacer"/>
-    <${Article} key=${page.metadata.path} page=${page} setPath=${setPath}/>
+    <${Article} key=${page.metadata.path || '/'} page=${page} setPath=${navigate}/>
     <div class="right-spacer"/>
   `
 }

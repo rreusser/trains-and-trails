@@ -9,7 +9,10 @@
 </head>
 <body>
 <div id="root">{{{content}}}</div>
-<script defer>window.page={{{page}}}</script>
+<script defer>
+window.devicePixelRatio=Math.min(window.devicePixelRatio, 1.5);
+window.page={{{page}}}
+</script>
 <script src="mapbox-gl.js" defer></script>
 <script src="bundle.js" defer></script>
 </body>

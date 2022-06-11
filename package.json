@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "BASE_URL=/ node scripts/server.js",
-    "build:watch": "BASE_URL=/ nodemon scripts/build.js -e html,js,md,geojson --ignore docs",
+    "build:watch": "BASE_URL=/ nodemon scripts/build.js -e html,md,geojson --ignore docs",
     "build:prod": "npm run build:pages && BASE_URL=/trains-and-trails/ rollup -c rollup.config.js",
     "build:pages": "BASE_URL=/trains-and-trails/ node scripts/build.js"
   },
@@ -14,10 +14,12 @@
   "author": "Ricky Reusser",
   "license": "MIT",
   "dependencies": {
+    "@turf/simplify": "^6.5.0",
     "@turf/turf": "^6.5.0",
     "brfs": "^2.0.2",
     "browserify": "^17.0.0",
     "envify": "^4.1.0",
+    "gl-vec2": "^1.3.0",
     "htm": "^3.1.1",
     "mapbox-gl": "^2.4.1",
     "preact": "^10.5.14",
@@ -34,6 +36,8 @@
     "@rollup/plugin-replace": "^4.0.0",
     "babelify": "^10.0.0",
     "budo": "^11.7.0",
+    "eases": "^1.0.8",
+    "gl-vec3": "^1.1.3",
     "glob": "^8.0.3",
     "gray-matter": "^4.0.3",
     "handlebars": "^4.7.7",
@@ -43,6 +47,7 @@
     "rehype-raw": "^6.1.1",
     "rehype-sanitize": "^5.0.1",
     "rehype-stringify": "^9.0.3",
+    "remark-gfm": "^3.0.1",
     "rollup-plugin-terser": "^7.0.2",
     "unist-util-visit": "^4.1.0"
   }
