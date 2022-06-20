@@ -29,11 +29,13 @@ a:visited {
 
 .article_container {
   max-width: 520px;
-  margin: 70vh auto 100px 20px;
+  margin: 70vh auto 100px 0;
   color: #111;
   overflow: hidden;
   position: relative;
+  z-index: 1;
   box-sizing: border-box;
+  background-color: rgba(0,0,0,0.4);
 }
 
 .article_body {
@@ -134,6 +136,53 @@ a:visited {
   margin-bottom: 0;
 }
 
+#elevation-plot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+  z-index: 10;
+  border-top: 1px solid #888;
+}
+
+.elevation-marker {
+  position: absolute;
+  transform: translate(0,0);
+}
+
+.elevation-marker:after {
+  display: block;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: red;
+  transform: translate(-50%,-50%);
+}
+
+body[data-feature-mode="foot"] #elevation-plot {
+  opacity: 1;
+}
+
+.axis line,
+.axis text {
+  color: black;
+}
+.axis path {
+  stroke: black;
+}
+.grid .tick {
+  opacity: 0.1;
+}
+.grid .domain {
+  display: none;
+}
+
+#elevation-plot {
+  background-color: white;
+}
+
 @media (max-width:640px) {
   .article_container {
     margin-left: 0;
@@ -143,8 +192,8 @@ a:visited {
 
 @media (min-width:800px) {
   .article_container {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .article_container.is-front {

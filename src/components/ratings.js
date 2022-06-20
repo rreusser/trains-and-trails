@@ -1,6 +1,5 @@
 import { html } from 'htm/preact';
 import { useRef, useEffect, useContext } from 'preact/hooks';
-import mapContext from '../data/map-context.js';
 
 
 const EXTERNAL_URL_REGEX = /^http/;

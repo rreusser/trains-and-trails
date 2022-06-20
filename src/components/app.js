@@ -3,7 +3,7 @@ import { html } from 'htm/preact';
 import Article from './article.js';
 import Overlay from './overlay.js';
 import { useState, useEffect, useContext } from 'preact/hooks';
-import mapContext from '../data/map-context.js';
+import pageControllerContext from '../data/page-controller-context.js';
 
 const pageCache = new Map();
 function getPage (path) {
@@ -23,7 +23,7 @@ function App (props) {
   const [path, setPath] = useState(props.page.metadata.path);
   const [page, setPage] = useState(props.page);
   const [fetching, setFetching] = useState(false);
-  const map = useContext(mapContext);
+  const pageController = useContext(pageControllerContext);
 
   useEffect(() => {
     const pagePath = `${page.baseURL}${path}`.replace(/\/\//g, '/');
@@ -31,7 +31,7 @@ function App (props) {
     function onChange (event) {
       setPath(event.state.path);
       setPage(event.state.page);
-      map.stop();
+      pageController.stop();
     }
     window.addEventListener('popstate', onChange);
   }, []);

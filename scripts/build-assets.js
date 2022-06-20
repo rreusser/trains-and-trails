@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { dirname, join, relative, basename, extname } from 'path';
+import computeLayout from '../src/data/layout.js';
 import { featureCollection } from '@turf/helpers';
 import { fileURLToPath } from 'url';
 import buildPage from './build-page.js';
@@ -44,9 +45,7 @@ export default async function buildAssets(metadata) {
 
     switch(ext.toLowerCase()) {
       case '.geojson':
-        const route = JSON.parse(data.toString());
-        const bounds = bbox(featureCollection(route.features.filter(x => x.properties.mode === 'foot')));
-        metadata.bounds = bounds;
+        const route = computeLayout(JSON.parse(data.toString()));
 
         const outName = `${base}-${fingerprint}${ext}`;
         const outPath = join(dir, outName);

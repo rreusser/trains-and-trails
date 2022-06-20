@@ -1,36 +1,36 @@
 import { html } from 'htm/preact';
 import { useRef, useEffect, useContext } from 'preact/hooks';
-import mapContext from '../data/map-context.js';
+import pageControllerContext from '../data/page-controller-context.js';
 import Ratings from './ratings.js';
 import quadInOut from 'eases/quad-in-out.js';
+import lerp from '../util/lerp.js';
 
 const EXTERNAL_URL_REGEX = /^http/;
 let initialLoad = true;
 
-function lerp (a, b, x) { return x * b + (1.0 - x) * a; }
-
 function Article ({page, setPath}) {
   const contentContainer = useRef(null);
-  const map = useContext(mapContext);
+  const pageController = useContext(pageControllerContext);
 
   const isHome = page.metadata.path === '';
   const isFront = page.metadata.isFront;
 
   useEffect(async () => {
-    await map.ready();
+    await pageController.ready();
 
     const routePath = page.metadata.assets?.route;
     if (routePath) {
       fetch(routePath)
         .then(response => {
-          if (!response.ok) throw new Error('404');
+          if (!response.ok) throw new Error("failed to load route");
           return response.json();
         })
-        .then(data => {
-          map.setRoute(data, page.metadata.bounds, initialLoad);
+        .then(geojson => {
+          pageController.setRoute(geojson, page.metadata.bounds, initialLoad);
+          window.dispatchEvent(new CustomEvent('scroll'));
         });
     } else {
-      map.clearRoute(initialLoad ? null : page.metadata.bounds);
+      pageController.clearRoute(initialLoad ? null : page.metadata.bounds);
     }
 
     initialLoad = false;
@@ -55,38 +55,29 @@ function Article ({page, setPath}) {
     if (!contentContainer.current) return;
     contentContainer.current.addEventListener('click', navigate);
     const {current: el} = contentContainer;
-    const controllers = el.querySelectorAll('[data-mbx-behavior]');
+    const controlEls = el.querySelectorAll('[data-route-mode]');
 
-    function setPosition ({from, to, position}, forceUpdate=false) {
-      //if (!from) return;
-      const fromProgress = from ? parseFloat(from.getAttribute('data-mbx-progress')) : 0;
-      const toProgress = to ? parseFloat(to.getAttribute('data-mbx-progress')) : fromProgress;
-      const behavior = from ? from.getAttribute('data-mbx-behavior') : 'bound';
-      switch(behavior) {
-        case 'bound':
-          map.setBound(page?.metadata?.bounds, forceUpdate);
-          break;
-        case 'follow':
-          map.setFollow(lerp(fromProgress, toProgress, position));
-          break;
-        default:
-          console.warn('Unknown behavior:', behavior);
-      }
-    }
-
-    function computePosition (event, forceUpdate=false) {
+    function computePosition (event) {
       const offset = window.innerHeight * 3 / 4;
       const stops = [];
-      for (const c of controllers) stops.push(c.getBoundingClientRect().y - offset);
+      for (const c of controlEls) stops.push(c.getBoundingClientRect().y - offset);
       let i;
       for (i = 0; i < stops.length - 1 && stops[i] < 0; i++);
       i = Math.max(i - 1, 0);
-      const from = controllers[Math.max(0, i)];
-      const to = controllers[Math.min(i + 1, controllers.length - 1)];
+      const from = controlEls[Math.max(0, i)];
+      const to = controlEls[Math.min(i + 1, controlEls.length - 1)];
       let position = Math.max(0, Math.min(1, -stops[i] / (stops[i + 1] - stops[i])));
-      position = Math.floor(position) + quadInOut(position);
-      setPosition({from, to, position}, forceUpdate);
+      //position = Math.floor(position) + quadInOut(position);
+
+      const fromProgress = from ? parseFloat(from.getAttribute('data-route-progress')) : 0;
+      const toProgress = to ? parseFloat(to.getAttribute('data-route-progress')) : fromProgress;
+      const progress = lerp(fromProgress, toProgress, position);
+
+      const mode = from ? from.getAttribute('data-route-mode') : 'bound';
+
+      pageController.setProgress(mode, progress);
     }
+
     const onResize = event => computePosition(event, true);
 
     window.addEventListener('scroll', computePosition);

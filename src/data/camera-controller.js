@@ -20,12 +20,13 @@ class CameraController {
     this.targetPitch = 5;
     this.targetBearing = 0;
     this.targetCenter = this.center = mapboxgl.MercatorCoordinate.fromLngLat(map.transform.center);
+    this.targetCenter = null;
     this.dirty = true;
     this.previousTime = NaN;
     this.accumError = [0, 0, 0];
-    this.Kp_pan = 3;
-    this.Ki_pan = 2;
-    this.Kd_pan = 200;
+    this.Kp_pan = 2.5;
+    this.Ki_pan = 1.5;
+    this.Kd_pan = 150;
     this.Kp_pitch = 5;
     this.Kp_dist = 1;
     this.Kp_bearing = 0;
@@ -44,19 +45,16 @@ class CameraController {
     this.targetBearing = value;
   }
 
-  setCenter(center) {
+  setTargetCenter(center) {
     this.targetCenter = mapboxgl.MercatorCoordinate.fromLngLat(center);
   }
 
-  start() {
-    if (this.raf) return;
-    this.raf = requestAnimationFrame(this._frame.bind(this));
+  isClear () {
+    return this.targetCenter === null;
   }
-
-  stop() {
-    if (!this.raf) return;
-    cancelAnimationFrame(this.raf);
-    this.raf = null;
+  
+  clear () {
+    this.targetCenter = null;
   }
 
   setKi(value) {
@@ -101,10 +99,13 @@ class CameraController {
     this.targetDistance = Math.max(latCameraDist, lonCameraDist) * 1.5;
     this.setTargetBearing(0);
     this.setTargetPitch(5);
-    this.setCenter([lonCen, latCen]);
+    this.setTargetCenter([lonCen, latCen]);
   }
 
-  _step(t) {
+  tick(t) {
+    if (this.isClear()) {
+      throw new Error('invalid camera controller state: no target set');
+    }
     const dt = isNaN(this.previousTime)
       ? 0
       : Math.min(t / 1000 - this.previousTime, 32 / 1000);
@@ -161,10 +162,10 @@ class CameraController {
     const ly = mLookAt.y;
     const lz = mLookAt.z;
     if (
-      targetErrorMeters > 1 ||
-      Math.abs(camDistForce) > 0.1 ||
-      Math.abs(pitchForce) > 0.1 ||
-      Math.abs(b) > 1e-4
+      targetErrorMeters > 0.001 ||
+      Math.abs(camDistForce) > 0.00001 ||
+      Math.abs(pitchForce) > 0.00001 ||
+      Math.abs(b) > 1e-6
     ) {
       const distp = this.Kp_dist * (camDist / toMeters);
       const pitchp = this.Kp_pitch * (camDist / toMeters);
@@ -214,11 +215,6 @@ class CameraController {
       this.previousLookAt = new mapboxgl.MercatorCoordinate(lx, ly, lz);
       this.previousLookAtTime = t;
     }
-  }
-
-  _frame(t) {
-    this._step(t);
-    this.raf = requestAnimationFrame(this._frame.bind(this));
   }
 }
 

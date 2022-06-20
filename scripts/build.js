@@ -4,6 +4,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { dirname, join, relative, basename, extname } from 'path';
 import { fileURLToPath } from 'url';
 import buildPage from './build-page.js';
+import { createHash } from 'crypto';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -22,6 +23,7 @@ function copy (from, to) {
 }
 copy(join('..', 'node_modules', 'mapbox-gl', 'dist', 'mapbox-gl.js'), 'mapbox-gl.js');
 copy(join('..', 'node_modules', 'mapbox-gl', 'dist', 'mapbox-gl.css'), 'mapbox-gl.css');
+copy(join('..', 'node_modules', 'd3', 'dist', 'd3.min.js'), 'd3.min.js');
 copy(join('..', 'src', 'styles.css'), 'styles.css');
 
 async function processPage(mdPath) {
@@ -32,15 +34,32 @@ async function processPage(mdPath) {
   const baseMdName = basename(mdPath, extname(mdPath));
   const url = normalizePath(relDir);
   const htmlOutputPath = join(outDir, baseMdName + '.html');
-  const jsonOutputPath = join(outDir, baseMdName + '.json');
   const mdContent = readFileSync(mdPath, 'utf8');
   const {html, page} = await buildPage(mdContent, url);
 
   mkdirp.sync(outDir);
   writeFileSync(htmlOutputPath, html);
-  writeFileSync(jsonOutputPath, JSON.stringify(page));
+  const pageJSON = JSON.stringify(page);
+  const pageHash = createHash('sha256').update(pageJSON).digest('hex').substr(0, 8);
+
+  console.log(relDir);
+
+  const pageDataFilename = `${baseMdName}-${pageHash}.json`
+  const jsonOutputPath = join(outDir, pageDataFilename);
+
+  console.log(pageDataFilename);
+
+  writeFileSync(jsonOutputPath, pageJSON);
+
+  return {
+    dataPath: join(relDir, pageDataFilename)
+  };
 }
 
+
+const pages = [];
 for (const mdFile of mdFiles) {
-  await processPage(mdFile);
+  pages.push(await processPage(mdFile));
 }
+
+console.log(page);
