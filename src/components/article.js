@@ -18,7 +18,7 @@ function Article ({page, setPath}) {
   useEffect(async () => {
     await pageController.ready();
 
-    const routePath = page.metadata.assets?.route;
+    const routePath = page.metadata.routeurl;
     if (routePath) {
       fetch(routePath)
         .then(response => {
@@ -58,7 +58,7 @@ function Article ({page, setPath}) {
     const controlEls = el.querySelectorAll('[data-route-mode]');
 
     function computePosition (event) {
-      const offset = window.innerHeight * 3 / 4;
+      const offset = window.innerHeight * 1 / 4;
       const stops = [];
       for (const c of controlEls) stops.push(c.getBoundingClientRect().y - offset);
       let i;
@@ -92,14 +92,14 @@ function Article ({page, setPath}) {
   }, []);
 
   return html`
-    <div class="article_container ${isFront ? 'is-front' : ''}">
-      <div class="article_header">
+    <div class="articleContainer ${isFront ? 'is-front' : ''}">
+      <div class="articleHeader">
         ${isHome ? '' : html`<a href="" onClick=${event => navigate(event, '')}>← Back</a>`}
         <h1>${page.metadata.title}</h1>
         <div class="article_date">${page.metadata.date}</div>
       </div>
-      <div class="article_body">
-        ${page.metadata.ratings ? html`<${Ratings}/>` : null}
+      <div class="articleBody">
+        ${'' /*page.metadata.ratings ? html`<${Ratings}/>` : null*/}
         <div ref=${contentContainer} dangerouslySetInnerHTML=${{__html: page.articleHTML}}/>
       </div>
     </div>`;

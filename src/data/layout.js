@@ -6,10 +6,12 @@ import { featureCollection } from '@turf/helpers';
 
 function truncateCoords(feature, digits=6) {
   const f = Math.pow(10, digits);
-  feature.geometry.coordinates = feature.geometry.coordinates.map(coord => [
-    Math.round(coord[0] * f) / f,
-    Math.round(coord[1] * f) / f,
-  ]);
+  const iter = feature.geometry.type === 'Point' ? [feature.geometry.coordinates] : feature.geometry.coordinates;
+  iter.forEach(coord => {
+    coord[0] = Math.round(coord[0] * f) / f;
+    coord[1] = Math.round(coord[1] * f) / f;
+  });
+  return feature;
 }
 
 function computeLayout (route, {

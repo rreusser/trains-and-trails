@@ -547,10 +547,6 @@
     },
     {
       "type": "Feature",
-      "id": "6330342820b20aa00b80150ade4e545e",
-      "style": {
-        "stroke": "#F42410"
-      },
       "properties": {
         "mode": "foot"
       },

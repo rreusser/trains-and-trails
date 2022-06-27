@@ -23,6 +23,7 @@ class MapController {
   constructor (container, bounds, onload) {
     this.map = window.map = new mapboxgl.Map({
       container,
+      testMode: true,
       style: 'mapbox://styles/rreusser/cl3jof9o3000g14le3tzu1ih9/draft',
       scrollZoom: false,
       boxZoom: false,

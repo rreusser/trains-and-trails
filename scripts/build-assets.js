@@ -1,6 +1,5 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { dirname, join, relative, basename, extname } from 'path';
-import computeLayout from '../src/data/layout.js';
 import { featureCollection } from '@turf/helpers';
 import { fileURLToPath } from 'url';
 import buildPage from './build-page.js';
@@ -28,16 +27,16 @@ async function resize (path, outputPath, shape) {
 }
 
 export default async function buildAssets(metadata) {
-  const assets = metadata.assets;
+  let route = null;
+  const assets = metadata.assets || {};
   const mdAssets = {};
   const path = join(pagesPath, metadata.path);
 
   if (assets) for (const [label, inPath] of Object.entries(assets)) {
+    let hash, fingerprint;
     console.log('  -', inPath);
     const assetPath = join(path, inPath);
     const data = readFileSync(assetPath);
-    const hash = createHash('sha256');
-    const fingerprint = hash.update(data).digest('hex').substr(0, 8);
 
     const dir = join(buildPath, metadata.path);
     const ext = extname(inPath);
@@ -45,14 +44,6 @@ export default async function buildAssets(metadata) {
 
     switch(ext.toLowerCase()) {
       case '.geojson':
-        const route = computeLayout(JSON.parse(data.toString()));
-
-        const outName = `${base}-${fingerprint}${ext}`;
-        const outPath = join(dir, outName);
-        assets[label] = join(metadata.path, outName);
-
-        mkdirp.sync(dirname(outPath));
-        writeFileSync(outPath, data);
 
         break;
       case '.jpg':
@@ -63,6 +54,9 @@ export default async function buildAssets(metadata) {
           ['md', '1280x'],
           ['lg', '2560x']
         ];
+
+        hash = createHash('sha256');
+        fingerprint = hash.update(data).digest('hex').substr(0, 8);
 
         assets[label] = {};
         for (const [suf, size] of sizes) {
@@ -79,5 +73,6 @@ export default async function buildAssets(metadata) {
         break;
     }
   }
-  return mdAssets;
+
+  return {mdAssets, assets, route};
 }

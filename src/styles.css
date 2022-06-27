@@ -3,7 +3,7 @@
 html {
   background: #333;
   height: 100%;
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 html, body {
@@ -27,84 +27,194 @@ a:visited {
   color: #ca4747;
 }
 
-.article_container {
+.articleContainer {
   max-width: 520px;
   margin: 70vh auto 100px 0;
   color: #111;
-  overflow: hidden;
   position: relative;
   z-index: 1;
   box-sizing: border-box;
-  background-color: rgba(0,0,0,0.4);
 }
 
-.article_body {
+.articleContent {
+  margin: auto;
+  padding: 15px;
+  background-color: white;
+}
+
+.articleContent--introduction {
+  margin-bottom: 50px;
+}
+
+.articleCard {
+  padding: 15px 0;
+  position: relative;
+}
+
+.articleCard:before {
+  content: '';
+  left: 15px;
+  width: 20px;
+  top: 0;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  background-color: red;
+}
+
+.articleCard-metro:before {
+  background-color: #3388ff;
+}
+
+.articleCard-foot:before {
+  background-color: #5cb83b;
+}
+
+.articleCard p:first-child {
+  margin-top: 0;
+}
+.articleCard p:last-child {
+  margin-bottom: 0;
+}
+
+.articleCard-metro h2 {
+  color: #3388ff;
+}
+
+.articleCard-foot h2 {
+  color: #5cb83b;
+}
+
+.articleCard_content {
+  background-color: white;
+  padding: 15px;
+  position: relative;
+  border-radius: 10px;
+  margin: 0 15px 0 50px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  top: -18px;
+  min-height: 35px;
+}
+
+.articleCard_station {
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  margin: 0 15px 0 50px;
+  top: -16px;
+}
+
+.articleCard_station h2 {
+  color: inherit;
+  font-size: 1.3em;
+  margin: 0;
+  text-shadow: 0 0 4px rgb(0,0,0), 0 0 3px rgb(0,0,0);
+}
+
+.articleCard_circleCutoff {
+  position: absolute;
+  left: 15px;
+  bottom: -5px;
+}
+
+.articleCard-metro .articleCard_circleCutoff {
+  fill: #3388ff;
+}
+
+.articleCard-foot .articleCard_circleCutoff{
+  fill: #5cb83b;
+}
+
+.articleCard_content:before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: -14px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 17px 17px 17px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.articleCard-start:before {
+  top: 7px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.articleCard-terminus:before {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  bottom: auto;
+  height: 27px;
+}
+
+
+.articleCard-start:after,
+.articleCard-terminus:after {
+  content: '';
+  position: absolute;
+  border-radius: 10px;
+  width: 12px;
+  height: 12px;
+  top: 11px;
+  left: 19px;
+  background-color: white;
+}
+
+.articleBody {
   margin-bottom: 50px;
   line-height: 1.6;
+  position: relative;
 }
-.article_body img {
+
+.articleBody:before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: -50px;
+  width: 200px;
+  background-color: rgba(10,10,10,0.5);
+  filter: blur(50px);
+}
+
+.articleContent,
+.articleCard,
+.articleHeader {
+  position: relative;
+  z-index: 1;
+}
+
+.articleBody img {
   display: block;
   max-width: 100%;
 }
-.article_body p,
-.article_body ul,
-.article_body table
-{
-  background-color: white;
-  padding: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.article_body table {
+.articleBody table {
   width: 100%;
   padding: 0 60px;
 }
-.article_body table time {
+.articleBody table time {
   font-variant-numeric: tabular-nums;
 }
-.article_body ul {
+.articleBody ul {
   padding-left: 60px;
   padding-top: 0;
 }
-.article_body:before,
-.article_body:after {
-  content: '';
-  display: block;
-  height: 20px;
-  width: 100%;
-  background-color: white;
-}
-.article_body p + p {
-  margin-top: -20px;
-}
 
-/*
-.article_spacer:before,
-.article_spacer:after {
-  content: '';
-  display: block;
-  height: 15px;
-  background-color: white;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
-.article_spacer:before { top: 0; }
-.article_spacer:after { bottom: 0; }
-*/
-
-.article_container.is-front {
+.articleContainer.is-front {
   margin-top: 10vh;
 }
 
-.article_header {
+.articleHeader {
   padding: 30px;
   background-color: #ca4747;
   color: white;
 }
 
-.article_header a {
+.articleHeader a {
   color: inherit;
 }
 
@@ -137,6 +247,7 @@ a:visited {
 }
 
 #elevation-plot {
+  pointer-events: none;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -183,20 +294,24 @@ body[data-feature-mode="foot"] #elevation-plot {
   background-color: white;
 }
 
+.mapboxgl-ctrl-bottom-left {
+  left: 35px !important;
+}
+
 @media (max-width:640px) {
-  .article_container {
+  .articleContainer {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
 @media (min-width:800px) {
-  .article_container {
+  .articleContainer {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .article_container.is-front {
+  .articleContainer.is-front {
     margin-top: 0;
   }
 }

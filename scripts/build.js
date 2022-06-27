@@ -2,9 +2,13 @@ import glob from 'glob';
 import mkdirp from 'mkdirp';
 import { readFileSync, writeFileSync } from 'fs';
 import { dirname, join, relative, basename, extname } from 'path';
+import simplify from '@turf/simplify';
+import bbox from '@turf/bbox';
 import { fileURLToPath } from 'url';
 import buildPage from './build-page.js';
 import { createHash } from 'crypto';
+import { featureCollection } from '@turf/helpers';
+import buildRoutes from './build-routes.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -26,7 +30,20 @@ copy(join('..', 'node_modules', 'mapbox-gl', 'dist', 'mapbox-gl.css'), 'mapbox-g
 copy(join('..', 'node_modules', 'd3', 'dist', 'd3.min.js'), 'd3.min.js');
 copy(join('..', 'src', 'styles.css'), 'styles.css');
 
+const allRoutes = buildRoutes();
+
+// Build a page manifest to json representations get cache-busted correctly
+const siteManifest = {};
+for (const mdFile of mdFiles) {
+  const hash = createHash('sha256').update(readFileSync(mdFile)).digest('hex').substr(0, 8);
+  const relMdPath = relative(pagesPath, mdFile);
+  const relDir = dirname(relMdPath);
+  const baseMdName = basename(mdFile, extname(mdFile));
+  siteManifest[relDir + '/'] = `${relDir}/${baseMdName}-${hash}.json`;
+}
+
 async function processPage(mdPath) {
+  if (!/veaga/.test(mdPath)) return;
   const relMdPath = relative(pagesPath, mdPath);
   console.log(`Build page ${relMdPath}`);
   const relDir = dirname(relMdPath);
@@ -35,31 +52,27 @@ async function processPage(mdPath) {
   const url = normalizePath(relDir);
   const htmlOutputPath = join(outDir, baseMdName + '.html');
   const mdContent = readFileSync(mdPath, 'utf8');
-  const {html, page} = await buildPage(mdContent, url);
+
+  const slug = relDir;
+
+  const thisroute = allRoutes.routes[slug];
+  const thisroutefile = allRoutes.paths[slug];
+  const {html, page} = await buildPage(mdContent, url, siteManifest, thisroute, thisroutefile);
 
   mkdirp.sync(outDir);
   writeFileSync(htmlOutputPath, html);
   const pageJSON = JSON.stringify(page);
   const pageHash = createHash('sha256').update(pageJSON).digest('hex').substr(0, 8);
 
-  console.log(relDir);
-
   const pageDataFilename = `${baseMdName}-${pageHash}.json`
   const jsonOutputPath = join(outDir, pageDataFilename);
 
-  console.log(pageDataFilename);
-
   writeFileSync(jsonOutputPath, pageJSON);
-
-  return {
-    dataPath: join(relDir, pageDataFilename)
-  };
 }
 
 
 const pages = [];
 for (const mdFile of mdFiles) {
-  pages.push(await processPage(mdFile));
+  console.log(`Processing ${mdFile}...`);
+  await processPage(mdFile);
 }
-
-console.log(page);

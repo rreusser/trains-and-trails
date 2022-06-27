@@ -10,13 +10,15 @@ import buildAssets from './build-assets.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const template = handlebars.compile(readFileSync(join(__dirname, '..', 'src', 'views', 'layout.html'), 'utf8'));
 
-export default async function (md, path) {
+export default async function (md, path, siteManifest, route, routeFile) {
   const {content: mdInput, data: metadata} = matter(md);
 
   metadata.path = path;
-  const mdAssets = await buildAssets(metadata);
+  metadata.routeurl = routeFile;
+  metadata.bounds = route.features.filter(f => f.properties.mode === 'foot')[0].properties.bbox;
+  const {mdAssets, assets} = await buildAssets(metadata);
 
-  const renderedMarkdown = await renderMarkdown(mdInput, mdAssets);
+  const renderedMarkdown = await renderMarkdown(mdInput, mdAssets, route);
   const windowTitle = metadata.title === 'Trains and Trails' ? metadata.title : `${metadata.title} - Trains and Trails`;
 
   const page = {
@@ -29,7 +31,8 @@ export default async function (md, path) {
     baseUrl: process.env.BASE_URL,
     content: ssr(page),
     title: windowTitle,
-    page: JSON.stringify(page)
+    page: JSON.stringify(page),
+    manifest: JSON.stringify(siteManifest),
   });
 
   return { html, page };

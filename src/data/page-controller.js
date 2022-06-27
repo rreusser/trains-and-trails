@@ -41,7 +41,8 @@ class PageController {
     });
   }
 
-  setRoute (geojson, bouds, isInitialLoad) {
+  setRoute (geojson, bounds, isInitialLoad) {
+    console.log(geojson, bounds);
     this.dirty = true;
     this.route = new Route(geojson);
     this.ready().then(() => {
