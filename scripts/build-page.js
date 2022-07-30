@@ -6,6 +6,8 @@ import ssr from './ssr.js';
 import renderMarkdown from './render-markdown.js';
 import matter from 'gray-matter';
 import buildAssets from './build-assets.js';
+import bbox from '@turf/bbox';
+import { featureCollection } from '@turf/helpers';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const template = handlebars.compile(readFileSync(join(__dirname, '..', 'src', 'views', 'layout.html'), 'utf8'));
@@ -16,7 +18,7 @@ export default async function (md, path, siteManifest, route, routeFile) {
   metadata.path = path;
   metadata.routeurl = routeFile;
   if (route) {
-    metadata.bounds = route.features.filter(f => f.properties.mode === 'foot')[0].properties.bbox;
+    metadata.bounds = bbox(featureCollection(route.features.filter(f => f.properties.mode === 'foot')));
   }
   const {mdAssets, assets} = await buildAssets(metadata);
 

@@ -60,7 +60,7 @@ class ElevationPlot {
 
   draw () {
     this.width = Math.min(520 - this.margin.left - this.margin.right,
-      Math.max(Math.min(window.innerWidth, 320), window.innerWidth - 520 - this.margin.left - this.margin.right)
+      Math.max(Math.min(window.innerWidth, 540), window.innerWidth - 520 - this.margin.left - this.margin.right)
     );
     this.height = 100;
 

@@ -1,7 +1,8 @@
 ---
 title: Trains and Trails
-bounds: [[ -122.604, 37.35], [ -121.761, 38.009 ]]
 ---
+
+<span data-behavior="introduction"></span>
 
 Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've explored via public transportation.
 

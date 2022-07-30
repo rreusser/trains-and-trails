@@ -46,6 +46,10 @@ a:visited {
   margin-bottom: 50px;
 }
 
+.articleContent--conclusion {
+  margin-bottom: 90vh;
+}
+
 .articleCard {
   padding: 15px 0;
   position: relative;
@@ -167,6 +171,7 @@ a:visited {
   margin-bottom: 50px;
   line-height: 1.6;
   position: relative;
+  overflow: hidden;
 }
 
 .articleBody:before {
@@ -177,7 +182,7 @@ a:visited {
   bottom: 0;
   left: -50px;
   width: 200px;
-  background-color: rgba(10,10,10,0.5);
+  background-color: rgba(20,20,20,0.5);
   filter: blur(50px);
 }
 
@@ -255,6 +260,8 @@ a:visited {
   transition: opacity 300ms ease-in-out;
   z-index: 10;
   border-top: 1px solid #888;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .elevation-marker {
@@ -295,7 +302,9 @@ body[data-feature-mode="foot"] #elevation-plot {
 }
 
 .mapboxgl-ctrl-bottom-left {
-  left: 35px !important;
+  right: 5px;
+  left: auto !important;
+  /*left: 35px !important;*/
 }
 
 @media (max-width:640px) {

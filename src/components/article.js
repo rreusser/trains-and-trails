@@ -28,12 +28,13 @@ function Article ({page, setPath}) {
         .then(geojson => {
           pageController.setRoute(geojson, page.metadata.bounds, initialLoad);
           window.dispatchEvent(new CustomEvent('scroll'));
+          initialLoad = false;
         });
     } else {
       pageController.clearRoute(initialLoad ? null : page.metadata.bounds);
+      initialLoad = false;
     }
 
-    initialLoad = false;
   }, []);
 
 
@@ -62,7 +63,7 @@ function Article ({page, setPath}) {
       const stops = [];
       for (const c of controlEls) stops.push(c.getBoundingClientRect().y - offset);
       let i;
-      for (i = 0; i < stops.length - 1 && stops[i] < 0; i++);
+      for (i = 0; i < stops.length && stops[i] < 0; i++);
       i = Math.max(i - 1, 0);
       const from = controlEls[Math.max(0, i)];
       const to = controlEls[Math.min(i + 1, controlEls.length - 1)];
@@ -70,7 +71,8 @@ function Article ({page, setPath}) {
       //position = Math.floor(position) + quadInOut(position);
 
       const fromProgress = from ? parseFloat(from.getAttribute('data-route-progress')) : 0;
-      const toProgress = to ? parseFloat(to.getAttribute('data-route-progress')) : fromProgress;
+      let toProgress = to ? parseFloat(to.getAttribute('data-route-progress')) : fromProgress;
+      if (isNaN(toProgress)) toProgress = fromProgress;
       const progress = lerp(fromProgress, toProgress, position);
 
       const mode = from ? from.getAttribute('data-route-mode') : 'bound';

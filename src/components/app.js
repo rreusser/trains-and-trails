@@ -41,11 +41,12 @@ function App (props) {
     if (fetching) return;
 
     const pagePath = `${page.baseURL}${path}`.replace(/\/\//g, '/');
-    const contentPath = `${pagePath}index.json`;
+    const contentPath = window.manifest[pagePath];
     setFetching(true);
     history.pushState({path: pagePath, page: null}, '', pagePath);
     getPage(contentPath)
       .then(page => {
+        console.log('got page', page);
         setPage(page);
         history.replaceState({path, page}, '', pagePath);
       })

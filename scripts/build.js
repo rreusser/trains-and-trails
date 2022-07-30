@@ -37,9 +37,10 @@ const siteManifest = {};
 for (const mdFile of mdFiles) {
   const hash = createHash('sha256').update(readFileSync(mdFile)).digest('hex').substr(0, 8);
   const relMdPath = relative(pagesPath, mdFile);
-  const relDir = dirname(relMdPath);
+  let relDir = dirname(relMdPath);
+  relDir = relDir === '.' ? '/' : '/' + relDir + '/';
   const baseMdName = basename(mdFile, extname(mdFile));
-  siteManifest[relDir + '/'] = `${relDir}/${baseMdName}-${hash}.json`;
+  siteManifest[relDir] = `${relDir}${baseMdName}-${hash}.json`;
 }
 
 async function processPage(mdPath) {
@@ -61,7 +62,7 @@ async function processPage(mdPath) {
   mkdirp.sync(outDir);
   writeFileSync(htmlOutputPath, html);
   const pageJSON = JSON.stringify(page);
-  const pageHash = createHash('sha256').update(pageJSON).digest('hex').substr(0, 8);
+  const pageHash = createHash('sha256').update(mdContent).digest('hex').substr(0, 8);
 
   const pageDataFilename = `${baseMdName}-${pageHash}.json`
   const jsonOutputPath = join(outDir, pageDataFilename);

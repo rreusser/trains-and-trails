@@ -26,7 +26,7 @@ class PageController {
   initializeMap (container, bounds, callback) {
     this.elevationPlot = new ElevationPlot();
 
-    this.map = new MapController(container, bounds, () => {
+    this.map = new MapController(container, bounds, this.computeGlobalPadding(), () => {
       this.loaded = true;
       while(this._onload.length) {
         this._onload.pop()(this.map);
@@ -42,13 +42,12 @@ class PageController {
   }
 
   setRoute (geojson, bounds, isInitialLoad) {
-    console.log(geojson, bounds);
     this.dirty = true;
     this.route = new Route(geojson);
     this.ready().then(() => {
       this.map.setRouteData(this.route.getGeojson());
       this.map.setMileMarkers(this.route.getMileMarkers());
-      this.map.map.fitBounds(this.route.getBbox({mode: 'foot'}), {duration: 2000});
+      this.map.map.fitBounds(this.route.getBbox({mode: 'foot'}), {duration: isInitialLoad ? 0 : 2000});
       this.elevationPlot.setProfile(this.route.getElevationProfile());
     });
   }
@@ -75,7 +74,7 @@ class PageController {
       switch(this.mode) {
         case 'follow':
           if (this.route) {
-            this.applyFollowProgress(progress);
+            this.applyFollowProgress(progress, this.followProgress.target);
 
             this.map.camera.tick(t);
           }
@@ -95,14 +94,15 @@ class PageController {
     }
   }
 
-  applyFollowProgress (progress, forcePosition) {
+  applyFollowProgress (progress, targetProgress, forcePosition) {
     if (!this.route) return;
-    const [position, feature] = this.route.evaluate(progress);
+    const [uneasedPosition] = this.route.evaluate(targetProgress);
+    const [easedPosition, feature] = this.route.evaluate(progress);
 
     this.applyGlobalPadding();
     this.map.setTerrain(feature.properties.mode === 'foot' ? 1.3 : 0, true);
 
-    this.map.camera.setTargetCenter(position);
+    this.map.camera.setTargetCenter(uneasedPosition);
     this.map.camera.setTargetPitch(40);
 
     this.setFeatureMode(feature.properties.mode);
@@ -112,7 +112,7 @@ class PageController {
       this.map.camera.setTargetDistance(10000);
     }
 
-    this.map.setMarkerPosition(position);
+    this.map.setMarkerPosition(easedPosition);
 
     if (feature.properties.mode === 'foot') {
       this.elevationPlot.setProgress(progress % 1);
@@ -120,7 +120,7 @@ class PageController {
   }
 
   computeGlobalPadding () {
-    const isHero = this.mode === 'bound';
+    const isHero = !this.mode || this.mode === 'bound';
     const padding = { top: 60, right: 60, bottom: 60, left: 60 };
 
     if (isHero) {
