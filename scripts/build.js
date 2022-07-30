@@ -43,7 +43,6 @@ for (const mdFile of mdFiles) {
 }
 
 async function processPage(mdPath) {
-  if (!/veaga/.test(mdPath)) return;
   const relMdPath = relative(pagesPath, mdPath);
   console.log(`Build page ${relMdPath}`);
   const relDir = dirname(relMdPath);

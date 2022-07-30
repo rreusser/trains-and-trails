@@ -12,12 +12,14 @@ const PIXELS_PER_MILE = {
 };
 
 export default async function renderMarkdown(md, mdAssets, route) {
+  let segmentHeights, cumulativeHeight;
+  if (route) {
+    segmentHeights = route.features.map(feature => Math.floor(PIXELS_PER_MILE[feature.properties.mode] * feature.properties.length.mi));
 
-  const segmentHeights = route.features.map(feature => Math.floor(PIXELS_PER_MILE[feature.properties.mode] * feature.properties.length.mi));
-
-  const cumulativeHeight = [0];
-  for (let i = 0; i < segmentHeights.length; i++) {
-    cumulativeHeight[i + 1] = cumulativeHeight[i] + segmentHeights[i];
+    cumulativeHeight = [0];
+    for (let i = 0; i < segmentHeights.length; i++) {
+      cumulativeHeight[i + 1] = cumulativeHeight[i] + segmentHeights[i];
+    }
   }
 
   let currentFeatureIndex = -1;
@@ -54,8 +56,6 @@ export default async function renderMarkdown(md, mdAssets, route) {
 
           containerProps.dataRouteMode = 'follow'
           containerProps.dataRouteProgress = Math.min(featureIndex + milePos / feature.properties.length.mi, route.features.length);
-
-          console.log(containerProps);
 
           if (!feature.properties.mode) {
             throw new Error(`Missing mode for feature ${featureIndex}`);
@@ -144,10 +144,11 @@ export default async function renderMarkdown(md, mdAssets, route) {
       }
 
       for (const child of tree.children) {
-        if (child.type === 'text' && child.value === '\n') continue;
+        if (child.type === 'text' && child.value.trim() === '') continue;
 
         switch(child.tagName) {
           case 'p':
+          case 'table':
           case 'h2':
             const {children, splitter} = splitChildren(child);
 

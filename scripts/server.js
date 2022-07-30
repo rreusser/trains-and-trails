@@ -10,7 +10,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const credentials = JSON.parse(readFileSync(join(__dirname, '..', 'credentials.json')));
 
-budo.cli([`src/index.js:${join(process.env.BASE_URL, 'bundle.js')}`], {
+budo.cli([
+  //`src/index.js:${join(process.env.BASE_URL, 'fuckitbundle.js')}`
+], {
   host: 'localhost',
   live: true,
   open: false,
@@ -20,11 +22,11 @@ budo.cli([`src/index.js:${join(process.env.BASE_URL, 'bundle.js')}`], {
     'docs',
     'node_modules/mapbox-gl/dist'
   ],
-  browserify: {
+  /*browserify: {
     transform: [
       [babelify, {presets: ['@babel/preset-env']}],
       [envify, credentials],
       brfs,
     ]
-  }
+  }*/
 })

@@ -15,7 +15,9 @@ export default async function (md, path, siteManifest, route, routeFile) {
 
   metadata.path = path;
   metadata.routeurl = routeFile;
-  metadata.bounds = route.features.filter(f => f.properties.mode === 'foot')[0].properties.bbox;
+  if (route) {
+    metadata.bounds = route.features.filter(f => f.properties.mode === 'foot')[0].properties.bbox;
+  }
   const {mdAssets, assets} = await buildAssets(metadata);
 
   const renderedMarkdown = await renderMarkdown(mdInput, mdAssets, route);
