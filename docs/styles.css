@@ -199,7 +199,7 @@ a:visited {
 }
 .articleBody table {
   width: 100%;
-  padding: 0 60px;
+  padding: 0 40px;
 }
 .articleBody table time {
   font-variant-numeric: tabular-nums;
@@ -304,6 +304,7 @@ body[data-feature-mode="foot"] #elevation-plot {
 .mapboxgl-ctrl-bottom-left {
   right: 5px;
   left: auto !important;
+  bottom: 20px !important;
   /*left: 35px !important;*/
 }
 

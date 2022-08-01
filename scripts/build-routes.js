@@ -21,6 +21,7 @@ function buildRoute (assetPath) {
 
   const data = readFileSync(assetPath, 'utf8');
 
+  console.log(assetPath);
   const route = processGeoJSON(JSON.parse(data.toString()));
   const processedJSON = JSON.stringify(route)
 

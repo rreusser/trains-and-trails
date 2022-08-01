@@ -15,4 +15,5 @@ Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've exp
 | [Mount Diablo](mount-diablo/) | <time>2022-01-01</time> |
 | [East Bay Ridge](east-bay-ridge/) | <time>2022-01-01</time> |
 | [El Cerrito to Orinda](el-cerrito-to-orinda/) | <time>2022-01-01</time> |
+| [Reinhardt Redwood Regional Park](reinhardt-redwood-regional-park/) | <time>2022-07-31</time> |
 

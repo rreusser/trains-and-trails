@@ -30,6 +30,10 @@ for (const routeFile of routeFiles) {
     );
   }
 }
+features.sort(function (a, b) {
+  return a.properties.mode === 'foot' ? -1 : 1;
+});
+console.log(features);
 
 const outPath = join(pagesPath, 'route.geojson');
 const outJSON = featureCollection(features);

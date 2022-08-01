@@ -28,6 +28,7 @@ function processGeoJSON (route, {
 
     truncateCoords(feature);
 
+    console.log(feature);
     feature.properties.length = {
       mi: computeLength(feature, {units: 'miles'}),
       km: computeLength(feature, {units: 'kilometers'}),

@@ -218,6 +218,9 @@ export default async function renderMarkdown(md, mdAssets, route) {
     .use(function insertImageAssets () {
       return (tree, file) => {
         visit(tree, {tagName: 'img'}, (node, position, parent) => {
+          if (! /-(sm|md|lg)\./.test(node.properties.src)) {
+            node.properties.src = node.properties.src.replace(/\.jpg/, '-md.jpg');
+          }
           const path = mdAssets[node.properties.src];
           if (!path) throw new Error(`Undeclared asset ${node.properties.src}. Be sure to add the asset to the page's frontmatter manifest.`);
           node.properties.src = path;
