@@ -26,6 +26,7 @@
 </head>
 <body>
 <div id="root"><div class="mbxmap"></div><div class="left-spacer"></div><div class="articleContainer  is-home"><div class="articleHeader"><h1>Trains and Trails</h1><div class="article_date"></div></div><div class="articleBody"><div><div class="articleContent articleContent--introduction" data-route-mode="bound"><p>Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run via public transportation. I've generally found that it takes roughly three times longer to hike a trail than to run, so if you use this as any sort of guide, plan ahead, bring plenty of water, and be forewarned that they're relatively long routes!</p><table><thead><tr><th align="left"></th><th align="left"></th></tr></thead><tbody><tr><td align="left"><a href="introduction/">Introduction</a></td><td align="left"><time>2022-08-09</time></td></tr><tr><td align="left"><a href="moraga-to-castro-valley/">Moraga to Castro Valley</a></td><td align="left"><time>2022-08-05</time></td></tr><tr><td align="left"><a href="reinhardt-redwood-regional-park/">Reinhardt Redwood Regional Park</a></td><td align="left"><time>2022-07-31</time></td></tr><tr><td align="left"><a href="de-laveaga/">De Laveaga Trail</a></td><td align="left"><time>2022-05-04</time></td></tr><tr><td align="left"><a href="san-bruno-mountain/">San Bruno Mountain</a></td><td align="left"><time>2022-01-02</time></td></tr></tbody></table></div></div></div></div><div class="right-spacer"></div></div>
+<button id="jumper"></button>
 <script defer>
 window.devicePixelRatio=Math.min(window.devicePixelRatio, 1.5);
 window.page={"articleHTML":"<div class=\"articleContent articleContent--introduction\" data-route-mode=\"bound\"><p>Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run via public transportation. I've generally found that it takes roughly three times longer to hike a trail than to run, so if you use this as any sort of guide, plan ahead, bring plenty of water, and be forewarned that they're relatively long routes!</p><table><thead><tr><th align=\"left\"></th><th align=\"left\"></th></tr></thead><tbody><tr><td align=\"left\"><a href=\"introduction/\">Introduction</a></td><td align=\"left\"><time>2022-08-09</time></td></tr><tr><td align=\"left\"><a href=\"moraga-to-castro-valley/\">Moraga to Castro Valley</a></td><td align=\"left\"><time>2022-08-05</time></td></tr><tr><td align=\"left\"><a href=\"reinhardt-redwood-regional-park/\">Reinhardt Redwood Regional Park</a></td><td align=\"left\"><time>2022-07-31</time></td></tr><tr><td align=\"left\"><a href=\"de-laveaga/\">De Laveaga Trail</a></td><td align=\"left\"><time>2022-05-04</time></td></tr><tr><td align=\"left\"><a href=\"san-bruno-mountain/\">San Bruno Mountain</a></td><td align=\"left\"><time>2022-01-02</time></td></tr></tbody></table></div>","metadata":{"title":"Trains and Trails","assets":{"trains-and-trails":{"sm":"trains-and-trails-sm-3a13c33d.jpg","md":"trains-and-trails-md-3a13c33d.jpg","lg":"trains-and-trails-lg-3a13c33d.jpg"}},"coverImage":"trains-and-trails","path":"","routeurl":"route-6559e5bd.json","bounds":[-122.46911,37.67325,-122.05506,37.88082]},"baseURL":"/trains-and-trails/"};
@@ -34,5 +35,21 @@ window.manifest={"de-laveaga/":"de-laveaga/index-04d005bf.json","":"index-6536db
 <script src="mapbox-gl.js" defer></script>
 <script src="d3.min.js" defer></script>
 <script src="bundle.js" defer></script>
+
+<script>
+const btn = document.getElementById('jumper');
+btn.addEventListener('click', function () {
+  window.scrollTo(0, 0, {behavior: 'smooth'});
+});
+window.addEventListener('scroll', onScroll);
+onScroll();
+function onScroll () {
+  if (window.scrollY > 0) {
+    btn.classList.add('is-available');
+  } else {
+    btn.classList.remove('is-available');
+  }
+}
+</script>
 </body>
 </html>

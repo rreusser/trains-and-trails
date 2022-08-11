@@ -26,6 +26,7 @@
 </head>
 <body>
 <div id="root">{{{content}}}</div>
+<button id="jumper"></button>
 <script defer>
 window.devicePixelRatio=Math.min(window.devicePixelRatio, 1.5);
 window.page={{{page}}};
@@ -34,5 +35,21 @@ window.manifest={{{manifest}}};
 <script src="mapbox-gl.js" defer></script>
 <script src="d3.min.js" defer></script>
 <script src="bundle.js" defer></script>
+
+<script>
+const btn = document.getElementById('jumper');
+btn.addEventListener('click', function () {
+  window.scrollTo(0, 0, {behavior: 'smooth'});
+});
+window.addEventListener('scroll', onScroll);
+onScroll();
+function onScroll () {
+  if (window.scrollY > 0) {
+    btn.classList.add('is-available');
+  } else {
+    btn.classList.remove('is-available');
+  }
+}
+</script>
 </body>
 </html>
