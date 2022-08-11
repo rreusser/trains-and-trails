@@ -13,7 +13,7 @@ coverImage: ellingwood
 
 Hi, my name is Ricky. 👋 I'm a runner and software developer in the Bay Area. I've run for many years and have tried a few times to start logging or quantifying my running as I've worked in data visualization and now mapping. It never stuck though. It's the running itself which I enjoy.
 
-Things change though. I used to cruise for miles along gravel roads of the Midwest, but my tendons now prefer a more moderately-paced slog up a steep hill. Gravel roads are a great place to empty your head and train for a marathon, but dodging cars on the streets of Oakland—or *being* one—only leaves my head full of fear and anger.
+Things change though. I used to cruise for miles along gravel roads of the Midwest, but my tendons now prefer a more moderately-paced slog up a steep hill. Gravel roads are a great place to empty your head and train for a marathon, but dodging cars on the streets of Oakland—or being one—only leaves my head full of fear and anger.
 
 Time and city life have changed what running means to me, and this blog represents my desire to channel all of this into something positive, to convey the simple excitement of walking out the door with shoes and a metro card and finding something unexpected. 
 
