@@ -421,7 +421,10 @@ body[data-feature-mode="foot"] #elevation-plot {
   .articleBody table {
     padding: 0;
   }
-  .articleBody table {
+
+  .articleCard-terminus:last-child .articleCard_content {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width:800px) {
