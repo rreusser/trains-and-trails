@@ -60,7 +60,7 @@ From the Lafayette BART station, it was only a few feet and a couple minutes unt
 ## Moraga
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
-I arrived at the closest point to the Rancho Laguna trailhead at 6:11 AM, just 45 minutes after leaving home. Not bad!
+I began my run at 6:11 AM, just 45 minutes after leaving home, at the bus's closest point to the Rancho Laguna trailhead. Not bad!
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0.7"></span>
 ![Placeholder](moraga-to-castro-025.jpg)
