@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>{{title}}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<base href="{{{baseUrl}}}">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="mapbox-gl.css">
+
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:image" content="{{ogImage}}">
+<meta name="twitter:image:src" content="{{ogImage}}">
+
+<meta property="og:title" content="{{pageTitle}}">
+<meta name="twitter:title" content="{{pageTitle}}">
+
+<meta property="og:description" content="Trains and Trails">
+<meta property="description" content="Trains and Trails">
+<meta name="twitter:description" content="Trains and Trails">
+
+<meta name="twitter:creator" content="rickyreusser">
+
+</head>
+<body>
+<div id="root">{{{content}}}</div>
+<script defer>
+window.devicePixelRatio=Math.min(window.devicePixelRatio, 1.5);
+window.page={{{page}}};
+window.manifest={{{manifest}}};
+</script>
+<script src="mapbox-gl.js" defer></script>
+<script src="d3.min.js" defer></script>
+<script src="bundle.js" defer></script>
+</body>
+</html>
