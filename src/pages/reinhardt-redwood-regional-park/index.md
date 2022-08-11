@@ -36,6 +36,7 @@ coverImage: '1900'
 **Elevation**: <span style="color:green">+3500</span> <span style="color:#ca4747">-3500</span> feet<br>
 **Running time**: 3 hours 25 minutes<br>
 **Transit time**: 25 minutes<br>
+**Transit fare**: $2.50 &times; 2 = $5.00<br>
 [View on GaiaGPS →](https://www.gaiagps.com/datasummary/track/87de7066a08c66eacca4a78791d45001/)
 
 Despite its relative proximity to Downtown Oakland, [Reinhardt Redwood Regional Park](https://www.ebparks.org/parks/reinhardt-redwood) was—before today—a park to which I had only ever driven or, twice, done a somewhat long run to only to arrive at the park in time to run a mile and head home.

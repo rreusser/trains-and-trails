@@ -21,6 +21,7 @@ coverImage: '090'
 **Elevation**: <span style="color:green">+2250</span> <span style="color:#ca4747">-2250</span> feet<br>
 **Running time**: 2 hours 16 minutes<br>
 **Transit time**: 1 hour<br>
+**Transit fare**: $4.70 &times; 2 = $9.40<br>
 [View on GaiaGPS →](https://www.gaiagps.com/datasummary/track/381b4f4155cd89b1c5a460c90fb55b0c/)
 
 If there's one hill that every visitor to San Francisco sees as they leave the airport, it's San Bruno Mountain. The only run at the time of writing for which I've crossed the bay, I really can't believe in hindsight that I put this run off for so long.

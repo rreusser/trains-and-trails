@@ -27,6 +27,7 @@ ratings:
 **Elevation**: <span style="color:green">+1375</span> <span style="color:#ca4747">-1600</span> feet<br>
 **Running time**: 59 minutes<br>
 **Transit time**: 40 minutes<br>
+**Transit fare**: $2.70 + $2.15 = $4.85<br>
 [View on GaiaGPS →](https://www.gaiagps.com/datasummary/track/6330342820b20aa00b80150ade4e545e/?layer=GaiaTopoRasterFeet)
 
 Immediately rising a thousand feet as it leaves Orinda, the [De Laveaga Trail](https://www.ebmud.com/recreation/east-bay/east-bay-trails) gains another five hundred feet as it cuts across the East Bay Hills, then meets Tilden Regional Park and descends back down into Berkeley. Paired with the excellent accessibility and modest distance, the constantly-rolling hills make it plenty of a challenge and, all things considered, my number one choice for a weekday trail run.
