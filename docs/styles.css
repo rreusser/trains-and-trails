@@ -406,6 +406,7 @@ body[data-feature-mode="foot"] #elevation-plot {
 }
 
 #jumper {
+  padding: 0;
   position: fixed;
   top: 45px;
   width: 50px;
@@ -432,6 +433,7 @@ body[data-feature-mode="foot"] #elevation-plot {
 #jumper.is-available {
   pointer-events: all;
   opacity: 1;
+  margin: 0;
 }
 
 #jumper:after {
