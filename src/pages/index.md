@@ -7,7 +7,7 @@ coverImage: 'trains-and-trails'
 
 <span data-behavior="introduction"></span>
 
-Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run via public transportation. Roughly speaking, I've generally found that it takes about three times longer to hike a trail than to run, so if you use this as any sort of guide, bring plenty of water and be forewarned that they're relatively long routes!
+Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run via public transportation. I've generally found that it takes roughly three times longer to hike a trail than to run, so if you use this as any sort of guide, plan ahead, bring plenty of water, and be forewarned that they're relatively long routes!
 
 |   |   |
 |:--|:--|
