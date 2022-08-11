@@ -37,6 +37,9 @@ The view of the port was a welcome change since I don't head to San Francisco to
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="0"></span>
 ## Daly City
 
+<span data-behavior="anchor" data-feature-index="1" data-mile-position="0"></span>
+I started my route at the Daly City BART station, though in hindsight the approach from Colma would have been a better choice with a shorter approach.
+
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="1.1"></span>
 ![Placeholder](san-bruno-020.jpg)
 
@@ -77,13 +80,17 @@ The halfway point is a bit anti-climactic, as the trail simply steepens and fade
 
 Whether it was the gently rolling terrain or that I no longer had to expend energy figuring out where I was going, the return trip was lovely. My mind wandered, and the gently rolling miles ticked by pretty effortlessly. This segment made the trip worthwhile.
 
+<span data-behavior="anchor" data-feature-index="1" data-mile-position="13"></span>
+
+I didn't take many photos on the return trip. I zoned out and just enjoyed the running.
+
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
 ## Daly City
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
 ![Placeholder](san-bruno-100.jpg)
 
-No issues with the return trip.
+The trip home was simple, though I was tired.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="15.28"></span>
 ## 12th Street Oakland
