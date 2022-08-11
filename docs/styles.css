@@ -247,6 +247,7 @@ a:visited {
   position: relative;
   left: 25px;
   top: 17px;
+  width: 50px;
 }
 .articleCards_markerInner:before,
 .articleCards_markerInner:after {
