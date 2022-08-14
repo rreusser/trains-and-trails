@@ -65,7 +65,7 @@ I began my run at 6:11 AM, just 45 minutes after leaving home, at the bus's clos
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0.7"></span>
 ![Placeholder](moraga-to-castro-025.jpg)
 
-[GaiaGPS](https://www.gaiagps.com/) suggested the existence of a trail which would get me to the Rancho Laguna trailhead via hills instead of roads, albeit across non-public land. Alas, access was pretty definitively blocked by a locked gate. I'm certain a hop and a hundred meter jog would have put me on the connector trail, but I generally prefer to color inside the lines as far as trail access goes. I'm not generally impressed with some of the routes I've seen online where, out of disregard rather than any sort of need, people simply cut across whatever land they please. So I considered it a nice hill warmup and opted for the road instead.
+[GaiaGPS](https://www.gaiagps.com/) suggested the existence of a trail which would get me to the Rancho Laguna trailhead via hills instead of roads, although it's clear from GaiaGPS's amazing public and private land layers that it cuts across private land. Alas, access was pretty definitively blocked by a locked gate. I'm certain a hop and a hundred meter jog would have put me on the connector trail, but I generally prefer to color inside the lines as far as trail access goes. I'm not generally impressed with some of the routes I've seen online where, out of disregard rather than any sort of need or even confusion, people simply cut across whatever land they please. So I considered it a nice hill warmup and opted for the road instead.
 
 ![Placeholder](moraga-to-castro-030.jpg)
 
