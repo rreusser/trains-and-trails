@@ -141,7 +141,7 @@ Potential wrong turns abound. I followed my downloaded [GaiaGPS](https://www.gai
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="12.95"></span>
 ![Placeholder](moraga-to-castro-130.jpg)
 
-The Ramage Peak Trail doesn't pass over the eponymous peak, but the views at this point were lovely nonetheless.
+The Ramage Peak Trail doesn't pass over the eponymous peak (turns out the peak is private property; thanks again, amazing GaiaGPS land use layers!), but the views at this point were lovely nonetheless.
 
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="14.3"></span>
