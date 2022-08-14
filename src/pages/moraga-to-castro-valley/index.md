@@ -114,7 +114,7 @@ As I neared the high point of the route, the cows disappeared into the fog.
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="9.6"></span>
 ![Placeholder](moraga-to-castro-090.jpg)
 
-A much as I wanted to continue over the ridge into Las Trampas Regional Wilderness, I followed my plan and took the Ramage Peak Trail toward Lake Chabot and Castro Valley. 
+A much as I wanted to continue over the ridge into Las Trampas Wildernes Regional Park, I followed my plan and took the Ramage Peak Trail toward Lake Chabot and Castro Valley. 
 
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="9.8"></span>
