@@ -27,8 +27,19 @@
 <body>
 <div id="root">{{{content}}}</div>
 <button id="jumper"></button>
-<script defer>
-window.devicePixelRatio=Math.min(window.devicePixelRatio, 1.5);
+<script>
+const params = new URLSearchParams(window.location.hash.replace(/^#/, ''));
+if (params.has('pixel_ratio') && !isNaN(parseFloat(params.get('pixel_ratio')))) {
+  const pixelRatio = parseFloat(params.get('pixel_ratio'));
+  localStorage.setItem('pixel_ratio', pixelRatio);
+  window.devicePixelRatio = pixelRatio;
+} else {
+  if (localStorage.getItem('pixel_ratio')) {
+    window.devicePixelRatio = localStorage.getItem('pixel_ratio');
+  } else {
+    window.devicePixelRatio = Math.min(1.5, window.devicePixelRatio);
+  }
+}
 window.page={{{page}}};
 window.manifest={{{manifest}}};
 </script>
