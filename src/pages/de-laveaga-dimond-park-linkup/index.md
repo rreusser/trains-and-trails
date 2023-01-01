@@ -157,7 +157,7 @@ Just a few feet farther along though, I encountered one of the trickiest crossin
 
 ![A blurry photo from a waterlogged phone shows one last creek crossing](de-laveaga-dimond-park-linkup-120.jpg)
 
-I mean the running throughout was great, but as the run proceeded and the rain persisted, I became increasingly focused on the next creek crossing. Dimond Canyon cuts deep, so I opted to exit the park rather than proceed across a raging river. Pictured here is the least blurry of three photos of the final crossing of today's run. I managed to cross by scrambling around an upstream tree and stepping across on a fallen log.
+I mean the running throughout was great, but as the run proceeded and the rain persisted, I became increasingly focused on the next creek crossing. Dimond Canyon cuts deep, so I opted to exit the park rather than proceed across a raging river. Pictured here is therefore the final crossing of today's run. I managed to cross by scrambling around an upstream tree and stepping across on a fallen log.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="14.9"></span>
 
