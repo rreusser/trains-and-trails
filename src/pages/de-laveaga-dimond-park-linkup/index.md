@@ -89,7 +89,7 @@ Still, even if it wasn't fast running, the steady white noise of rain and rushin
 
 ![Looking back from where I came, a line of hills, barely visible, fades away into the fog](de-laveaga-dimond-park-linkup-040.jpg)
 
-Looking backward to catch the best view of the De Laveaga Trail as the hills fade away into the fog.
+Looking across the valley to catch the best view of the De Laveaga Trail as the hills fade away into the fog.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="5.0" data-split></span>
 ## Sibley Volcanic Regional Preserve
@@ -109,7 +109,7 @@ The first major obstacle of the run came as a surprise, as I had no idea there w
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="6.7"></span>
 
-[Huckleberry Botanic Regional Preserve](https://www.ebparks.org/parks/huckleberry) is situated awkardly, crossing a deep gully and serving primarily to connect adjacent larger parks. Despite it's modest size, the deep valley and lush growth make it a completely worthwhile destination in its own right, especially on the sunniest of days when it steadfastly refuses to give up its dark and mysterious feel.
+[Huckleberry Botanic Regional Preserve](https://www.ebparks.org/parks/huckleberry) is situated awkardly, crossing a deep gully and serving primarily to connect adjacent larger parks. Despite it's modest size, the deep valley and lush growth make it a completely worthwhile destination in its own right, especially on the sunniest of days when it still refuses to give up its dark and mysterious feel.
 
 ![Looking across Huckleberry Regional Preserve, we see redwood treetops shrouded in fog](de-laveaga-dimond-park-linkup-070.jpg)
 
