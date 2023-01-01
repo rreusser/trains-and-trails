@@ -65,15 +65,15 @@ To be honest, it was raining somewhat harder than I had thought, but motivation�
 It's typically all business and I'm that eager runner who jogs up and down BART escalators. But I wasn't in a hurry today and spent a moment admiring the hills from the comfortable shelter of the BART station.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="0.3" data-split></span>
-## Delaveaga Trail
+## De Laveaga Trail
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="0.35"></span>
 
-The [Delaveaga Trail](de-laveaga/) is—I assert—one of East Bay's finest trails. I don't know if it's the terrain itself or if it's perhaps a psychological consequence of the fact that it used to require a special trail pass to access, but even though it's cow pasture dotted with power lines, something about it feels _real_. At any rate, the run gets going quickly with an immediate thousand foot ascent.
+The [De Laveaga Trail](de-laveaga/) is—I assert—one of East Bay's finest trails. I don't know if it's the terrain itself or if it's perhaps a psychological consequence of the fact that it used to require a special trail pass to access, but even though it's cow pasture dotted with power lines, something about it feels _real_. At any rate, the run gets going quickly with an immediate thousand foot ascent.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="2.2"></span>
 
-![The Delaveaga Trail, shrouded in clouds.](de-laveaga-dimond-park-linkup-020.jpg)
+![The De Laveaga Trail, shrouded in clouds.](de-laveaga-dimond-park-linkup-020.jpg)
 
 An early photo shows the trail descending across the hills. I double-Ziploc-bagged my phone, but every time I stopped to snap a picture, my hands were slightly colder and more saturated with water, my phone a bit wetter, and the touchscreen more difficult to operate.
 
@@ -89,7 +89,7 @@ Still, even if it wasn't fast running, the steady white noise of rain and rushin
 
 ![Looking back from where I came, a line of hills, barely visible, fades away into the fog](de-laveaga-dimond-park-linkup-040.jpg)
 
-Looking backward to catch the best view of the Delaveaga Trail as the hills fade away into the fog.
+Looking backward to catch the best view of the De Laveaga Trail as the hills fade away into the fog.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="5.0" data-split></span>
 ## Sibley Volcanic Regional Preserve
@@ -157,7 +157,7 @@ Just a few feet farther along though, I encountered one of the trickiest crossin
 
 ![A blurry photo from a waterlogged phone shows one last creek crossing](de-laveaga-dimond-park-linkup-120.jpg)
 
-I mean the running throughout was great, but as the run proceeded and the rain persisted, I became increasingly focused on the next creek crossing. Dimond Canyon cuts deep, so opted to exit the park rather than proceed across a raging river. Pictured here is the least blurry of three photos of the final crossing of today's run. I managed to cross by scrambling around an upstream tree and stepping across on a fallen log.
+I mean the running throughout was great, but as the run proceeded and the rain persisted, I became increasingly focused on the next creek crossing. Dimond Canyon cuts deep, so I opted to exit the park rather than proceed across a raging river. Pictured here is the least blurry of three photos of the final crossing of today's run. I managed to cross by scrambling around an upstream tree and stepping across on a fallen log.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="14.9"></span>
 
