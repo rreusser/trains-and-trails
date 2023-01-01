@@ -224,6 +224,9 @@ a:visited {
   width: 100%;
   padding: 0 40px;
 }
+.articleBody table td:last-child {
+  min-width: 110px;
+}
 .articleBody table time {
   font-variant-numeric: tabular-nums;
 }
