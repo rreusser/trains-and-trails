@@ -1,5 +1,5 @@
 ---
-title: De Laveaga to Dimond Park Linkup
+title: De Laveaga to Dimond Canyon Park Linkup
 date: 'Dec 31, 2022'
 assets:
   '000': de-laveaga-dimond-park-linkup-000.jpg
