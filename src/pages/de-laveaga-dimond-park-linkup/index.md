@@ -109,7 +109,7 @@ The first major obstacle of the run came as a surprise, as I had no idea there w
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="6.7"></span>
 
-[Huckleberry Botanic Regional Preserve](https://www.ebparks.org/parks/huckleberry) is situated awkardly, crossing a deep gully and serving primarly to connect adjacent larger parks. Despite it's modest size, the deep valley and lush growth make it a completely worthwhile destination in its own right, especially on the sunniest of days when it steadfastly refuses to give up its dark and mysterious feel.
+[Huckleberry Botanic Regional Preserve](https://www.ebparks.org/parks/huckleberry) is situated awkardly, crossing a deep gully and serving primarily to connect adjacent larger parks. Despite it's modest size, the deep valley and lush growth make it a completely worthwhile destination in its own right, especially on the sunniest of days when it steadfastly refuses to give up its dark and mysterious feel.
 
 ![Looking across Huckleberry Regional Preserve, we see redwood treetops shrouded in fog](de-laveaga-dimond-park-linkup-070.jpg)
 
