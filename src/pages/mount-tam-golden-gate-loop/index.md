@@ -1,6 +1,6 @@
 ---
 title: Mount Tam - Golden Gate Loop
-date: 'February 12, 2022'
+date: 'February 12, 2023'
 assets:
   '000': mount-tam-golden-gate-loop-000.jpg
   '010': mount-tam-golden-gate-loop-010.jpg
