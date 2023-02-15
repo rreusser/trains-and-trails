@@ -16,7 +16,10 @@ const routeFiles = [];
 
 for (const md of markdownFiles) {
   const route = join(dirname(md), 'route.geojson');
-  if (existsSync(route)) routeFiles.push(route);
+  if (existsSync(route)) {
+    console.log(route)
+    routeFiles.push(route);
+  }
 }
 
 const features = [];

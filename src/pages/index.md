@@ -12,6 +12,7 @@ Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run
 |   |   |
 |:--|:--|
 | [Introduction](introduction/) | <time>2022-08-09</time> |
+| [Mount Tam - Golden Gate Loop](mount-tam-golden-gate-loop) | <time>2022-02-12</time> |
 | [De Laveaga to Dimond Canyon Park Linkup](de-laveaga-dimond-park-linkup) | <time>2022-12-31</time> |
 | [Moraga to Castro Valley](moraga-to-castro-valley/) | <time>2022-08-05</time> |
 | [Reinhardt Redwood Regional Park](reinhardt-redwood-regional-park/) | <time>2022-07-31</time> |
