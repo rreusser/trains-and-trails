@@ -89,7 +89,7 @@ A fair amount of traffic near the Mitchell Canyon parking lot suggested I wasn't
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="7.6"></span>
 ![A muddy trail snakes through leafless trees](mount-diablo-mitchell-canyon-to-north-gate-050.jpg)
 
-Summer is often too warm for Mount Diablo, but winter carries the risk of glue-like mud which make progress extremely slow.
+Summer is often too warm for Mount Diablo, but winter carries the risk of glue-like mud which makes progress extremely slow.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="8.9"></span>
 ![A tree-covered hillside disappears into the clouds](mount-diablo-mitchell-canyon-to-north-gate-060.jpg)
