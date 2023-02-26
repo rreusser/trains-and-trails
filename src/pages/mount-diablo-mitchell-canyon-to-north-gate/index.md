@@ -89,7 +89,7 @@ A fair amount of traffic near the Mitchell Canyon parking lot suggested I wasn't
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="7.6"></span>
 ![A muddy trail snakes through leafless trees](mount-diablo-mitchell-canyon-to-north-gate-050.jpg)
 
-Summer is often too warm for Mount Diablo, but winter carries the risk of glue-like mud which makes progress extremely slow.
+A rough start. Summer is often too warm for Mount Diablo, but winter carries the risk of glue-like mud which makes progress extremely slow.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="8.9"></span>
 ![A tree-covered hillside disappears into the clouds](mount-diablo-mitchell-canyon-to-north-gate-060.jpg)
@@ -134,7 +134,7 @@ Recent storms significantly damaged the trail. I imagine we're only perhaps thir
 As often happens, I was tired enough at this point that a long descent didn't bring the sort of relief I'd hoped.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="19.45"></span>
-Knowing there were a number of creek crossings ahead, I opted to take a different route that passed by the climbing area, but found the entire area closed for raptor nesting.
+I knew there were were a number of creek crossings ahead, so I opted to take a different route that passed by the climbing area, but found the entire area closed for raptor nesting.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="21.5" data-split></span>
 ## Diablo Foothills Regional Park
@@ -156,7 +156,7 @@ There were at least four crossings in short succession _of the same creek_. As I
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="22.9"></span>
 ![The muddy trail](mount-diablo-mitchell-canyon-to-north-gate-200.jpg)
 
-Saving you from having to run along roads, a series of lovely parks takes you most the distance back to downtown Walnut Creek. Unfortunately, there are a few sections that are *awful* in the winter when the mud turns to glue. Feeling heavy enough already, I didn't need an *actual* few pounds extra on my feet.
+A series of lovely parks takes you most the distance back to downtown Walnut Creek without having to run along roads. Unfortunately, there are a few sections that are *awful* in the winter when the mud turns to glue. Feeling heavy enough already, I didn't need an *actual* few pounds extra on my feet.
 
 ![Mud-caked shoes](mount-diablo-mitchell-canyon-to-north-gate-210.jpg)
 
