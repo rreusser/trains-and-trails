@@ -170,7 +170,7 @@ Once past the mud, a series of endearing—and most importantly, *dry*—trails 
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="0"></span>
 
-The last two miles was pretty unremarkable. It certainly wasn't pleasant, but it wasn't the worst run I've had here. I was disappointed to see from the BART station that the hills turned a brilliant red as the sun finally set, but I was on my way home.
+The last two miles was pretty unremarkable. It certainly wasn't pleasant, but it wasn't the worst run I've had here. I was disappointed to see from the BART station that I'd arrived maybe thirty minutes too early to see the hills turn a brilliant red as the sun finally set, but I was on my way home.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="15"></span>
 ## 12th Street Oakland
