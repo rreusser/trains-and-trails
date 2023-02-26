@@ -21,6 +21,6 @@ The ground rules are simple: I start from the 12th Street Oakland BART station a
 
 If there are a couple things which make the running possible, it's [Salomon](https://www.salomon.com/) shoes and [GaiaGPS](https://www.gaiagps.com/map/) maps. This blog is made from scratch with [Mapbox](https://www.mapbox.com/) (full disclosure: I work at Mapbox!) and [Preact](https://preactjs.com/). You can find the source on GitHub at [rreusser/trains-and-trails](https://github.com/rreusser/trains-and-trails). It's MIT-licensed and perhaps not the worst, though you'll probably be hard-pressed to repurpose too much of it without significant rewrites. You're welcome to try!
 
-Comments? Questions? [Let me know.](https://twitter.com/rickyreusser) 🏃‍♂️
+Comments? Questions? Let me know on [Mastodon](https://mathstodon.xyz/@rreusser) or by filing an issue [on GitHub](https://github.com/rreusser/trains-and-trails/issues). 🏃‍♂️
 
 [Back]()
