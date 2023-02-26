@@ -150,7 +150,7 @@ Knowing there were a number of creek crossings ahead, I opted to take a differen
 
 There were at least four crossings in short succession _of the same creek_. As I scrambled up a hillside out of the last crossing, I firmly grabbed what I realized was poison oak. We'll see how that goes in the next day or two.
 
-<span data-behavior="anchor" data-feature-index="2" data-mile-position="23.7" data-split></span>
+<span data-behavior="anchor" data-feature-index="2" data-mile-position="22.7" data-split></span>
 ## Shell Ridge Open Space
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="22.9"></span>
