@@ -163,7 +163,7 @@ A series of lovely parks takes you most the distance back to downtown Walnut Cre
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="24.3"></span>
 ![One last look back at the mountain](mount-diablo-mitchell-canyon-to-north-gate-220.jpg)
 
-Once past the mud, a series of endearing—and most importantly, *dry*—trails follows the ridge all the way back to downtown Walnut Creek. I kept looking back to catch one more glimpse of a a snow-covered Mount Diablo.
+Once past the mud, the trail hops along the ridge all the way back to downtown Walnut Creek. I kept looking back to catch one more glimpse of a a snow-covered Mount Diablo.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="0" data-split></span>
 ## Walnut Creek
