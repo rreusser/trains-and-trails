@@ -179,7 +179,7 @@ The last two miles was pretty unremarkable. It certainly wasn't pleasant, but it
 
 As difficult as it was to get myself out the door, I'm glad I didn't miss the opportunity. I'd consider it a success even though it was closer to a slow trudge than a run. And I certainly learned a few lessons. *Don't trust Google* when it comes to buses. No one outside the Bay Area is impressed by one foot of snow. Pay attention to where you're going and don't get lured in by glissading.
 
-Mitchell Canyon is certainly my favorite trailhead. The trail goes right up the ridge exactly like you hope it will. The west side of the park is nothing but big lush hills. There are more than enough trailheads to go as far as you'd like. Just be careful that the low trails and surrounding parks might be particularly muddy in the winter and hot in the summer.
+Mitchell Canyon is certainly my favorite trailhead. The trail goes right up the ridge exactly like you hope it will. The lush green hills of the west side of the are worth a trip as well. There are more than enough trailheads to go as far as you'd like, and it's absolutely worth the trip if all you do is drive to the summit. Just be careful that the low trails and surrounding parks might be particularly muddy in the winter and hot in the summer.
 
 ☃️
 
