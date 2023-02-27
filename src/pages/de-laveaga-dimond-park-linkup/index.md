@@ -117,8 +117,7 @@ The first major obstacle of the run came as a surprise, as I had no idea there w
 
 ![Moss-covered trees bend across a trail which ascends, cutting across a forested hillside](de-laveaga-dimond-park-linkup-080.jpg)
 
-I expected the rain to fluctuate, so I was actually a little surprised by now to find that it hadn't let up. The sound of footsteps, raindrops, and rushing water made it such a hypnotic, meditative experience that I imagined creating an extremely niche YouTube channel, in which I attach a GoPro and just run for hours in the rain. A white noise sort of thing, just to share the unabridged experience.
-
+I expected the rain to fluctuate, so I was actually a little surprised by now to find that it hadn't let up. The sound of footsteps, raindrops, and rushing water was hypnotic.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="8.7" data-split></span>
 ## Reinhardt Redwood Regional Park
