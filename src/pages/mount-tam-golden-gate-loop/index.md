@@ -110,7 +110,7 @@ The bottom of the [Temelpa Trail](https://www.alltrails.com/trail/us/california/
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="7.6"></span>
 ![A rocky section of the Temelpa trail which overlooks the Bay Area](mount-tam-golden-gate-loop-080-md.jpg)
 
-A rocky section and the first sweeping views of the Bay Area hinted that the top is already close.
+A rocky section and the first sweeping views of the Bay Area hinted that the top was already close.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="7.75"></span>
 ![Looking back down the Temelpa trail, switchbacks cut across the hill](mount-tam-golden-gate-loop-090-md.jpg)
