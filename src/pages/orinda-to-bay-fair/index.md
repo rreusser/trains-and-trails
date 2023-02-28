@@ -74,7 +74,7 @@ I usually run in silence, but I tried on this run to listen to [Weapons of Math 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="6.95"></span>
 ![](orinda-to-bay-fair-040.jpg)
 
-One of Sibley's labyrinth's sits in the fog. The Bay Curious podcast has a lovely podcast about [labyrinths in the Bay Area](https://www.kqed.org/news/11920627/labyrinths-everywhere-why-so-many-in-the-bay-area). They're often confused with mazes, but in fact they're designed to guide you; not cause you to lose your way.
+One of Sibley's labyrinth's sits in the fog. The Bay Curious podcast has a lovely episode about [labyrinths in the Bay Area](https://www.kqed.org/news/11920627/labyrinths-everywhere-why-so-many-in-the-bay-area). They're often confused with mazes, but in fact they're designed to guide you; not cause you to lose your way.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="7.8" data-split></span>
 ## Huckleberry Botanic Regional Preserve
