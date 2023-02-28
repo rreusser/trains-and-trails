@@ -18,4 +18,5 @@ Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run
 | [Moraga to Castro Valley](moraga-to-castro-valley/) | <time>2022-08-05</time> |
 | [Reinhardt Redwood Regional Park](reinhardt-redwood-regional-park/) | <time>2022-07-31</time> |
 | [De Laveaga Trail](de-laveaga/) | <time>2022-05-04</time> |
+| [Orinda to Bay Fair](orinda-to-bay-fair/) | <time>2022-02-20</time> |
 | [San Bruno Mountain](san-bruno-mountain/) | <time>2022-01-02</time> |
