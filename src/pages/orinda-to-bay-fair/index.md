@@ -49,6 +49,9 @@ Even though the heavily shaded trails remain quite runnable even in the warmest 
 
 I got a pretty relaxed start and caught the BART at 7:50 AM. It was a dreary day, which I hoped meant I wouldn't need quite so much water.
 
+<span data-behavior="anchor" data-feature-index="1" data-mile-position="0.0"></span>
+## Orinda
+
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="0.25"></span>
 The [De Laveaga](de-laveaga) trail starts just a quarter of a mile from the Orinda BART station, making it one of my favorite places to start a run.
 
