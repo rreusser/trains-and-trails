@@ -32,7 +32,7 @@ ratings:
 **Transit fare**: $2.70<br>
 [View on GaiaGPS →](https://www.gaiagps.com/public/rDq3kMu8McTz1XjO3pArR4zU)
 
-"You should run early today," suggested my wife this morning. I looked out the window at the rain. "I'll… run later…" An common refrain these days. "But you like the rain." I knew she was right, and however tepid my enthusiasm, it turned out to be a memorable run.
+"You should run early today," suggested my wife this morning. I looked out the window at the rain. "I'll… run later…" A common refrain these days. "But you like the rain." I knew she was right, and however tepid my enthusiasm, it turned out to be a memorable run.
 
 My Midwestern friends are skeptical when I tell them it generally only rains in the Bay Area only [once or twice](https://weatherspark.com/h/s/541/2022/3/Historical-Weather-Winter-2022-in-Oakland-California-United-States#Figures-Rainfall) from late spring through autumn. At the time of writing, [precipitation in Oakland](https://www.cnrfc.noaa.gov/awipsProducts/RNORR4RSA.php) this season has been relatively average, currently about 118% of the season-to-date total.
 
