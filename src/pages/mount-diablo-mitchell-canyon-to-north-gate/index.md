@@ -104,7 +104,7 @@ Dirt eventually gave way to snow, though the footing remained pretty good. Progr
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="11.6"></span>
 ![A skier ascends the trail, crawling through brush](mount-diablo-mitchell-canyon-to-north-gate-080.jpg)
 
-As conditions grew more wintry, I was amused to start seeing more skiers than hikers. I chatted with a skiier as he crawled through ice-laden brush and fallen trees. I asked if I could snap a picture. He was in good spirits, but I think we both understood what a rough time he was having.
+As conditions grew more wintry, I was amused to start seeing more skiers than hikers. I chatted with a skier as he crawled through ice-laden brush and fallen trees. I asked if I could snap a picture. He was in good spirits, but I think we both understood what a rough time he was having.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="12.3"></span>
 ![Two feet buried in mid-shin-depth snow](mount-diablo-mitchell-canyon-to-north-gate-090.jpg)
