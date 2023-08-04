@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
 
 html {
   background: #333;
@@ -9,6 +10,35 @@ html {
 html, body {
   padding: 0;
   margin: 0;
+}
+
+.menu {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  line-height: 1.8;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu a,
+.menu a:visited {
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.menu__item {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    text-shadow: 0 0 1px #000;
+    color: white;
 }
 
 .mbxmap {
