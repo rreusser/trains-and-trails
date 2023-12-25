@@ -244,8 +244,11 @@ I waited for only a matter of seconds before the train pulled into the station.
 
 <span data-behavior="conclusion"></span>
 
-All in all, the Ohlone Wilderness Trail was every bit as stunning as I expected it would be. What I didn't expect though is that carrying a few pounds of water would take such a toll on my legs and back. One thing I'd do significantly better in the future would be to bring a water filter. Part of me isn't eager to start looking for water spigots and messing around with water filters in the middle of a run, but another part of me—my legs, in particular—thinks it would more than offset the cost of carrying liquids on such a lengthy run.
+All in all, the Ohlone Wilderness Trail was every bit as stunning as I hoped it would be.
 
+What I didn't expect is that carrying a few pounds of water would take such a toll on my legs and back. One thing I'd do significantly better in the future would be to bring a water filter. Part of me isn't eager to start looking for water spigots and messing around with water filters in the middle of a run, but another part of me—my legs, in particular—thinks it would more than offset the cost of carrying liquids on such a lengthy run.
+
+I would *love* to run this trail again with a water filter, maybe even just sacrificing my principles, driving to the trailhead at Lake Del Valle, and getting picked up at Misson Peak or even Sunol.
 
 
 
