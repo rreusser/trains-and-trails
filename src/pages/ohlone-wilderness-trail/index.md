@@ -33,6 +33,7 @@ assets:
   '260': ohlone-wilderness-trail-260.jpg
   'trail-map-1': trail-map-1.jpg
   'trail-map-2': trail-map-2.jpg
+  'trail-map-3': trail-map-3.jpg
 coverImage: '240'
 ---
 
@@ -171,6 +172,11 @@ Though it was nice to see a few of the only people I'd see all day, it was moder
 ![The bike path](ohlone-wilderness-trail-125.jpg)
 
 It's hard to put into words just how pleasant the top of the ridge is. It feels like the sort of place where you spread out a picnic blanket, pull a book out of your backpack, and then sleep for three hours without reading a single page.
+
+<span data-behavior="anchor" data-feature-index="2" data-mile-position="22.5"></span>
+![The bike path](trail-map-3.jpg)
+
+As I approached the southeast corner of the route, it felt like a big accomplishment—even if I was only halfway done—to turn the corner and start heading back west toward San Francisco Bay.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="23.4"></span>
 ![The bike path](ohlone-wilderness-trail-130.jpg)
