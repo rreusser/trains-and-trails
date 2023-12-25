@@ -100,7 +100,7 @@ I hopped off the bus at the point of closest approach to Lake Del Valle and bega
 I figured if I could average 5 miles per hour and the route came out to 45 miles, that would put me at about 9 hours and a finishing time of 7:00 PM. It would be dark, but not problematically so. Naturally it was at this point I realized I'd forgotton my headlamp.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="1.2"></span>
-![The bike path](ohlone-wilderness-trail-020.jpg)
+![The bike path near Livermore](ohlone-wilderness-trail-020.jpg)
 
 The bike path was quite nice and allowed to skip running along any busy roads.
 
@@ -111,12 +111,11 @@ Slightly nervous about bonking in the middle of a wilderness area, I slammed the
 ## Sycamore Grove Park
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="3.52"></span>
-## Sycamore Grove Park
 
 Sycamore Grove Park is a lovely, flat, open park. It was nice to see so many people, many of them perhaps getting an active start to their winter break, out walking and biking with their families.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="4.6"></span>
-![The bike path](ohlone-wilderness-trail-030.jpg)
+![Trees and shade on the plains of Sycamore Grove Park](ohlone-wilderness-trail-030.jpg)
 
 I had a hard time finding my intended route, but the trails seemed to go the same direction as they forked all over the plain.
 
@@ -124,97 +123,97 @@ I had a hard time finding my intended route, but the trails seemed to go the sam
 ## Del Valle Regional Park
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="6.4"></span>
-![The bike path](ohlone-wilderness-trail-040.jpg)
+![A brushy creek bed marks a possible entrance to Lake Del Valle Park](ohlone-wilderness-trail-040.jpg)
 
 One big fear was that I'd burn precious time and miles on wrong turns or dead-end trails on private land. I had a bad feeling as I scrambled down a six foot vertical embankment to a brushy river bed below, but the trail got me where I needed to go.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="7.6"></span>
-![The bike path](ohlone-wilderness-trail-050.jpg)
+![Looking back from the first hill near Del Valle, a green golf course stands out among the dry rolling hills](ohlone-wilderness-trail-050.jpg)
 
 I felt more at home as I finally started to gain some elevation.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="8.1"></span>
-![The bike path](ohlone-wilderness-trail-060.jpg)
+![A rather uninspired photograph of a moderately inspiring lake](ohlone-wilderness-trail-060.jpg)
 
 Del Valle is an outstanding and scenic trail run. It's a bit of a drive to get there, but a trail wraps around the north side of the lake for at least seven miles. Out and back, that's more than enough for a healthy long run, and there were quite a few people out for just that.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="10.3"></span>
-![The bike path](ohlone-wilderness-trail-070.jpg)
+![A trail winds through the hills near Lake Del Valle](ohlone-wilderness-trail-070.jpg)
 
 The running was quite good, but the rolling hills weren't as easy or brief as I expected.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="11.9"></span>
-![The bike path](ohlone-wilderness-trail-080.jpg)
+![A trail winds through a small grove of trees](ohlone-wilderness-trail-080.jpg)
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="15.1"></span>
-![The bike path](ohlone-wilderness-trail-090.jpg)
+![A large bridge crosses a mostly dry river bed at the end of Lake Del Valle](ohlone-wilderness-trail-090.jpg)
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="15.62" data-split></span>
 ## Ohlone Wilderness Regional Preserve
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="15.9"></span>
-![The bike path](ohlone-wilderness-trail-100.jpg)
+![A standard downward-facing photo of legs and shoes on a dry path](ohlone-wilderness-trail-100.jpg)
 
 The smooth running stopped immediately as soon as I stepped onto the Ohlone Trail. I grew a bit nervous, as sixteen miles is along way to run just to find yourself stepping onto the *beginning* of a marathon-length trail.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="16.5"></span>
-![The bike path](ohlone-wilderness-trail-110.jpg)
+![Looking out of a valley toward serene hills and a blue sky](ohlone-wilderness-trail-110.jpg)
 
 The scenery was lovely though, and the near-solstice sun angle was very forgiving.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="18.45"></span>
-![The bike path](ohlone-wilderness-trail-120.jpg)
+![Looking down the next valley, small pedestrians hike up a winding trail](ohlone-wilderness-trail-120.jpg)
 
 Though it was nice to see a few of the only people I'd see all day, it was moderately discouragine to descend 500 feet into a valley, just to immediately ascend the other side.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="20.9"></span>
-![The bike path](ohlone-wilderness-trail-125.jpg)
+![A pond and scattered trees sit atop a grassy meadown](ohlone-wilderness-trail-125.jpg)
 
 It's hard to put into words just how pleasant the top of the ridge is. It feels like the sort of place where you spread out a picnic blanket, pull a book out of your backpack, and then sleep for three hours without reading a single page.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="22.5"></span>
-![The bike path](trail-map-3.jpg)
+![A closeup of a topographic map showing the southeast corner of the route](trail-map-3.jpg)
 
 As I approached the southeast corner of the route, it felt like a big accomplishment—even if I was only halfway done—to turn the corner and start heading back west toward San Francisco Bay.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="23.4"></span>
-![The bike path](ohlone-wilderness-trail-130.jpg)
+![A wide path winds along a ridge dotted by leafless trees](ohlone-wilderness-trail-130.jpg)
 
 I slowly watched my average pace drop throughout the day from 7.5 miles per hour, down to 6 miles per hour, and then into the fives. In this region though, the running flowed and I felt like I was able to at least prevent it from dropping further.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="25.3"></span>
-![The bike path](ohlone-wilderness-trail-140.jpg)
+![Looking along a path, San Francisco Bay is visible on the horizon as the hillside falls off toward the left](ohlone-wilderness-trail-140.jpg)
 
 After ascending the previous valley, I was painfully well aware I had probably not less than twenty miles remaining. If I'd known Rose Peak would be the high point of the entire day, I wouldn't have skipped the summit, but alas, I skirted around it, cutting off an extra one or two hundred feet of elevation gain.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="25.4"></span>
-![The bike path](ohlone-wilderness-trail-150.jpg)
+![A selfie](ohlone-wilderness-trail-150.jpg)
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="26.9"></span>
-![The bike path](ohlone-wilderness-trail-160.jpg)
+![A path winds downhill into the distance. Mission Peak is visible on the horizon.](ohlone-wilderness-trail-160.jpg)
 
 The view at this point was stunning and intimidating, as miles of rolling hills unfolded into the distance with Mission Peak (rightmost peak just touching the horizon) visible on the horizon.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="27.9"></span>
-![The bike path](ohlone-wilderness-trail-170.jpg)
+![Similar to the previous photograph, Mission Peak is still visible on the horizon](ohlone-wilderness-trail-170.jpg)
 
 A mile later, Mission Peak seemed not even slightly closer.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="29.2"></span>
-![The bike path](ohlone-wilderness-trail-180.jpg)
+![Looking southward into Little Yosemite Valley covered by lakes and hills](ohlone-wilderness-trail-180.jpg)
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="29.25" data-split></span>
 ## Sunol Regional Wilderness Preserve
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="30.5"></span>
-![The bike path](ohlone-wilderness-trail-190.jpg)
+![A single track path cuts across a hillside with Misson Peak now poking slightly above the horizon](ohlone-wilderness-trail-190.jpg)
 
 At this point the trail switched to single track, as it would remain for most of the remaining descent to the Sunol staging area.
 
 I was somewhat disappointed that a ten mile rolling descent with stunning views could actually feel so unpleasant, but the previous thirty miles of running and ten pounds of gear and water had taken their toll. My brain was happy, but my legs were not.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="32.9"></span>
-![The bike path](ohlone-wilderness-trail-200.jpg)
+![Looking eastward, the moon rises above warm-colored hills](ohlone-wilderness-trail-200.jpg)
 
 I was encouraged looking back east, hoping that a waxing gibbous moon would substitute for a forgotten headlamp.
 
@@ -222,30 +221,30 @@ I was encouraged looking back east, hoping that a waxing gibbous moon would subs
 I stopped at the Sunol staging area and sat on a picnic table for at least five minutes. I ate the rest of my potato chips and Clif bar, knowing the final ascent up Mission Peak would require all the potato chips I could throw at it.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="35.7"></span>
-![The bike path](ohlone-wilderness-trail-210.jpg)
+![Looking back eastward, the sun casts a warm glow on the only the topmost hills as the moon rises](ohlone-wilderness-trail-210.jpg)
 
 The views briefly got better and better as the sun set.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="36.1"></span>
-![The bike path](ohlone-wilderness-trail-220.jpg)
+![Looking out toward Pleasanton, the setting sun casts a warm glow on the shadowed hills](ohlone-wilderness-trail-220.jpg)
 
 With some food and gatorade in me, knowing I was beginning the final ascent, my spirits finally lifted. The uphill was surprisingly gradual and runnable.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="38.8"></span>
-![The bike path](ohlone-wilderness-trail-225.jpg)
+![A cow stares at me in the fading light](ohlone-wilderness-trail-225.jpg)
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="39.4"></span>
-![The bike path](ohlone-wilderness-trail-230.jpg)
+![Near Misson Peak, looking toward Pleasanton, the starting point of Livermore is now only a glow on the horizon](ohlone-wilderness-trail-230.jpg)
 
 Looking back east, Livermore was little more than a glow of lights on the horizon.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="39.8"></span>
-![The bike path](ohlone-wilderness-trail-240.jpg)
+![Looking over the top of Mission Peak, the sun glows orange and blue as the lights begin to illuminate the Bay Area](ohlone-wilderness-trail-240.jpg)
 
 The light faded as I summitted Misson Peak. A small tree with lights stood near the summit.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="41.0"></span>
-![The bike path](ohlone-wilderness-trail-250.jpg)
+![Looking back up toward Misson Peak, the moon rises as nighttime falls](ohlone-wilderness-trail-250.jpg)
 
 Disappointingly, the descent from Misson Peak was not nearly as pleasant as usual.
 
@@ -253,7 +252,7 @@ Disappointingly, the descent from Misson Peak was not nearly as pleasant as usua
 ## Warm Springs/South Fremont Station
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="0.0"></span>
-![The bike path](ohlone-wilderness-trail-260.jpg)
+![The BART arrives at Warm Springs/South Fremont](ohlone-wilderness-trail-260.jpg)
 
 I waited for only a matter of seconds before the train pulled into the station.
 
