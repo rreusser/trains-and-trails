@@ -31,7 +31,7 @@ assets:
   '240': ohlone-wilderness-trail-240.jpg
   '250': ohlone-wilderness-trail-250.jpg
   '260': ohlone-wilderness-trail-260.jpg
-coverImage: '130'
+coverImage: '240'
 ---
 
 <span data-behavior="introduction"></span>
