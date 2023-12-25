@@ -152,6 +152,7 @@ export default async function renderMarkdown(md, mdAssets, route) {
         switch(child.tagName) {
           case 'p':
           case 'table':
+          case 'ul':
           case 'h2':
             const {children, splitter} = splitChildren(child);
 
