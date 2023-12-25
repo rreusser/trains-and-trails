@@ -73,12 +73,12 @@ I almost certainly carried too much, but knowing any real mishap would likely ha
 - Trail pass/map + sharpie
 - Hat, sunglasses, buff
 
-<span data-behavior="anchor" data-feature-index="0" data-mile-position="2.3"></span>
+<span data-behavior="anchor" data-feature-index="0" data-mile-position="4.0"></span>
 ![Trail map](trail-map-1.jpg)
 
 ![Trail map closeup](trail-map-2.jpg)
 
-When I received my trail pass in the mail, I opened up a detailed topographic map and was surprised to realize that the map with date stamped in the corner *is* the trail pass—which you are required to have with you at all times. "Safety regulations are written in blood" goes the saying, and I hope nothing too unfortunate had to happen for [EBRPD](https://www.ebparks.org/) to take this approach, but I was nonetheless delighted with the result.
+Along the way, I reviewed the map. When I received my trail pass in the mail, I opened up a detailed topographic map and was surprised to realize that the map, with date stamped in the corner, *is* the trail pass—which you are required to have with you at all times. "Safety regulations are written in blood" goes the saying, and I hope nothing too unfortunate had to happen for [EBRPD](https://www.ebparks.org/) to take this approach, but I was nonetheless delighted with the result.
 
 <span data-behavior="anchor" data-feature-index="0" data-mile-position="23.5" data-split></span>
 ## Dublin/Pleasanton Station
@@ -90,7 +90,6 @@ When I received my trail pass in the mail, I opened up a detailed topographic ma
 ![Waiting for the 10R](ohlone-wilderness-trail-010.jpg)
 
 The twenty minute wait for the 10R bus to Livermore wasn't too bad, and there was even a bathroom at the station—which, when you're trying hard to overhydrate in preparation for a long day outside is no small amenity.
-
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
 ## Livermore
