@@ -74,7 +74,7 @@ I usually run in silence, but I tried on this run to listen to [Weapons of Math 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="6.95"></span>
 ![](orinda-to-bay-fair-040.jpg)
 
-One of Sibley's labyrinth's sits in the fog. The Bay Curious podcast has a lovely episode about [labyrinths in the Bay Area](https://www.kqed.org/news/11920627/labyrinths-everywhere-why-so-many-in-the-bay-area). They're often confused with mazes, but in fact they're designed to guide you; not cause you to lose your way.
+One of Sibley's labyrinths sits in the fog. The Bay Curious podcast has a lovely episode about [labyrinths in the Bay Area](https://www.kqed.org/news/11920627/labyrinths-everywhere-why-so-many-in-the-bay-area). They're often confused with mazes, but in fact they're designed to guide you; not cause you to lose your way.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="7.8" data-split></span>
 ## Huckleberry Botanic Regional Preserve
@@ -96,17 +96,17 @@ Something about Huckleberry Preserve makes it feel underrated, like it only conn
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="12.5"></span>
 ![](orinda-to-bay-fair-075.jpg)
 
-Every time I get to the top of Redwood Peak, I think of the joke where someone drags their partner up a mountain, saying the whole way, "You won't believe the view! It's just a little farther, you won't believe the view!" Finally, they arrive at the top. "Can you believe the view? All the way up here and there's nothing to see!"
+Every time I get to the top of Redwood Peak, I think of the joke where someone drags their partner up a mountain, saying the whole way, "You won't believe the view! It's just a little farther, you won't believe the view!" Finally, they arrive at the top. It's all trees. "Can you believe the view? All the way up here and there's nothing to see!"
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="14.8"></span>
 ![](orinda-to-bay-fair-080.jpg)
 
-I took every opportunity in Redwood to take the least direct route. This was about the time that I put my headphones away so I could foucsed on my surroundings.
+I seized every opportunity in Redwood to take the least direct route. This was about the time that I put my headphones away so I could focus on my surroundings.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="17.2"></span>
 ![](orinda-to-bay-fair-090.jpg)
 
-At risk of being a luddite, I appreciate that there's no cell service in the valley. It's not that I mind cell service, but it does make ethe park feel that much more remote, despite it's proximity to Oakland.
+At risk of being a luddite, I appreciate that there's no cell service in the valley. It's not that I mind cell service, but it does make the park feel that much more remote, despite its proximity to Oakland.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="17.95" data-split></span>
 ## Anthony Chabot Regional Park
@@ -117,7 +117,7 @@ At risk of being a luddite, I appreciate that there's no cell service in the val
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="19.9"></span>
 ![](orinda-to-bay-fair-110.jpg)
 
-Anthony Chabot is a surprisingly long park which connects to Redwood. The MacDonald trail was alright, but frankly, by the time it descended into the valley, I was 21 miles into my run, the sun was rising in the sky, and I wasn't enjoying it nearly as much as the first half. Perhaps the ridge would have been a nicer run, but it would have sent me the long way around the lake.
+Anthony Chabot is a surprisingly long park which connects to Redwood. The MacDonald trail was alright, but frankly, by the time it descended into the valley, I was 21 miles into my run, the sun was rising in the sky, and I was feeling heavy on my legs and not enjoying it nearly as much as the first half. Perhaps the ridge would have been a nicer run, but it would have sent me the long way around the lake.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="24.05"></span>
 ![](orinda-to-bay-fair-120.jpg)
@@ -147,7 +147,7 @@ As with a distressing fraction of my run, I was completely spent after a hard th
 
 <span data-behavior="conclusion"></span>
 
-In the end, I was reasonably happy with a thirty mile trail run at 8:56 per mile. It was really quite a bit harder than I expected though, and the long segment through Anthony Chabot certainly didn't help. I think this was still the preferable direction—going south does indeed feel like going downhill—but maybe an earlier start would have been worthwhile. I'm consistently surprised just how many of my runs end with me completely gased as the midday temparatures—as mild as they are—climb.
+In the end, I was reasonably happy with a thirty mile trail run at 8:56 per mile. It was quite a bit harder than I expected though, and the long segment through Anthony Chabot certainly didn't help. I think this was still the preferable direction—going south does indeed feel like going downhill—but maybe an earlier start would have been worthwhile. I'm consistently surprised just how many of my runs end with me completely gased as the midday temparatures—as mild as they are—climb.
 
 My holy grail remains to run a longe rsegment of the ridge, from Richmod to Anthony Chabot, but this was enough for me and the celebratory bubble tea was one of the best I've had.
 
