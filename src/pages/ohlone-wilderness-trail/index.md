@@ -78,7 +78,7 @@ I almost certainly carried too much, but knowing any real mishap would likely ha
 
 ![Trail map closeup](trail-map-2.jpg)
 
-Along the way, I reviewed the map. When I received my trail pass in the mail, I opened up a detailed topographic map and was surprised to realize that the map, with date stamped in the corner, *is* the trail pass—which you are required to have with you at all times. "Safety regulations are written in blood" goes the saying, and I hope nothing too unfortunate had to happen for [EBRPD](https://www.ebparks.org/) to take this approach, but I was nonetheless delighted with the result.
+Along the way, I reviewed the map. When I received my trail pass in the mail, I opened up a detailed topographic map and was surprised to realize that the map, with date stamped in the corner, *is* the trail pass—which you are required to have with you at all times. "Safety rules are written in blood" goes the saying, and I hope nothing too unfortunate had to happen for [EBRPD](https://www.ebparks.org/) to take what feels like an unusually heavy-handed approach, but I was nonetheless delighted with the result.
 
 <span data-behavior="anchor" data-feature-index="0" data-mile-position="23.5" data-split></span>
 ## Dublin/Pleasanton Station
@@ -241,12 +241,12 @@ Looking back east, Livermore was little more than a glow of lights on the horizo
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="39.8"></span>
 ![Looking over the top of Mission Peak, the sun glows orange and blue as the lights begin to illuminate the Bay Area](ohlone-wilderness-trail-240.jpg)
 
-The light faded as I summitted Misson Peak. A small tree with lights stood near the summit.
+The light faded as I crested Misson Peak and the lights of the Bay Area came into view. A small tree with lights stood near the summit.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="41.0"></span>
 ![Looking back up toward Misson Peak, the moon rises as nighttime falls](ohlone-wilderness-trail-250.jpg)
 
-Disappointingly, the descent from Misson Peak was not nearly as pleasant as usual.
+Disappointingly, my legs preferred climbing at this point, so that the descent from Misson Peak was not nearly as pleasant as usual.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="0"></span>
 ## Warm Springs/South Fremont Station
