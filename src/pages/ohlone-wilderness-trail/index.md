@@ -52,6 +52,8 @@ The Ohlone Trail has remained on my to-do list for a number of reasons. First is
 
 Additional factors contributed. Sunol was closed for a good share of 2023 due to damage resulting from the unusually rainy season, and even when open, it's a far better trail in the winter due to high summertime temperatures and sun exposure. And finally, it requires a [trail permit](https://www.ebparks.org/rentals-and-permits/permits/ohlone-wilderness) which although it only took five minutes to order—and is by a wide margin the nicest trail permit I've ever received—this small hurdle was enough to prevent an impulse decision once or twice.
 
+This time was different though. I had my trail pass and I had a date. A Tuesday, when the buses run a bit earlier, so that I could get as early a start as possible. But I got impatient on a Saturday morning at 9 AM, so I threw it all to the wind, grabbed my stuff, and ran out the door to make it happen.
+
 <span data-behavior="anchor" data-feature-index="0" data-mile-position="0"></span>
 ## Lake Merritt Station
 
@@ -261,11 +263,11 @@ I waited for only a matter of seconds before the train pulled into the station.
 
 <span data-behavior="conclusion"></span>
 
-All in all, the Ohlone Wilderness Trail was every bit as stunning as I hoped it would be.
+All in all, the Ohlone Wilderness Trail was every bit as stunning as I hoped it would be. I was ever so slightly disappointed that the wide trails and cow fences made it feel more like cow pasture than any sort of wilderness, but given that it's hardly even a short hop away from the Bay Area, I'm certainly not complaining.
 
 What I didn't expect is that carrying a few pounds of water would take such a toll on my legs and back. One thing I'd do significantly better in the future would be to bring a water filter. Part of me isn't eager to start looking for water spigots and messing around with water filters in the middle of a run, but another part of me—my legs, in particular—thinks it would more than offset the cost of carrying liquids on such a lengthy run.
 
-I would *love* to run this trail again with a water filter, maybe even just sacrificing my principles, driving to the trailhead at Lake Del Valle, and getting picked up at Misson Peak or even Sunol.
+I would *love* to run this trail again with a water filter, maybe even just sacrificing my principles by driving right to the trailhead or getting picked up at Sunol. The running was so generally forgiving that the real challenge in this route turned out primarily just to be the sheer distance required to make it work via public transportation.
 
 
 
