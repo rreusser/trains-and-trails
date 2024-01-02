@@ -52,7 +52,7 @@ The Ohlone Trail has remained on my to-do list for a number of reasons. First is
 
 Additional factors contributed. Sunol was closed for a good share of 2023 due to damage resulting from the unusually rainy season, and even when open, it's a far better trail in the winter due to high summertime temperatures and sun exposure. And finally, it requires a [trail permit](https://www.ebparks.org/rentals-and-permits/permits/ohlone-wilderness) which although it only took five minutes to order—and is by a wide margin the nicest trail permit I've ever received—this small hurdle was enough to prevent an impulse decision once or twice.
 
-This time was different though. I had my trail pass and I had a date. A Tuesday, when the buses run a bit earlier, so that I could get as early a start as possible. But I got impatient on a Saturday morning at 9 AM, so I threw it all to the wind, grabbed my stuff, and ran out the door to make it happen.
+This time was different though. I had my trail pass and I had a date. A Tuesday, when the buses run a bit earlier, so that I could get as early a start as possible. But I got impatient on a Saturday morning at 8:30 AM, so I threw it all to the wind, grabbed my stuff, and ran out the door to make it happen.
 
 <span data-behavior="anchor" data-feature-index="0" data-mile-position="0"></span>
 ## Lake Merritt Station
