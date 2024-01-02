@@ -60,7 +60,7 @@ This time was different though. I had my trail pass and I had a date. A Tuesday,
 <span data-behavior="anchor" data-feature-index="0" data-mile-position="0"></span>
 ![A BART station selfie](ohlone-wilderness-trail-000.jpg)
 
-Despite [having learned to plan ahead](/trains-and-trails/mount-tam-golden-gate-loop/), once the impulse decision had been made, I grabbed everything I thought I'd need, ran for the Lake Merritt BART Station without checking the schedule, and fortunately only had to wait about two minutes for the next train.
+Despite having learned to plan ahead on weekends, once the impulse decision had been made, I grabbed everything I thought I'd need, ran for the Lake Merritt BART Station without checking the schedule, and fortunately only had to wait about two minutes for the next train.
 
 I almost certainly carried too much, but knowing any real mishap would likely have me spending the night outside, I came prepared.
 
