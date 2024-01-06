@@ -166,7 +166,7 @@ The scenery was lovely though, and the near-solstice sun angle was very forgivin
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="18.45"></span>
 ![Looking down the next valley, small pedestrians hike up a winding trail](ohlone-wilderness-trail-120.jpg)
 
-Though it was nice to see a few of the only people I'd see all day, it was moderately discouragine to descend 500 feet into a valley, just to immediately ascend the other side.
+Though it was nice to see a few of the only people I'd see all day, it was moderately discouraging to descend 500 feet into a valley, just to immediately ascend the other side.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="20.9"></span>
 ![A pond and scattered trees sit atop a grassy meadown](ohlone-wilderness-trail-125.jpg)
