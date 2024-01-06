@@ -156,7 +156,7 @@ The running was quite good, but the rolling hills weren't as easy or brief as I 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="15.9"></span>
 ![A standard downward-facing photo of legs and shoes on a dry path](ohlone-wilderness-trail-100.jpg)
 
-The smooth running stopped immediately as soon as I stepped onto the Ohlone Trail. I grew a bit nervous, as sixteen miles is along way to run just to find yourself stepping onto the *beginning* of a marathon-length trail.
+The smooth running stopped immediately as soon as I stepped onto the Ohlone Trail. I grew a bit nervous, as sixteen miles is a long way to run just to find yourself stepping onto the *beginning* of a marathon-length trail.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="16.5"></span>
 ![Looking out of a valley toward serene hills and a blue sky](ohlone-wilderness-trail-110.jpg)
