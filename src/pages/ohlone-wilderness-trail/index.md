@@ -46,9 +46,9 @@ coverImage: '240'
 **Transit fare**: $4.90 + bus transfer + $5.40 = $10.30<br>
 [View on GaiaGPS →](https://www.gaiagps.com/public/w6tnBZEZzYqkgbiSJVRfrPGV/)
 
-I've wanted to run the Ohlone Wilderness Trail through [Ohlone Wilderness Regional Preserve](https://www.ebparks.org/parks/ohlone) for years now. Shortly after arriving in the Bay Area, we hiked [twelve miles out and back](https://www.alltrails.com/trail/us/california/murietta-falls-trail) from Lake Del Valle to Murietta Falls. The sunny, expansive meadows are idyllic, but the elevation gain is significant and it was intimidating to appreciate that we'd hardly even scratched the surface of the trail system.
+I've wanted to run the Ohlone Wilderness Trail through [Ohlone Wilderness Regional Preserve](https://www.ebparks.org/parks/ohlone) for years now. Shortly after arriving in the Bay Area, we hiked [twelve miles out and back](https://www.alltrails.com/trail/us/california/murietta-falls-trail) from Lake Del Valle to Murietta Falls. It was about the sunniest and most idyllic meadows I've wandered around in, but the elevation gain is significant and it was intimidating to appreciate that we'd hardly even scratched the surface of the trail system.
 
-The Ohlone Trail has remained on my to-do list for a number of reasons. First is the nature of the trail itself. The Ohlone Trail starts at [Lake Del Valle](https://www.ebparks.org/parks/del-valle) and spans about 27 miles, passing through [Ohlone Wilderness Regional Preserve](https://www.ebparks.org/parks/ohlone) and [Sunol Wilderness Regional Preserve](https://www.ebparks.org/parks/sunol) before traversing [Misson Peak Regional Preserve](https://www.ebparks.org/parks/mission-peak) and ending in Fremont. The trail is *very* committing, with essentially no option to bail except to complete the first twenty miles to Sunol (at which point hopefully you were able to convince a friend to come to your rescue) or to go back the way you came.
+And so the Ohlone Trail has remained on my to-do list for a number of reasons. First is the nature of the trail itself. The Ohlone Trail starts at [Lake Del Valle](https://www.ebparks.org/parks/del-valle) and spans about 27 miles, passing through [Ohlone Wilderness Regional Preserve](https://www.ebparks.org/parks/ohlone) and [Sunol Wilderness Regional Preserve](https://www.ebparks.org/parks/sunol) before traversing [Misson Peak Regional Preserve](https://www.ebparks.org/parks/mission-peak) and ending in Fremont. The trail is very committing, with essentially no option to bail except to complete the first twenty miles to Sunol (at which point hopefully you were able to convince a friend to come to your rescue) or to go back the way you came. (Fortunately, cell service was actually much better than I expected.)
 
 Additional factors contributed. Sunol was closed for a good share of 2023 due to damage resulting from the unusually rainy season, and even when open, it's a far better trail in the winter due to high summertime temperatures and sun exposure. And finally, it requires a [trail permit](https://www.ebparks.org/rentals-and-permits/permits/ohlone-wilderness) which although it only took five minutes to order—and is by a wide margin the nicest trail permit I've ever received—this small hurdle was enough to prevent an impulse decision once or twice.
 
@@ -80,7 +80,7 @@ I almost certainly carried too much, but knowing any real mishap would likely ha
 
 ![Trail map closeup](trail-map-2.jpg)
 
-Along the way, I reviewed the map. When I received my trail pass in the mail, I opened up a detailed topographic map and was surprised to realize that the map, with date stamped in the corner, *is* the trail pass—which you are required to have with you at all times. "Safety rules are written in blood" goes the saying, and I hope nothing too unfortunate had to happen for [EBRPD](https://www.ebparks.org/) to take what feels like an unusually heavy-handed approach, but I was nonetheless delighted with the result.
+Along the way, I reviewed the map. When I received my trail pass in the mail, I opened up a detailed topographic map and was surprised to realize that the map, with date stamped in the corner, *is* the trail pass—which you are required to have with you at all times. There's a saying, "Safety rules are written in blood." It means they don't institute safety rules until something goes badly wrong. So I hope nothing too unfortunate had to happen for [EBRPD](https://www.ebparks.org/) to take what feels like an unusually heavy-handed approach with the pass, but at any rate, I was pretty happy with the result.
 
 <span data-behavior="anchor" data-feature-index="0" data-mile-position="23.5" data-split></span>
 ## Dublin/Pleasanton Station
@@ -91,7 +91,7 @@ Along the way, I reviewed the map. When I received my trail pass in the mail, I 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="0"></span>
 ![Waiting for the 10R](ohlone-wilderness-trail-010.jpg)
 
-The twenty minute wait for the 10R bus to Livermore wasn't too bad, and there was even a bathroom at the station—which, when you're trying hard to overhydrate in preparation for a long day outside is no small amenity.
+The twenty minute wait for the 10R bus to Livermore wasn't too bad, and there was even a bathroom at the station—which, when you're stuck at a bus stop trying to overhydrate in preparation for a long day outside, is a big plus.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
 ## Livermore
@@ -137,7 +137,7 @@ I felt more at home as I finally started to gain some elevation.
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="8.1"></span>
 ![A rather uninspired photograph of a moderately inspiring lake](ohlone-wilderness-trail-060.jpg)
 
-Del Valle is an outstanding and scenic trail run. It's a bit of a drive to get there, but a trail wraps around the north side of the lake for at least seven miles. Out and back, that's more than enough for a healthy long run, and there were quite a few people out for just that.
+Del Valle is an outstanding and scenic trail run. It's a bit of a drive to get there, but a trail wraps around the north side of the lake for at least seven miles. Out and back, that's more than enough for a nice, quiet long run.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="10.3"></span>
 ![A trail winds through the hills near Lake Del Valle](ohlone-wilderness-trail-070.jpg)
@@ -166,12 +166,12 @@ The scenery was lovely though, and the near-solstice sun angle was very forgivin
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="18.45"></span>
 ![Looking down the next valley, small pedestrians hike up a winding trail](ohlone-wilderness-trail-120.jpg)
 
-Though it was nice to see a few of the only people I'd see all day, it was moderately discouraging to descend 500 feet into a valley, just to immediately ascend the other side.
+It was nice to see a few of the only people I'd see all day, but it was moderately discouraging to descend 500 feet into a valley, just to immediately ascend the other side.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="20.9"></span>
 ![A pond and scattered trees sit atop a grassy meadown](ohlone-wilderness-trail-125.jpg)
 
-It's hard to put into words just how pleasant the top of the ridge is. It feels like the sort of place where you spread out a picnic blanket, pull a book out of your backpack, and then sleep for three hours without reading a single page.
+The photos don't do it justice, and it's hard to put into words just how pleasant the top of the ridge is. It feels like the sort of place where you spread out a picnic blanket, pull a book out of your backpack, and then just stare at the clouds for a few hours.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="22.5"></span>
 ![A closeup of a topographic map showing the southeast corner of the route](trail-map-3.jpg)
@@ -191,10 +191,12 @@ After ascending the previous valley, I was painfully well aware I had probably n
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="25.4"></span>
 ![A selfie](ohlone-wilderness-trail-150.jpg)
 
+Another selfie, this time with the glossy finish mostly worn off.
+
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="26.9"></span>
 ![A path winds downhill into the distance. Mission Peak is visible on the horizon.](ohlone-wilderness-trail-160.jpg)
 
-The view at this point was stunning and intimidating, as miles of rolling hills unfolded into the distance with Mission Peak (rightmost peak just touching the horizon) visible on the horizon.
+Miles of rolling hills unfolded into the distance with Mission Peak (rightmost peak just touching the horizon) visible on the horizon.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="27.9"></span>
 ![Similar to the previous photograph, Mission Peak is still visible on the horizon](ohlone-wilderness-trail-170.jpg)
@@ -220,6 +222,7 @@ I was somewhat disappointed that a ten mile rolling descent with stunning views 
 I was encouraged looking back east, hoping that a waxing gibbous moon would substitute for a forgotten headlamp.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="34.9"></span>
+
 I stopped at the Sunol staging area and sat on a picnic table for at least five minutes. I ate the rest of my potato chips and Clif bar, knowing the final ascent up Mission Peak would require all the potato chips I could throw at it.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="35.7"></span>
@@ -230,7 +233,7 @@ The views briefly got better and better as the sun set.
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="36.1"></span>
 ![Looking out toward Pleasanton, the setting sun casts a warm glow on the shadowed hills](ohlone-wilderness-trail-220.jpg)
 
-With some food and gatorade in me, knowing I was beginning the final ascent, my spirits finally lifted. The uphill was surprisingly gradual and runnable.
+With some food and gatorade in me, my spirits finally lifted. The back side of Mission Peak was surprisingly gradual and runnable.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="38.8"></span>
 ![A cow stares at me in the fading light](ohlone-wilderness-trail-225.jpg)
