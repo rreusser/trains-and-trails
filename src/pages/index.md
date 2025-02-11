@@ -12,6 +12,7 @@ Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run
 |   |   |
 |:--|:--|
 | [Introduction](introduction/) | <time>2022-08-09</time> |
+| [Antioch to Mount Diablo](antioch-to-mount-diablo) | <time>2025-02-09</time> |
 | [Ohlone Wilderness Trail](ohlone-wilderness-trail) | <time>2023-12-23</time> |
 | [Mount Diablo - Mitchell Canyon to North Gate](mount-diablo-mitchell-canyon-to-north-gate) | <time>2023-02-26</time> |
 | [Mount Tam - Golden Gate Loop](mount-tam-golden-gate-loop) | <time>2023-02-12</time> |
