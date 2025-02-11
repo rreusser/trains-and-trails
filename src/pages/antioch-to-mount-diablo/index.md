@@ -1,6 +1,6 @@
 ---
 title: Antioch to Mount Diablo
-date: "February 10, 2025"
+date: "February 9, 2025"
 assets:
   "010": antioch-010.jpg
   "020": antioch-020.jpg
@@ -215,7 +215,7 @@ Eighteen miles into the run, my legs were not fresh.
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="19.4"></span>
 ![A near-birdseye view of the hills just run. A rocky outcropping sits in the foreground.](antioch-260.jpg)
 
-On a clear day, you can see about 90 miles east to snow-capped peaks the Sierras.
+On a clear day, you can see about 90 miles east to snow-capped peaks of the Sierras.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="20.12"></span>
 ![Summit selfie with hills in the background.](antioch-270.jpg)
