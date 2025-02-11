@@ -227,7 +227,7 @@ The summit of the North Peak marked the division between the nice part of the da
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="21.1"></span>
 
-In my younger years, I'd have made quick run up to the main peak of Mount Diablo, but I focused on just getting home on once piece.
+In my younger years, I'd have made quick run up to the main peak of Mount Diablo, but I focused on just getting home in once piece.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="22.0"></span>
 ![A view of the North Peak as I begin to descend.](antioch-290.jpg)
