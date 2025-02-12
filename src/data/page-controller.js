@@ -125,7 +125,7 @@ class PageController {
 
     this.setFeatureMode(feature.properties.mode);
     if (feature.properties.mode === 'foot') {
-      this.map.camera.targetDistance = 2800;
+      this.map.camera.targetDistance = 5000;
     } else {
       this.map.camera.targetDistance = 10000;
     }
