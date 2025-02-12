@@ -7,9 +7,9 @@ import rehypeStringify from 'rehype-stringify'
 import {visit} from 'unist-util-visit'
 
 const PIXELS_PER_MILE = {
-  foot: 1000,
-  metro: 500,
-  bus: 500
+  foot: 800,
+  metro: 300,
+  bus: 400
 };
 
 export default async function renderMarkdown(md, mdAssets, route) {
