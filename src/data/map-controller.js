@@ -34,7 +34,8 @@ class MapController {
   constructor (container, bounds, padding, onload) {
     this.map = window.map = new mapboxgl.Map({
       container,
-      style: 'mapbox://styles/rreusser/cl3jof9o3000g14le3tzu1ih9/draft',
+      //style: 'mapbox://styles/rreusser/cl3jof9o3000g14le3tzu1ih9/draft',
+      style: 'mapbox://styles/rsreusser/ckt5f72080l7r18quyld7h4si/draft',
       scrollZoom: false,
       boxZoom: false,
       dragRotate: false,
@@ -68,16 +69,16 @@ class MapController {
             'maxzoom': 14
           });
 
-          /*this.map.addSource('mapbox-dem-2', {
+          this.map.addSource('mapbox-dem-2', {
             'type': 'raster-dem',
             'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
-            'tileSize': 1024,
+            'tileSize': 256,
             'maxzoom': 14
-          });*/
+          });
 
           this.map.addLayer({
             id: 'hillshade',
-            source: 'mapbox-dem',
+            source: 'mapbox-dem-2',
             type: 'hillshade',
             paint: {
               'hillshade-exaggeration': 1,
@@ -86,7 +87,7 @@ class MapController {
               'hillshade-illumination-anchor': 'map',
               'hillshade-illumination-direction': 180,
             }
-          }, 'tunnel-path');
+          }, 'ferry');
 
           this.map.addSource('route', {
             type: 'geojson',
