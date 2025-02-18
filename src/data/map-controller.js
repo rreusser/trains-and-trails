@@ -35,7 +35,7 @@ class MapController {
     this.map = window.map = new mapboxgl.Map({
       container,
       //style: 'mapbox://styles/rreusser/cl3jof9o3000g14le3tzu1ih9/draft',
-      style: 'mapbox://styles/rsreusser/ckt5f72080l7r18quyld7h4si/draft',
+      style: 'mapbox://styles/rsreusser/ckt5f72080l7r18quyld7h4si',
       scrollZoom: false,
       boxZoom: false,
       dragRotate: false,
