@@ -57,6 +57,41 @@ a:visited {
   color: #ca4747;
 }
 
+.routes-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.route-entry {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: inherit;
+}
+.route-entry:nth-child(odd) {
+  background: #e8e8e8;
+}
+.route-entry:hover {
+  background: #ddd;
+}
+.route-entry:not(:last-child) {
+  border-bottom: 1px solid #BB504C;
+}
+.route-title {
+  font-size: 16px;
+  color: #BB504C;
+}
+.route-meta {
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.route-meta span {
+  flex: 1 1 auto;
+  white-space: nowrap;
+}
+
 .articleContainer {
   max-width: 520px;
   margin: 70vh auto 100px 0;

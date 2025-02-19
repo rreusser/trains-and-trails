@@ -43,8 +43,9 @@ function Article ({page, setPath}) {
 
 
   function navigate (event) {
-    if (event.target.tagName !== 'A') return;
-    let href = event.target.getAttribute('href')
+    const a = event.target.tagName === 'A' ?  event.target : event.target.closest('a');
+    if (!a) return;
+    let href = a.getAttribute('href')
     if (EXTERNAL_URL_REGEX.test(href)) return;
 
     if (!href.endsWith('/')) href += '/';

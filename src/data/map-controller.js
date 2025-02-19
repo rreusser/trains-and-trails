@@ -76,6 +76,8 @@ class MapController {
             'maxzoom': 14
           });
 
+          this.map.getSource('mapbox://mapbox.satellite').maxzoom = 15
+
           this.map.addLayer({
             id: 'hillshade',
             source: 'mapbox-dem-2',

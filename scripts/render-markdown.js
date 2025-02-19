@@ -154,6 +154,7 @@ export default async function renderMarkdown(md, mdAssets, route) {
           case 'table':
           case 'ul':
           case 'h2':
+          case 'div':
             const {children, splitter} = splitChildren(child);
 
             if (splitter) {
@@ -184,6 +185,11 @@ export default async function renderMarkdown(md, mdAssets, route) {
               }
             }
             break;
+
+          case 'div':
+            continue;
+            break;
+
           default:
             throw new Error(`Unhandled tag name ${child.tagName}`);
         }
