@@ -68,10 +68,10 @@ a:visited {
   color: inherit;
 }
 .route-entry:nth-child(odd) {
-  background: #e8e8e8;
+  background: #f0f0f0;
 }
 .route-entry:hover {
-  background: #ddd;
+  background: #e8e8e8;
 }
 .route-entry:not(:last-child) {
   border-bottom: 1px solid #BB504C;
