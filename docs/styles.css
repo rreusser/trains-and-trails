@@ -74,7 +74,7 @@ a:visited {
   background: #e8e8e8;
 }
 .route-entry:not(:last-child) {
-  border-bottom: 1px solid #BB504C;
+  border-bottom: 1px solid #E0E0E0;
 }
 .route-title {
   font-size: 16px;
