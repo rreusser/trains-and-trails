@@ -69,18 +69,20 @@ class MapController {
             'maxzoom': 14
           });
 
+          /*
           this.map.addSource('mapbox-dem-2', {
             'type': 'raster-dem',
             'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
             'tileSize': 512,
             'maxzoom': 14
           });
+          */
 
           this.map.getSource('mapbox://mapbox.satellite').maxzoom = 15
 
           this.map.addLayer({
             id: 'hillshade',
-            source: 'mapbox-dem-2',
+            source: 'mapbox-dem',
             type: 'hillshade',
             paint: {
               'hillshade-exaggeration': 1,
