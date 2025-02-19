@@ -84,14 +84,19 @@ a:visited {
 .route-meta {
   font-size: 13px;
   color: #555;
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 10px;*/
 }
 .route-meta span {
-  flex: 1 1 auto;
+  display: inline-block;
+  /*flex: 1 1 auto;*/
   white-space: nowrap;
 }
+.route-meta span:nth-child(1) { min-width: 100px; }
+.route-meta span:nth-child(2) { min-width: 70px; }
+.route-meta span:nth-child(3) { min-width: 50px; }
+.route-meta span:nth-child(4) { min-width: 70px; }
 
 .articleContainer {
   max-width: 520px;
