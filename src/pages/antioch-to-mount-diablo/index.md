@@ -53,12 +53,12 @@ ratings:
 
 <span data-behavior="introduction"></span>
 
-**Distance**: 27.5 miles<br>
-**Elevation**: <span style="color:green">+5450</span> <span style="color:#ca4747">-5100</span> feet<br>
-**Running time**: 5 hours 20 minutes<br>
-**Transit time**: 2 hours 20 minutes<br>
-**Transit fare**: $6.90 + $7.50 = $14.40<br>
-[View on GaiaGPS →](https://www.gaiagps.com/public/ERVLNUMzf2Ae5PJSy8PHcem1/)
+<span class="intro-meta intro-meta--distance">**Distance**: 27.5 miles</span>
+<span class="intro-meta intro-meta--time">**Running time**: 5 hours 20 minutes</span>
+<span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+5450</span> <span style="color:#ca4747">-5100</span> feet</span>
+<span class="intro-meta intro-meta--transit">**Transit time**: 2 hours 20 minutes</span>
+<span class="intro-meta intro-meta--fare">**Fare**: $14.40</span>
+<span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/public/ERVLNUMzf2Ae5PJSy8PHcem1/)</span>
 
 I've developed somewhat of a Super Bowl tradition. After trying to get into the spirit of the day via other approaches, I've found that a distressingly long run really puts me in the right state of mind to properly enjoy an afternoon of football, just as soon as I figure out who's playing.
 

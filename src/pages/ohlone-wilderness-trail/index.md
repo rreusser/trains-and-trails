@@ -39,12 +39,12 @@ coverImage: '240'
 
 <span data-behavior="introduction"></span>
 
-**Distance**: 44.7 miles<br>
-**Elevation**: <span style="color:green">+7438</span> <span style="color:#ca4747">-7847</span> feet<br>
-**Running time**: 8 hours 37 minutes<br>
-**Transit time**: 2 hours 10 minutes<br>
-**Transit fare**: $4.90 + bus transfer + $5.40 = $10.30<br>
-[View on GaiaGPS →](https://www.gaiagps.com/public/w6tnBZEZzYqkgbiSJVRfrPGV/)
+<span class="intro-meta intro-meta--distance">**Distance**: 44.7 miles</span>
+<span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+7438</span> <span style="color:#ca4747">-7847</span> feet</span>
+<span class="intro-meta intro-meta--time">**Running time**: 8 hours 37 minutes</span>
+<span class="intro-meta intro-meta--transit">**Transit time**: 2 hours 10 minutes</span>
+<span class="intro-meta intro-meta--fare">**Transit fare**: $4.90 + bus transfer + $5.40 = $10.30</span>
+<span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/public/w6tnBZEZzYqkgbiSJVRfrPGV/)</span>
 
 I've wanted to run the Ohlone Wilderness Trail through [Ohlone Wilderness Regional Preserve](https://www.ebparks.org/parks/ohlone) for years now. Shortly after arriving in the Bay Area, we hiked [twelve miles out and back](https://www.alltrails.com/trail/us/california/murietta-falls-trail) from Lake Del Valle to Murietta Falls. It was about the sunniest and most idyllic meadows I've wandered around in, but the elevation gain is significant and it was intimidating to appreciate that we'd hardly even scratched the surface of the trail system.
 

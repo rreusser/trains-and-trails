@@ -28,12 +28,12 @@ coverImage: '130'
 
 <span data-behavior="introduction"></span>
 
-**Distance**: 24.3 miles<br>
-**Elevation**: <span style="color:green">+3850</span> <span style="color:#ca4747">-4200</span> feet<br>
-**Running time**: 4 hours 22 minutes<br>
-**Transit time**: 1 hour 15 minutes<br>
-**Transit fare**: $3.40 + $1.00 + $3.70 = $8.10<br>
-[View on GaiaGPS →](https://www.gaiagps.com/datasummary/track/6425dbfdf80f493488837ddc1ff23b73/)
+<span class="intro-meta intro-meta--distance">**Distance**: 24.3 miles</span>
+<span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+3850</span> <span style="color:#ca4747">-4200</span> feet</span>
+<span class="intro-meta intro-meta--time">**Running time**: 4 hours 22 minutes</span>
+<span class="intro-meta intro-meta--transit">**Transit time**: 1 hour 15 minutes</span>
+<span class="intro-meta intro-meta--fare">**Transit fare**: $3.40 + $1.00 + $3.70 = $8.10</span>
+<span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/datasummary/track/6425dbfdf80f493488837ddc1ff23b73/)</span>
 
 For my employer's semi-annual Wellness Day, I decided to embrace the opportunity and set off on a long run. Bay Area weather is remarkably and consistently favorable for running, but as soon as you head inland, away from the coast, it's imperative to start early to avoid sun and midday temperatures. Thus, I decided to take a chance and plan a long run which would take advantage of early weekday bus schedules. Always searching for new point-to-point routes, I plotted out a twenty mile route through the [San Leandro Creek Watershed](https://www.ebmud.com/recreation/east-bay/east-bay-trails), starting at Moraga and ending in Castro Valley.
 

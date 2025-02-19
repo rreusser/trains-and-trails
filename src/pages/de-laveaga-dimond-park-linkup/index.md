@@ -25,12 +25,12 @@ ratings:
 
 <span data-behavior="introduction"></span>
 
-**Distance**: 19.0 miles<br>
-**Elevation**: <span style="color:green">+2900</span> <span style="color:#ca4747">-3340</span> feet<br>
-**Running time**: 3 hours 2 minutes<br>
-**Transit time**: 14 minutes<br>
-**Transit fare**: $2.70<br>
-[View on GaiaGPS →](https://www.gaiagps.com/public/rDq3kMu8McTz1XjO3pArR4zU)
+<span class="intro-meta intro-meta--distance">**Distance**: 19.0 miles</span>
+<span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+2900</span> <span style="color:#ca4747">-3340</span> feet</span>
+<span class="intro-meta intro-meta--time">**Running time**: 3 hours 2 minutes</span>
+<span class="intro-meta intro-meta--transit">**Transit time**: 14 minutes</span>
+<span class="intro-meta intro-meta--fare">**Transit fare**: $2.70</span>
+<span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/public/rDq3kMu8McTz1XjO3pArR4zU)</span>
 
 "You should run early today," suggested my wife this morning. I looked out the window at the rain. "I'll… run later…" A common refrain these days. "But you like the rain." I knew she was right, and however tepid my enthusiasm, it turned out to be a memorable run.
 

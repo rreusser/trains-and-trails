@@ -41,12 +41,12 @@ ratings:
 
 <span data-behavior="introduction"></span>
 
-**Distance**: 40.4 miles<br>
-**Elevation**: <span style="color:green">+6850</span> <span style="color:#ca4747">-6850</span> feet<br>
-**Running time**: 7 hours 10 minutes<br>
-**Transit time**: 1 hour 50 minutes<br>
-**Transit fare**: $3.85 + $8.00 + $3.85 = $15.70<br>
-[View on GaiaGPS →](https://www.gaiagps.com/public/DlOX5005P0bvao7FD0nMsNoT)
+<span class="intro-meta intro-meta--distance">**Distance**: 40.4 miles</span>
+<span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+6850</span> <span style="color:#ca4747">-6850</span> feet</span>
+<span class="intro-meta intro-meta--time">**Running time**: 7 hours 10 minutes</span>
+<span class="intro-meta intro-meta--transit">**Transit time**: 1 hour 50 minutes</span>
+<span class="intro-meta intro-meta--fare">**Transit fare**: $15.70</span>
+<span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/public/DlOX5005P0bvao7FD0nMsNoT)</span>
 
 [Golden Gate National Recreation Area](https://www.nps.gov/goga/index.htm) manages about 128 square miles of parks, stretching all the way from Palo Alto up to Tomales Bay. Together with [Mount Tam State Park](https://www.parks.ca.gov/?page_id=471), [Marin Watershed District](https://www.marinwater.org/recreation), and [Point Reyes National Seashore](https://www.nps.gov/pore/index.htm), the parks contain enough trails to keep most runners busy for a while.
 

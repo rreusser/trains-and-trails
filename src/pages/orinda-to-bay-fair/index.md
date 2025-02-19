@@ -29,12 +29,12 @@ ratings:
 
 <span data-behavior="introduction"></span>
 
-**Distance**: 29.7 miles<br>
-**Elevation**: <span style="color:green">+4280</span> <span style="color:#ca4747">-4710</span> feet<br>
-**Running time**: 4 hours 25 minutes<br>
-**Transit time**: 30 minutes<br>
-**Transit fare**: $2.70 + $3.20 = $5.90<br>
-[View on GaiaGPS →](https://www.gaiagps.com/public/gfQjvaeNDKQ2ub5NrLWj158D)
+<span class="intro-meta intro-meta--distance">**Distance**: 29.7 miles</span>
+<span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+4280</span> <span style="color:#ca4747">-4710</span> feet</span>
+<span class="intro-meta intro-meta--time">**Running time**: 4 hours 25 minutes</span>
+<span class="intro-meta intro-meta--transit">**Transit time**: 30 minutes</span>
+<span class="intro-meta intro-meta--fare">**Transit fare**: $5.90</span>
+<span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/public/gfQjvaeNDKQ2ub5NrLWj158D)</span>
 
 Having only recently realized the possibility of not just running through East Bay parks but actually linking them up, this run represented an attempt to go big and see how many parks I could link up. I planned to start with the EBMUD De Laveaga watershed trail, then proceed to Sibley, Huckleberry, Redwood, and finally Anthony Chabot regionl parks.
 

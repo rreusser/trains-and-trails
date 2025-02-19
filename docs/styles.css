@@ -98,6 +98,19 @@ a:visited {
 .route-meta span:nth-child(3) { min-width: 50px; }
 .route-meta span:nth-child(4) { min-width: 70px; }
 
+.intro-meta {
+  display: block;
+}
+.intro-meta:before {
+  margin-right: 0.5em;
+}
+.intro-meta--distance:before { content: "📏"; }
+.intro-meta--time:before { content: "⏱️"; }
+.intro-meta--elevation:before { content: "⛰️"; }
+.intro-meta--transit:before { content: "💰"; }
+.intro-meta--fare:before { content: "🚆"; }
+.intro-meta--link:before { content: "🌎"; }
+
 .articleContainer {
   max-width: 520px;
   margin: 70vh auto 100px 0;

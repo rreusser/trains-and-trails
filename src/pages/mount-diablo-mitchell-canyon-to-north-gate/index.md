@@ -35,12 +35,12 @@ ratings:
 
 <span data-behavior="introduction"></span>
 
-**Distance**: 27.3 miles<br>
-**Elevation**: <span style="color:green">+4890</span> <span style="color:#ca4747">-4830</span> feet<br>
-**Running time**: 5 hours 35 minutes<br>
-**Transit time**: 1 hour 10 minutes<br>
-**Transit fare**: $4.50 + $1.00 + $3.90 = $9.40<br>
-[View on GaiaGPS →](https://www.gaiagps.com/public/HRMfqYshRELHjLTpyFbToSxN)
+<span class="intro-meta intro-meta--distance">**Distance**: 27.3 miles</span>
+<span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+4890</span> <span style="color:#ca4747">-4830</span> feet</span>
+<span class="intro-meta intro-meta--time">**Running time**: 5 hours 35 minutes</span>
+<span class="intro-meta intro-meta--transit">**Transit time**: 1 hour 10 minutes</span>
+<span class="intro-meta intro-meta--fare">**Transit fare**: $4.50 + $1.00 + $3.90 = $9.40</span>
+<span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/public/HRMfqYshRELHjLTpyFbToSxN)</span>
 
 Topping out at 3,848 feet, Mount Diablo is a stunning bit of nature in close proximity to the Bay Area, encroached upon from all sides by development. [Save Mount Diablo](https://savemountdiablo.org/) is one of the organizations which works hard to make this possible. In the grand scheme of mountains, the elevation is pretty modest, but it only took me a couple runs there to appreciate that it's still more than enough to get yourself into a bit of trouble.
 

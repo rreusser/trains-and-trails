@@ -32,12 +32,12 @@ coverImage: '1900'
 
 <span data-behavior="introduction"></span>
 
-**Distance**: 19.3 miles<br>
-**Elevation**: <span style="color:green">+3500</span> <span style="color:#ca4747">-3500</span> feet<br>
-**Running time**: 3 hours 25 minutes<br>
-**Transit time**: 25 minutes<br>
-**Transit fare**: $2.50 &times; 2 = $5.00<br>
-[View on GaiaGPS →](https://www.gaiagps.com/datasummary/track/87de7066a08c66eacca4a78791d45001/)
+<span class="intro-meta intro-meta--distance">**Distance**: 19.3 miles</span>
+<span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+3500</span> <span style="color:#ca4747">-3500</span> feet</span>
+<span class="intro-meta intro-meta--time">**Running time**: 3 hours 25 minutes</span>
+<span class="intro-meta intro-meta--transit">**Transit time**: 25 minutes</span>
+<span class="intro-meta intro-meta--fare">**Transit fare**: $5.00</span>
+<span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/datasummary/track/87de7066a08c66eacca4a78791d45001/)</span>
 
 Despite its relative proximity to Downtown Oakland, [Reinhardt Redwood Regional Park](https://www.ebparks.org/parks/reinhardt-redwood) was—before today—a park to which I had only ever driven or, twice, done a somewhat long run to only to arrive at the park in time to run a mile and head home.
 

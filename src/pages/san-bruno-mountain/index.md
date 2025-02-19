@@ -17,12 +17,12 @@ coverImage: '090'
 
 <span data-behavior="introduction"></span>
 
-**Distance**: 16.8 miles<br>
-**Elevation**: <span style="color:green">+2250</span> <span style="color:#ca4747">-2250</span> feet<br>
-**Running time**: 2 hours 16 minutes<br>
-**Transit time**: 1 hour<br>
-**Transit fare**: $4.70 &times; 2 = $9.40<br>
-[View on GaiaGPS →](https://www.gaiagps.com/datasummary/track/381b4f4155cd89b1c5a460c90fb55b0c/)
+<span class="intro-meta intro-meta--distance">**Distance**: 16.8 miles</span>
+<span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+2250</span> <span style="color:#ca4747">-2250</span> feet</span>
+<span class="intro-meta intro-meta--time">**Running time**: 2 hours 16 minutes</span>
+<span class="intro-meta intro-meta--transit">**Transit time**: 1 hour</span>
+<span class="intro-meta intro-meta--fare">**Transit fare**: $9.40</span>
+<span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/datasummary/track/381b4f4155cd89b1c5a460c90fb55b0c/)</span>
 
 If there's one hill that every visitor to San Francisco sees as they leave the airport, it's San Bruno Mountain. The only run at the time of writing for which I've crossed the bay, I really can't believe in hindsight that I put this run off for so long.
 

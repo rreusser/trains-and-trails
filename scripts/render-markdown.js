@@ -186,10 +186,6 @@ export default async function renderMarkdown(md, mdAssets, route) {
             }
             break;
 
-          case 'div':
-            continue;
-            break;
-
           default:
             throw new Error(`Unhandled tag name ${child.tagName}`);
         }
