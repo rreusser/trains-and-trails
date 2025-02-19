@@ -107,8 +107,8 @@ a:visited {
 .intro-meta--distance:before { content: "📏"; }
 .intro-meta--time:before { content: "⏱️"; }
 .intro-meta--elevation:before { content: "⛰️"; }
-.intro-meta--transit:before { content: "💰"; }
-.intro-meta--fare:before { content: "🚆"; }
+.intro-meta--fare:before { content: "💰"; }
+.intro-meta--transit:before { content: "🚆"; }
 .intro-meta--link:before { content: "🌎"; }
 
 .articleContainer {
