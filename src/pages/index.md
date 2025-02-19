@@ -66,7 +66,7 @@ Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run
       <span>💰 $2.70</span>
     </div>
   </a>
-  <a class="route-entry" href="antioch-to-mount-diablo">
+  <a class="route-entry" href="moraga-to-castro-valley">
     <div class="route-title">Moraga to Castro Valley</div>
     <div class="route-meta">
       <span>📅 2022-08-05</span>
@@ -76,7 +76,7 @@ Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run
       <span>💰 $8.10</span>
     </div>
   </a>
-  <a class="route-entry" href="moraga-to-castro-valley">
+  <a class="route-entry" href="reinhardt-redwood-regional-park">
     <div class="route-title">Reinhardt Redwood Regional Park</div>
     <div class="route-meta">
       <span>📅 2022-07-31</span>
