@@ -73,7 +73,7 @@ My planned route would have made for a stunning and pleasant 15 mile run, but I 
 I arrived at the bus station at about 5:03 AM. The first time I've ever arrived at the station before it's open! I caught the Richmond-bound train at 5:11 AM.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="0"></span>
-## 580 Bus to San Rafael
+## El Cerrito del Norte: 580 Bus to San Rafael
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="0"></span>
 
@@ -84,7 +84,7 @@ I only waited a couple minutes at El Cerrito del Norte for the first bus transfe
 Almost everyone on the bus at 5:45 AM was Hispanic and presumably headed to work. I didn't feel badly out of place, but I'm very aware that it's a huge privilege to head out for a full-weekday run without a second thought, just because the idea popped into my head.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
-## 68 Bus to Lagunitas
+## San Rafael: 68 Bus to Lagunitas
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
 ![A picture of the 68 bus to Lagunitas](lagunitas-110.jpg)
@@ -297,7 +297,7 @@ Looked like I was definitely going to miss the bus by just a couple minutes as I
 I was pretty thrilled to wait only one or two minutes and hop on the bus back to San Rafael.
 
 <span data-behavior="anchor" data-feature-index="5" data-mile-position="0" data-split></span>
-## 580X Bus to El Cerrito del Norte
+## San Rafael: 580X Bus to El Cerrito del Norte
 
 <span data-behavior="anchor" data-feature-index="5" data-mile-position="0"></span>
 ![A bus waits at San Rafael](lagunitas-1650.jpg)
