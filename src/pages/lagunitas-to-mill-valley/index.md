@@ -302,7 +302,7 @@ I was pretty thrilled to wait only one or two minutes and hop on the bus back to
 <span data-behavior="anchor" data-feature-index="5" data-mile-position="0"></span>
 ![A bus waits at San Rafael](lagunitas-1650.jpg)
 
-Google suggested I'd have to wait 30 minutes for the 580 bus back to El Cerrito del Norte, but I only had to wait another couple minutes for the 580X express bus. This was pretty good, because after a few minutes of sitting down, it was getting surprisingly unpleasant to stand and walk around.
+Google suggested I'd have to wait 30 minutes for the 580 bus back to El Cerrito del Norte, but I only had to wait another couple minutes for the 580X express. This was good, because after a few minutes of sitting down, it was getting surprisingly unpleasant to stand and walk around.
 
 <span data-behavior="anchor" data-feature-index="5" data-mile-position="6.0"></span>
 ![Looking out the window of the bus, toward San Francisco, as the bus crosses the Richmond Bridge.](lagunitas-1640.jpg)
