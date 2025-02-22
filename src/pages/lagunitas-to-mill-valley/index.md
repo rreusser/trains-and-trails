@@ -57,7 +57,7 @@ coverImage: "cover"
 <span class="intro-meta intro-meta--fare">**Fare**: $24.80</span>
 <span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/public/8GIVq1Y4Rjwp1c9GzjIn6J2h/)</span>
 
-Lagunitas has always struck me as the perfect place to start a run. Close enough to be accessible by bus, and just on the less-traveled side of all the places you'd want to run.
+Lagunitas has always struck me as the perfect place to start a run. Close enough to be accessible by bus, and just on the less-traveled side of all the popular places to run.
 
 So I had a starting point planned out, but this run suffered—or thrived, perhaps—from a lack of further planning. My only real plan was to take the bus to Lagunitas and see where my heart took me. The minimal route I planned was to immediately climb Shafter Grade out of Lagunitas to gain Bolinas Ridge, then follow the ridge 10 miles back to Stinson Beach and see about catching a bus.
 
