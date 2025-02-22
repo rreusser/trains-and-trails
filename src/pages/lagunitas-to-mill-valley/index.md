@@ -79,6 +79,10 @@ I arrived at the bus station at about 5:03 AM. The first time I've ever arrived 
 
 I only waited a couple minutes at El Cerrito del Norte for the first bus transfer.
 
+<span data-behavior="anchor" data-feature-index="1" data-mile-position="4"></span>
+
+Almost everyone on the bus was Hispanic and headed to work. I didn't feel badly out of place, but I'm very aware that it's a huge privilege to head out for a full-weekday run without a second thought, just because the idea popped into my head.
+
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
 ## 68 Bus to Lagunitas
 
@@ -86,7 +90,6 @@ I only waited a couple minutes at El Cerrito del Norte for the first bus transfe
 ![A picture of the 68 bus to Lagunitas](lagunitas-110.jpg)
 
 I waited about 25 minutes for the 580 bus to Lagunitas where I'd start my run. It worked out quite well since it gave me time to fuel up at a gas station with Haribo gummy bears and a Gatorade.
-
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="6"></span>
 ![A picture looking sideways, out the window of the bus. Seats are visible in the foreground. Hills and a sunrise are visible out the window.](lagunitas-120.jpg)
@@ -312,7 +315,7 @@ Google suggested I'd have to wait 30 minutes for the 580 bus back to El Cerrito 
 
 I was a little impatient with an eight minute wait at the BART station, but I could manage it.
 
-<span data-behavior="anchor" data-feature-index="6" data-mile-position="25"></span>
+<span data-behavior="anchor" data-feature-index="6" data-mile-position="10.0"></span>
 ## 12th Street Oakland
 
 <span data-behavior="conclusion"></span>
