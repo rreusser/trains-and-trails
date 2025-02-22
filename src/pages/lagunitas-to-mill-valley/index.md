@@ -81,7 +81,7 @@ I only waited a couple minutes at El Cerrito del Norte for the first bus transfe
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="4"></span>
 
-Almost everyone on the bus at 5:45 AM was Hispanic and headed to work. I didn't feel badly out of place, but I'm very aware that it's a huge privilege to head out for a full-weekday run without a second thought, just because the idea popped into my head.
+Almost everyone on the bus at 5:45 AM was Hispanic and presumably headed to work. I didn't feel badly out of place, but I'm very aware that it's a huge privilege to head out for a full-weekday run without a second thought, just because the idea popped into my head.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
 ## 68 Bus to Lagunitas
