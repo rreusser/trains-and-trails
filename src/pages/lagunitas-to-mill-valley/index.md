@@ -98,7 +98,7 @@ I was sad to be missing the sunrise, but it was the best scenery I've seen from 
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="0"></span>
 
-The bus driver was friendly and let me off at the closest approach to Lagunitas since the bus doesn't quite go there first thing in the morning. He suggested to take the bus to Inverness near Point Reyes next time, like the cyclists do.
+The bus driver was friendly and let me off at the closest approach to Lagunitas since the bus doesn't quite make it there first thing in the morning. He suggested to take the bus to Inverness near Point Reyes next time, like the cyclists do.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="0.6"></span>
 ![Looking around a bend in the road. A steep hill rises next to the road.](lagunitas-140.jpg)
@@ -125,7 +125,7 @@ The Bolinas ridge gently undulates for about fifteen miles from Point Reyes Stat
 ## Randall Trail
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="4.2"></span>
-I wanted pretty badly to cut the day short and run a simple, pleasant 15 miles to Stinson Beach, but I opted to *carpe* the *diem* and divert toward Point Reyes.
+I wanted pretty badly to cut the day short and run a simple, pleasant 15 mile day to Stinson Beach, but I opted to *carpe* the *diem* and divert toward Point Reyes.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="5.15"></span>
 ![A trail descends a hill, bending to the right. A smaller trail cuts the switchback and continues forward.](lagunitas-260.jpg)
@@ -136,11 +136,11 @@ Every time I rounded a corner, I was met with another side trail where people ha
 ## Point Reyes National Seashore
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="6.0"></span>
+![A grassy valley. The sun rises in the south and looks intense.](lagunitas-280.jpg)
+
 The valley was unpleasant. The air was humid and the sun was already getting intense.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="6.4"></span>
-![A grassy valley. The sun rises in the south and looks intense.](lagunitas-280.jpg)
-
 I turned onto the trail that would take me right back up onto Bolinas Ridge. Running out to the ocean seemed nice though, so I second-guessed myself and decided to see what Philip Burton Wilderness Area was about.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="8.0" data-split></span>
