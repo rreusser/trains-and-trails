@@ -207,7 +207,7 @@ The Teixeira Trail started out wonderfully.
 
 ![A six-foot-diameter redwood has fallen across the trail. The photographer stands atop it, photographing the corresponding six foot jump ahead.](lagunitas-810.jpg)
 
-It became less and less maintained though, which I kinda liked. I gingerly stepped over the spider web, and at a full six foot jump to the ground, this is the largest log I've ever jumped over.
+It became less and less maintained though, which I kinda liked. I stepped with some effort over the spider web, and at a full six foot jump to the ground, this is the largest log I've ever jumped over.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="20.0" data-split></span>
 ## McCurdy Trail
@@ -228,7 +228,7 @@ I guess the ridges are ridges because they're rocky and don't erode. The exposed
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="22.0"></span>
 ![Tall redwoods line a gently-curving trail. Sun shines through the tree tops, illuminating the forest.](lagunitas-1010.jpg)
 
-I was thrilled to be back on the ridge. It's easily one of my favorite places I've run. I didn't take any pictures for a while. From the time that I left the ocean back in Philip Burton, the only people I saw until reaching Mount Tam State Park were two mountain bikers.
+I was happy be back on the ridge. It's easily one of my favorite places I've run. I didn't take any pictures for a while. Maybe got a little philosophical. From the time that I left the ocean back at mile 14, the only people I saw until reaching mile 28 and Mount Tam State Park were two mountain bikers.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="25.3" data-split></span>
 ## Coastal Trail
