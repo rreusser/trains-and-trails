@@ -54,8 +54,8 @@ ratings:
 <span data-behavior="introduction"></span>
 
 <span class="intro-meta intro-meta--distance">**Distance**: 27.5 miles</span>
-<span class="intro-meta intro-meta--time">**Running time**: 5 hours 20 minutes</span>
 <span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+5450</span> <span style="color:#ca4747">-5100</span> feet</span>
+<span class="intro-meta intro-meta--time">**Running time**: 5 hours 20 minutes</span>
 <span class="intro-meta intro-meta--transit">**Transit time**: 2 hours 20 minutes</span>
 <span class="intro-meta intro-meta--fare">**Fare**: $14.40</span>
 <span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/public/ERVLNUMzf2Ae5PJSy8PHcem1/)</span>

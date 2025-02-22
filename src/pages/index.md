@@ -16,6 +16,16 @@ Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run
       <span>📅 2022-08-09</span>
     </div>
   </a>
+  <a class="route-entry" href="lagunitas-to-mill-valley">
+    <div class="route-title">Lagunitas to Mill Valley</div>
+    <div class="route-meta">
+      <span>📅 2025-02-21</span>
+      <span>📏 40.5 mi</span>
+      <span>⏱️ 7:53</span>
+      <span>⛰️ 7267 ft</span>
+      <span>🚆 $24.80</span>
+    </div>
+  </a>
   <a class="route-entry" href="antioch-to-mount-diablo">
     <div class="route-title">Antioch to Mount Diablo</div>
     <div class="route-meta">
