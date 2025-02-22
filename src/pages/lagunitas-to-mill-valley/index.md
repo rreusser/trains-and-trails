@@ -57,9 +57,9 @@ coverImage: "cover"
 <span class="intro-meta intro-meta--fare">**Fare**: $24.80</span>
 <span class="intro-meta intro-meta--link">[View on GaiaGPS →](https://www.gaiagps.com/public/8GIVq1Y4Rjwp1c9GzjIn6J2h/)</span>
 
-This run suffered—or thrived, perhaps—from a lack of planning. My only real plan was to take the bus to Lagunitas and see where my heart took me. The minimal route I planned was to immediately climb Shafter Grade out of Lagunitas to Bolinas Ridge, then follow the ridge 10 miles back to Stinson Beach and see about catching a bus.
+Lagunitas has always struck me as the perfect place to start a run. So I had the start planned out, but this run suffered—or thrived, perhaps—from a lack of further planning. My only real plan was to take the bus to Lagunitas and see where my heart took me. The minimal route I planned was to immediately climb Shafter Grade out of Lagunitas to gain Bolinas Ridge, then follow the ridge 10 miles back to Stinson Beach and see about catching a bus.
 
-My planned route would have made for a stunning and pleasant 15 mile run, but I couldn't shake the fear that I just wouldn't bother coming all the way back out to Lagunitas any time soon. I had enough food and water (two front water bottles, a hand bottle, and a 18 ounce waist belt), so I figured I'd just see how it goes and get creative along the way.
+My planned route would have made for a stunning and pleasant 15 mile run, but I couldn't shake the fear that I just wouldn't bother coming all the way back out to Lagunitas any time soon. I had enough food and water (two front water bottles, a hand bottle, and a 18 ounce waist belt), so I figured I'd just see how it went and get creative along the way.
 
 <span data-behavior="anchor" data-feature-index="0" data-mile-position="0"></span>
 
