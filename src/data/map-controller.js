@@ -50,7 +50,7 @@ class MapController {
       fitBoundsOptions: {padding}
     });
 
-    map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}), 'bottom-right');
+    //map.addControl(new mapboxgl.ScaleControl({unit: 'imperial'}), 'bottom-right');
 
     //map.showPadding = true;
 
