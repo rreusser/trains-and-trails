@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700");
 
 html {
   background: #333;
   height: 100%;
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Merriweather", sans-serif;
 }
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
 }
@@ -35,10 +36,10 @@ html, body {
 }
 
 .menu__item {
-    padding: 5px 10px;
-    font-size: 0.9em;
-    text-shadow: 0 0 1px #000;
-    color: white;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  text-shadow: 0 0 1px #000;
+  color: white;
 }
 
 .mbxmap {
@@ -74,12 +75,12 @@ a:visited {
   background: #e8e8e8;
 }
 .route-entry:not(:last-child) {
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #e0e0e0;
 }
 .route-title {
   font-size: 16px;
   font-weight: 700;
-  color: #BB504C;
+  color: #bb504c;
 }
 .route-meta {
   font-size: 13px;
@@ -93,10 +94,18 @@ a:visited {
   /*flex: 1 1 auto;*/
   white-space: nowrap;
 }
-.route-meta span:nth-child(1) { min-width: 100px; }
-.route-meta span:nth-child(2) { min-width: 70px; }
-.route-meta span:nth-child(3) { min-width: 50px; }
-.route-meta span:nth-child(4) { min-width: 70px; }
+.route-meta span:nth-child(1) {
+  min-width: 100px;
+}
+.route-meta span:nth-child(2) {
+  min-width: 70px;
+}
+.route-meta span:nth-child(3) {
+  min-width: 50px;
+}
+.route-meta span:nth-child(4) {
+  min-width: 70px;
+}
 
 .intro-meta {
   display: block;
@@ -104,12 +113,24 @@ a:visited {
 .intro-meta:before {
   margin-right: 0.5em;
 }
-.intro-meta--distance:before { content: "📏"; }
-.intro-meta--time:before { content: "⏱️"; }
-.intro-meta--elevation:before { content: "⛰️"; }
-.intro-meta--fare:before { content: "💰"; }
-.intro-meta--transit:before { content: "🚆"; }
-.intro-meta--link:before { content: "🌎"; }
+.intro-meta--distance:before {
+  content: "📏";
+}
+.intro-meta--time:before {
+  content: "⏱️";
+}
+.intro-meta--elevation:before {
+  content: "⛰️";
+}
+.intro-meta--fare:before {
+  content: "💰";
+}
+.intro-meta--transit:before {
+  content: "🚆";
+}
+.intro-meta--link:before {
+  content: "🌎";
+}
 
 .articleContainer {
   max-width: 520px;
@@ -151,7 +172,7 @@ a:visited {
 }
 
 .articleCard:before {
-  content: '';
+  content: "";
   left: 15px;
   width: 20px;
   top: 0;
@@ -198,7 +219,7 @@ a:visited {
   position: relative;
   border-radius: 10px;
   margin: 0 15px 0 50px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   top: -18px;
   min-height: 35px;
 }
@@ -215,7 +236,7 @@ a:visited {
   color: inherit;
   font-size: 1.3em;
   margin: 0;
-  text-shadow: 0 0 4px rgb(0,0,0), 0 0 3px rgb(0,0,0);
+  text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
 }
 
 .articleCard_circleCutoff {
@@ -228,16 +249,16 @@ a:visited {
   fill: #3388ff;
 }
 
-.articleCard-bus .articleCard_circleCutoff{
+.articleCard-bus .articleCard_circleCutoff {
   fill: #ba45b6;
 }
 
-.articleCard-foot .articleCard_circleCutoff{
+.articleCard-foot .articleCard_circleCutoff {
   fill: #5cb83b;
 }
 
 .articleCard_content:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 3px;
   left: -14px;
@@ -261,10 +282,9 @@ a:visited {
   height: 27px;
 }
 
-
 .articleCard-start:after,
 .articleCard-terminus:after {
-  content: '';
+  content: "";
   position: absolute;
   border-radius: 10px;
   width: 12px;
@@ -282,14 +302,14 @@ a:visited {
 }
 
 .articleBody:before {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 0;
   top: 0;
   bottom: 0;
   left: -50px;
   width: 150px;
-  background-color: rgba(20,20,20,0.5);
+  background-color: rgba(20, 20, 20, 0.5);
   filter: blur(50px);
 }
 
@@ -319,7 +339,6 @@ a:visited {
   padding-top: 0;
 }
 
-
 .articleCards {
   top: 20px;
 }
@@ -338,11 +357,11 @@ a:visited {
 }
 .articleCards_markerInner:before,
 .articleCards_markerInner:after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   border-radius: 50px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 .articleCards_markerInner:before {
   width: 26px;
@@ -389,18 +408,42 @@ body[data-feature-mode="bus"] .articleCards_markerInner:before {
   height: 100vh;
   position: relative;
 }
-.article_spacer-p25 { height: 25vh; }
-.article_spacer-p5 { height: 50vh; }
-.article_spacer-p75 { height: 75vh; }
-.article_spacer-2 { height: 200vh; }
-.article_spacer-3 { height: 300vh; }
-.article_spacer-4 { height: 400vh; }
-.article_spacer-5 { height: 500vh; }
-.article_spacer-6 { height: 600vh; }
-.article_spacer-7 { height: 700vh; }
-.article_spacer-8 { height: 800vh; }
-.article_spacer-9 { height: 900vh; }
-.article_spacer-10 { height: 1000vh; }
+.article_spacer-p25 {
+  height: 25vh;
+}
+.article_spacer-p5 {
+  height: 50vh;
+}
+.article_spacer-p75 {
+  height: 75vh;
+}
+.article_spacer-2 {
+  height: 200vh;
+}
+.article_spacer-3 {
+  height: 300vh;
+}
+.article_spacer-4 {
+  height: 400vh;
+}
+.article_spacer-5 {
+  height: 500vh;
+}
+.article_spacer-6 {
+  height: 600vh;
+}
+.article_spacer-7 {
+  height: 700vh;
+}
+.article_spacer-8 {
+  height: 800vh;
+}
+.article_spacer-9 {
+  height: 900vh;
+}
+.article_spacer-10 {
+  height: 1000vh;
+}
 
 .ratings {
   background-color: white;
@@ -419,12 +462,12 @@ body[data-feature-mode="bus"] .articleCards_markerInner:before {
   z-index: 10;
   border-top: 1px solid #888;
   border-radius: 4px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   padding-top: 3px;
 }
 
 #elevation-plot:after {
-  content: 'mile →';
+  content: "mile →";
   position: absolute;
   bottom: 5px;
   right: 5px;
@@ -434,7 +477,8 @@ body[data-feature-mode="bus"] .articleCards_markerInner:before {
 }
 
 #elevation-plot:before {
-  content: 'feet ↑';
+  content: "feet ↑";
+  background-color: white;
   position: absolute;
   top: 0px;
   left: 5px;
@@ -444,29 +488,29 @@ body[data-feature-mode="bus"] .articleCards_markerInner:before {
 
 .elevation-marker {
   position: absolute;
-  transform: translate(0,0);
+  transform: translate(0, 0);
 }
 
 .elevation-marker:after {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   width: 7px;
   height: 7px;
   border-radius: 100%;
   background-color: white;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .elevation-marker:before {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   width: 13px;
   height: 13px;
   border-radius: 100%;
   background-color: #5cb83b;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 body[data-feature-mode="foot"] #elevation-plot {
@@ -488,7 +532,7 @@ body[data-feature-mode="foot"] #elevation-plot {
 }
 
 #elevation-plot {
-  background-color: white;
+  background: white;
 }
 
 #jumper {
@@ -508,7 +552,7 @@ body[data-feature-mode="foot"] #elevation-plot {
   font-size: 40px;
   font-weight: 900;
   color: #888;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
@@ -523,10 +567,10 @@ body[data-feature-mode="foot"] #elevation-plot {
 }
 
 #jumper:after {
-  content: '↑';
+  content: "↑";
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .articleContainer {
     margin-left: 0;
     margin-right: 0;
@@ -549,7 +593,7 @@ body[data-feature-mode="foot"] #elevation-plot {
   }
 }
 
-@media (min-width:800px) {
+@media (min-width: 800px) {
   .articleContainer {
     margin-left: 0;
     margin-right: 0;

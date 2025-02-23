@@ -1,10 +1,10 @@
-import vec3length from 'gl-vec3/length.js';
-import vec3normalize from 'gl-vec3/normalize.js';
-import vec3cross from 'gl-vec3/cross.js';
-import vec2normalize from 'gl-vec2/normalize.js';
-import vec2dot from 'gl-vec2/dot.js';
-import { point } from '@turf/helpers';
-import distance from '@turf/distance';
+import vec3length from "gl-vec3/length.js";
+import vec3normalize from "gl-vec3/normalize.js";
+import vec3cross from "gl-vec3/cross.js";
+import vec2normalize from "gl-vec2/normalize.js";
+import vec2dot from "gl-vec2/dot.js";
+import { point } from "@turf/helpers";
+import distance from "@turf/distance";
 
 class CameraController {
   constructor(map) {
@@ -20,17 +20,20 @@ class CameraController {
     this.targetDistance = 1000000; // m
     this.targetPitch = 5;
     this.targetBearing = 0;
-    this.targetCenter = this.center = mapboxgl.MercatorCoordinate.fromLngLat(map.transform.center);
+    this.targetCenter = this.center = mapboxgl.MercatorCoordinate.fromLngLat(
+      map.transform.center
+    );
     this.targetCenter = null;
     this.dirty = true;
     this.previousTime = NaN;
     this.accumError = [0, 0, 0];
-    this.Kp_pan = 2.5;
-    this.Ki_pan = 1.5;
-    this.Kd_pan = 150;
-    this.Kp_pitch = 5;
-    this.Kp_dist = 1;
-    this.Kp_bearing = 0;
+    const globalStrength = 0.0;
+    this.Kp_pan = 2.5 * globalStrength;
+    this.Ki_pan = 1.5 * globalStrength;
+    this.Kd_pan = 150 * globalStrength;
+    this.Kp_pitch = 5 * globalStrength;
+    this.Kp_dist = 1 * globalStrength;
+    this.Kp_bearing = 0 * globalStrength;
     this.followStrength = 0;
   }
 
@@ -50,11 +53,11 @@ class CameraController {
     this.targetCenter = mapboxgl.MercatorCoordinate.fromLngLat(center);
   }
 
-  isClear () {
+  isClear() {
     return this.targetCenter === null;
   }
-  
-  clear () {
+
+  clear() {
     this.targetCenter = null;
   }
 
@@ -86,16 +89,24 @@ class CameraController {
 
   fitBounds(bounds) {
     bounds = bounds.flat();
-    const lonCen = 0.5 * (bounds[2] + bounds[0])
-    const latCen = 0.5 * (bounds[3] + bounds[1])
-    const dLon = 0.5 * (bounds[2] - bounds[0])
-    const dLat = 0.5 * (bounds[3] - bounds[1])
-    const lonDist = distance(point([lonCen, latCen]), point([lonCen - dLon, latCen]), {units: 'meters'});
-    const latDist = distance(point([lonCen, latCen]), point([lonCen, latCen - dLat]), {units: 'meters'});
-    const tanFov = Math.tan(this.map.transform.fov * Math.PI / 180);
+    const lonCen = 0.5 * (bounds[2] + bounds[0]);
+    const latCen = 0.5 * (bounds[3] + bounds[1]);
+    const dLon = 0.5 * (bounds[2] - bounds[0]);
+    const dLat = 0.5 * (bounds[3] - bounds[1]);
+    const lonDist = distance(
+      point([lonCen, latCen]),
+      point([lonCen - dLon, latCen]),
+      { units: "meters" }
+    );
+    const latDist = distance(
+      point([lonCen, latCen]),
+      point([lonCen, latCen - dLat]),
+      { units: "meters" }
+    );
+    const tanFov = Math.tan((this.map.transform.fov * Math.PI) / 180);
     const ar = window.innerWidth / window.innerHeight;
-    const latCameraDist = 2 * latDist / tanFov;
-    const lonCameraDist = 2 * lonDist / tanFov / ar;
+    const latCameraDist = (2 * latDist) / tanFov;
+    const lonCameraDist = (2 * lonDist) / tanFov / ar;
 
     this.targetDistance = Math.max(latCameraDist, lonCameraDist) * 1.5;
     this.setTargetBearing(0);
@@ -105,7 +116,7 @@ class CameraController {
 
   tick(t) {
     if (this.isClear()) {
-      throw new Error('invalid camera controller state: no target set');
+      throw new Error("invalid camera controller state: no target set");
     }
     const dt = isNaN(this.previousTime)
       ? 0
@@ -125,7 +136,7 @@ class CameraController {
     const mPanErr = [
       mLookTarget.x - mLookAt.x,
       mLookTarget.y - mLookAt.y,
-      mLookTarget.z - mLookAt.z
+      mLookTarget.z - mLookAt.z,
     ];
     const mdist = vec3length(mPanErr);
     const targetErrorMeters = mdist * toMeters;
@@ -138,7 +149,7 @@ class CameraController {
     const vcam = [
       mLookTarget.x - mCamera.x,
       mLookTarget.y - mCamera.y,
-      mLookTarget.z - mCamera.z
+      mLookTarget.z - mCamera.z,
     ];
     const e0cam = vec3normalize([], vcam);
     const e1cam = vec3normalize([], vec3cross([], e0cam, sky));
@@ -155,7 +166,7 @@ class CameraController {
 
     const bearingTarget = [
       Math.cos(this.targetBearing * (Math.PI / 180)),
-      Math.sin(this.targetBearing * (Math.PI / 180))
+      Math.sin(this.targetBearing * (Math.PI / 180)),
     ];
     const curBearing = vec2normalize([], [e0cam[0], e0cam[1]]);
 

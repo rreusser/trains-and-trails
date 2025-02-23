@@ -1,21 +1,25 @@
-import {unified} from 'unified'
-import rehypeRaw from 'rehype-raw'
-import remarkParse from 'remark-parse'
-import remarkGfm from 'remark-gfm';
-import remarkRehype, {defaultHandlers} from 'remark-rehype'
-import rehypeStringify from 'rehype-stringify'
-import {visit} from 'unist-util-visit'
+import { unified } from "unified";
+import rehypeRaw from "rehype-raw";
+import remarkParse from "remark-parse";
+import remarkGfm from "remark-gfm";
+import remarkRehype, { defaultHandlers } from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
+import { visit } from "unist-util-visit";
 
 const PIXELS_PER_MILE = {
   foot: 800,
   metro: 300,
-  bus: 400
+  bus: 400,
 };
 
 export default async function renderMarkdown(md, mdAssets, route) {
   let segmentHeights, cumulativeHeight;
   if (route) {
-    segmentHeights = route.features.map(feature => Math.floor(PIXELS_PER_MILE[feature.properties.mode] * feature.properties.length.mi));
+    segmentHeights = route.features.map((feature) =>
+      Math.floor(
+        PIXELS_PER_MILE[feature.properties.mode] * feature.properties.length.mi
+      )
+    );
 
     cumulativeHeight = [0];
     for (let i = 0; i < segmentHeights.length; i++) {
@@ -25,11 +29,11 @@ export default async function renderMarkdown(md, mdAssets, route) {
 
   let currentFeatureIndex = -1;
 
-  function restructure (node) {
+  function restructure(node) {
     return (tree, file) => {
       const out = {
-        type: 'root',
-        children: []
+        type: "root",
+        children: [],
       };
 
       let segmentIndex = 0;
@@ -39,26 +43,37 @@ export default async function renderMarkdown(md, mdAssets, route) {
       let curWrapper;
       function newContainer(splitter) {
         const contentClasses = [];
-        const containerClasses = ['articleCard'];
+        const containerClasses = ["articleCard"];
         let wrapper = false;
         let pixelPosition = null;
         let prevMode = null;
 
         const containerProps = {};
 
-        const forceBreak = splitter?.properties?.dataSplit === '';
+        const forceBreak = splitter?.properties?.dataSplit === "";
 
-        if (/(introduction|conclusion)/.test(splitter?.properties?.dataBehavior)) {
-          contentClasses.push('articleContent', `articleContent--${splitter.properties.dataBehavior}`);
-          containerProps.dataRouteMode = 'bound';
-        } else if (splitter?.properties?.dataBehavior === 'anchor' || forceBreak) {
-          contentClasses.push('articleCard_content');
+        if (
+          /(introduction|conclusion)/.test(splitter?.properties?.dataBehavior)
+        ) {
+          contentClasses.push(
+            "articleContent",
+            `articleContent--${splitter.properties.dataBehavior}`
+          );
+          containerProps.dataRouteMode = "bound";
+        } else if (
+          splitter?.properties?.dataBehavior === "anchor" ||
+          forceBreak
+        ) {
+          contentClasses.push("articleCard_content");
           const featureIndex = parseInt(splitter.properties.dataFeatureIndex);
           const feature = route.features[featureIndex];
           const milePos = parseFloat(splitter.properties.dataMilePosition);
 
-          containerProps.dataRouteMode = 'follow'
-          containerProps.dataRouteProgress = Math.min(featureIndex + milePos / feature.properties.length.mi, route.features.length);
+          containerProps.dataRouteMode = "follow";
+          containerProps.dataRouteProgress = Math.min(
+            featureIndex + milePos / feature.properties.length.mi,
+            route.features.length
+          );
 
           if (!feature.properties.mode) {
             throw new Error(`Missing mode for feature ${featureIndex}`);
@@ -68,57 +83,66 @@ export default async function renderMarkdown(md, mdAssets, route) {
 
           if (featureIndex > currentFeatureIndex || forceBreak) {
             if (milePos === 0 || forceBreak) {
-              containerClasses.push('articleCard-start');
+              containerClasses.push("articleCard-start");
 
               if (curWrapper) {
                 const width = 20;
                 const radius = 29 / 2;
                 curWrapper.children.push({
-                  type: 'element',
-                  tagName: 'svg',
-                  properties: { class: 'articleCard_circleCutoff', width: 20, height: 10 },
-                  children: [{
-                    type: 'element',
-                    tagName: 'path',
-                    properties: { d: `M 0 0 L 20 0 L 20 10 A ${radius} ${radius} 0 0 0 0 10 Z`, }
-                  }]
+                  type: "element",
+                  tagName: "svg",
+                  properties: {
+                    class: "articleCard_circleCutoff",
+                    width: 20,
+                    height: 10,
+                  },
+                  children: [
+                    {
+                      type: "element",
+                      tagName: "path",
+                      properties: {
+                        d: `M 0 0 L 20 0 L 20 10 A ${radius} ${radius} 0 0 0 0 10 Z`,
+                      },
+                    },
+                  ],
                 });
               }
             } else {
               out.children.push({
-                type: 'element',
-                tagName: 'div',
+                type: "element",
+                tagName: "div",
                 properties: {
                   class: `articleCard articleCard-start articleCard-${mode}`,
                   dataPosition: cumulativeHeight[featureIndex],
                 },
-                children: []
+                children: [],
               });
             }
             currentFeatureIndex = featureIndex;
           } else if (featureIndex === currentFeatureIndex) {
           } else {
-            throw new Error('Feature indices must be strictly increasing');
+            throw new Error("Feature indices must be strictly increasing");
           }
 
-          pixelPosition = cumulativeHeight[featureIndex] + milePos * PIXELS_PER_MILE[mode];
+          pixelPosition =
+            cumulativeHeight[featureIndex] + milePos * PIXELS_PER_MILE[mode];
 
           wrapper = true;
         }
 
         curContainer = {
-          type: 'element',
-          tagName: 'div',
-          properties: { class: contentClasses.join(' ') },
-          children: []
-        }
+          type: "element",
+          tagName: "div",
+          properties: { class: contentClasses.join(" ") },
+          children: [],
+        };
         let el = curContainer;
         if (wrapper) {
           el = {
-            type: 'element',
-            tagName: 'div',
-            properties: {class: containerClasses.join(' ') },
-            children: [curContainer]
+            type: "element",
+            tagName: "div",
+            properties: { class: containerClasses.join(" ") },
+            children: [curContainer],
           };
           curWrapper = el;
         } else {
@@ -133,37 +157,48 @@ export default async function renderMarkdown(md, mdAssets, route) {
         out.children.push(el);
       }
 
-      function splitChildren (node) {
+      function splitChildren(node) {
         const children = [];
         let splitter = null;
         for (const c of node.children) {
-          if (c.type === 'element' && c.tagName === 'span' && c.properties?.dataBehavior) {
+          if (
+            c.type === "element" &&
+            c.tagName === "span" &&
+            c.properties?.dataBehavior
+          ) {
             splitter = c;
           } else {
             children.push(c);
           }
         }
-        return {children, splitter};
+        return { children, splitter };
       }
 
       for (const child of tree.children) {
-        if (child.type === 'text' && child.value.trim() === '') continue;
+        if (child.type === "text" && child.value.trim() === "") continue;
 
-        switch(child.tagName) {
-          case 'p':
-          case 'table':
-          case 'ul':
-          case 'h2':
-          case 'div':
-            const {children, splitter} = splitChildren(child);
+        switch (child.tagName) {
+          case "p":
+          case "table":
+          case "ul":
+          case "h2":
+          case "div":
+            const { children, splitter } = splitChildren(child);
 
             if (splitter) {
-              if (splitter.properties?.dataBehavior === 'anchor') {
-                const featureIndex = parseInt(splitter.properties?.dataFeatureIndex);
-                const milePosition = parseFloat(splitter.properties?.dataMilePosition);
+              if (splitter.properties?.dataBehavior === "anchor") {
+                const featureIndex = parseInt(
+                  splitter.properties?.dataFeatureIndex
+                );
+                const milePosition = parseFloat(
+                  splitter.properties?.dataMilePosition
+                );
                 const feature = route.features[featureIndex];
 
-                const progress = cumulativeHeight[featureIndex] + segmentHeights[featureIndex] * milePosition / feature.properties.length.mi;
+                const progress =
+                  cumulativeHeight[featureIndex] +
+                  (segmentHeights[featureIndex] * milePosition) /
+                    feature.properties.length.mi;
               }
               newContainer(splitter);
             }
@@ -171,17 +206,17 @@ export default async function renderMarkdown(md, mdAssets, route) {
             if (children.length) {
               if (!curContainer) newContainer();
               const el = {
-                type: 'element',
+                type: "element",
                 tagName: child.tagName,
                 properties: {},
                 children: children,
-                position: child.position
+                position: child.position,
               };
 
               curContainer.children.push(el);
 
-              if (child.tagName === 'h2') {
-                curContainer.properties.class = 'articleCard_station';
+              if (child.tagName === "h2") {
+                curContainer.properties.class = "articleCard_station";
               }
             }
             break;
@@ -201,21 +236,25 @@ export default async function renderMarkdown(md, mdAssets, route) {
         if (thispos === undefined) continue;
 
         if (nextpos === undefined) {
-          child.properties.style = `min-height:${Math.floor(cumulativeHeight[cumulativeHeight.length - 1] - thispos)}px`;
+          child.properties.style = `min-height:${Math.floor(
+            cumulativeHeight[cumulativeHeight.length - 1] - thispos
+          )}px`;
           child.properties.class = `${child.properties.class} articleCard-terminus`;
           continue;
         }
 
-        child.properties.style = `min-height:${Math.floor(nextpos - thispos)}px`;
+        child.properties.style = `min-height:${Math.floor(
+          nextpos - thispos
+        )}px`;
       }
 
-      out.children.forEach(c => delete c.properties.dataPosition);
+      out.children.forEach((c) => delete c.properties.dataPosition);
 
       return out;
     };
   }
 
-  function wrapCards (node) {
+  function wrapCards(node) {
     return function (tree, file) {
       let start = 0;
       while (start < tree.children.length) {
@@ -230,22 +269,24 @@ export default async function renderMarkdown(md, mdAssets, route) {
           const pulled = tree.children.splice(start, end - start);
 
           tree.children.splice(start, 0, {
-            type: 'element',
-            tagName: 'div',
-            properties: {class: 'articleCards'},
+            type: "element",
+            tagName: "div",
+            properties: { class: "articleCards" },
             children: [
               {
-                type: 'element',
-                tagName: 'div',
-                properties: {class: 'articleCards_marker'},
-                children: [{
-                  type: 'element',
-                  tagName: 'div',
-                  properties: {class: 'articleCards_markerInner'},
-                }]
+                type: "element",
+                tagName: "div",
+                properties: { class: "articleCards_marker" },
+                children: [
+                  {
+                    type: "element",
+                    tagName: "div",
+                    properties: { class: "articleCards_markerInner" },
+                  },
+                ],
               },
-              ...pulled
-            ]
+              ...pulled,
+            ],
           });
         }
         start++;
@@ -258,15 +299,24 @@ export default async function renderMarkdown(md, mdAssets, route) {
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeRaw)
-    .use(function insertImageAssets () {
+    .use(function insertImageAssets() {
       return (tree, file) => {
-        visit(tree, {tagName: 'img'}, (node, position, parent) => {
-          if (! /-(sm|md|lg)\./.test(node.properties.src)) {
-            node.properties.src = node.properties.src.replace(/\.jpg/, '-md.jpg');
+        visit(tree, { tagName: "img" }, (node, position, parent) => {
+          if (!/-(sm|md|lg)\./.test(node.properties.src)) {
+            node.properties.src = node.properties.src.replace(
+              /\.jpg/,
+              "-md.jpg"
+            );
           }
           const path = mdAssets[node.properties.src];
-          if (!path) throw new Error(`Undeclared asset ${node.properties.src}. Be sure to add the asset to the page's frontmatter manifest.`);
+          if (!path)
+            throw new Error(
+              `Undeclared asset ${node.properties.src}. Be sure to add the asset to the page's frontmatter manifest.`
+            );
           node.properties.src = path;
+
+          const lgPath = node.properties.src.replace(/-(sm|md)\./, "-lg.");
+          if (lgPath) node.properties["data-fullsize"] = mdAssets[lgPath];
         });
 
         return tree;
