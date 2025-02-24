@@ -115,7 +115,7 @@ class MapController {
           type: "geojson",
           data: MARKER,
         });
-        const INSERTION_POINT = "path";
+        const INSERTION_POINT = "track-casing";
 
         this.map.addLayer(
           {
