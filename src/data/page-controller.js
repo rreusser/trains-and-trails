@@ -1,19 +1,19 @@
-import MapController from './map-controller.js';
-import Raf from '../util/raf.js';
-import Smoother from '../util/smoother.js';
-import Route from './route.js';
-import ElevationPlot from './elevation-plot.js';
+import MapController from "./map-controller.js";
+import Raf from "../util/raf.js";
+import Smoother from "../util/smoother.js";
+import Route from "./route.js";
+import ElevationPlot from "./elevation-plot.js";
 
 const MODE_COLORS = {
-  bus: '#ba45b6',
-  foot: '#5cb83b',
-  metro: '#3388ff'
+  bus: "#ba45b6",
+  foot: "#5cb83b",
+  metro: "#3388ff",
 };
 
 class PageController {
-  constructor () {
+  constructor() {
     if (typeof window !== "undefined") {
-      window.pageController = this; 
+      window.pageController = this;
     }
     this.map = null;
 
@@ -29,36 +29,43 @@ class PageController {
     this.followTimer = new Raf(this.step.bind(this));
   }
 
-  initializeMap (container, bounds, callback) {
+  initializeMap(container, bounds, callback) {
     this.elevationPlot = new ElevationPlot();
 
-    this.map = new MapController(container, bounds, this.computeGlobalPadding(), () => {
-      this.loaded = true;
-      while(this._onload.length) {
-        this._onload.pop()(this.map);
+    this.map = new MapController(
+      container,
+      bounds,
+      this.computeGlobalPadding(),
+      () => {
+        this.loaded = true;
+        while (this._onload.length) {
+          this._onload.pop()(this.map);
+        }
       }
-    });
+    );
   }
 
-  ready () {
+  ready() {
     if (this.loaded) return Promise.resolve(this.map);
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       this._onload.push(resolve);
     });
   }
 
-  setRoute (geojson, bounds, isInitialLoad) {
+  setRoute(geojson, bounds, isInitialLoad) {
     this.dirty = true;
     this.route = new Route(geojson);
     this.ready().then(() => {
       this.map.setRouteData(this.route.getGeojson());
       this.map.setMileMarkers(this.route.getMileMarkers());
-      this.map.map.fitBounds(this.route.getBbox({mode: 'foot'}), {duration: isInitialLoad ? 0 : 2000});
+      this.map.map.fitBounds(this.route.getBbox({ mode: "foot" }), {
+        duration: isInitialLoad ? 0 : 2000,
+      });
       this.elevationPlot.setProfile(this.route.getElevationProfile());
     });
   }
 
-  clearRoute () {
+  clearRoute() {
     this.route = null;
     this.followProgress.clear();
     this.map.setMileMarkers(null);
@@ -67,18 +74,18 @@ class PageController {
     });
   }
 
-  stop () {
+  stop() {
     this.followTimer.stop();
   }
 
-  step (t, dt) {
+  step(t, dt) {
     this.followProgress.tick(dt);
     const [progress, changed] = this.followProgress.getValue();
 
     if (changed || this.dirty) {
       this.dirty = false;
-      switch(this.mode) {
-        case 'follow':
+      switch (this.mode) {
+        case "follow":
           if (this.route) {
             this.applyFollowProgress(progress, this.followProgress.target);
 
@@ -88,22 +95,22 @@ class PageController {
       }
     }
   }
-  
-  setFeatureMode (mode) {
+
+  setFeatureMode(mode) {
     if (!mode) {
-      document.body.removeAttribute('data-feature-mode');
+      document.body.removeAttribute("data-feature-mode");
     }
 
     if (mode === this.featureMode) return;
 
-    this.map.setMarkerColor(MODE_COLORS[mode || 'metro']);
+    this.map.setMarkerColor(MODE_COLORS[mode || "metro"]);
 
     if (mode) {
-      document.body.setAttribute('data-feature-mode', mode);
+      document.body.setAttribute("data-feature-mode", mode);
     }
 
-    switch(mode) {
-      case 'foot':
+    switch (mode) {
+      case "foot":
         this.map.setMileMarkerOpacity(1);
         break;
       default:
@@ -112,21 +119,21 @@ class PageController {
     this.featureMode = mode;
   }
 
-  applyFollowProgress (progress, targetProgress, forcePosition) {
+  applyFollowProgress(progress, targetProgress, forcePosition) {
     if (!this.route) return;
     const [uneasedPosition] = this.route.evaluate(targetProgress);
     const [easedPosition, feature] = this.route.evaluate(progress);
 
     this.applyGlobalPadding();
-    this.map.setTerrain(feature.properties.mode === 'foot' ? 1.3 : 0, true);
+    this.map.setTerrain(feature.properties.mode === "foot" ? 1.3 : 0, true);
 
     this.map.camera.targetCenter = uneasedPosition;
     this.map.camera.targetPitch = 40;
 
     this.setFeatureMode(feature.properties.mode);
-    if (feature.properties.mode === 'foot') {
+    if (feature.properties.mode === "foot") {
       this.map.camera.targetDistance = 4500;
-    } else if (feature.properties.mode === 'bus') {
+    } else if (feature.properties.mode === "bus") {
       this.map.camera.targetDistance = 9000;
     } else {
       this.map.camera.targetDistance = 12000;
@@ -134,13 +141,13 @@ class PageController {
 
     this.map.setMarkerPosition(easedPosition);
 
-    if (feature.properties.mode === 'foot') {
+    if (feature.properties.mode === "foot") {
       this.elevationPlot.setProgress(progress % 1);
     }
   }
 
-  computeGlobalPadding () {
-    const isHero = !this.mode || this.mode === 'bound';
+  computeGlobalPadding() {
+    const isHero = !this.mode || this.mode === "bound";
     const padding = { top: 60, right: 60, bottom: 60, left: 60 };
 
     if (isHero) {
@@ -151,21 +158,21 @@ class PageController {
     return padding;
   }
 
-  applyGlobalPadding () {
+  applyGlobalPadding() {
     if (!this.needsPaddingUpdate) return;
     this.needsPaddingUpdate = false;
     this.map.setGlobalPadding(this.computeGlobalPadding());
   }
 
   // A pseudo-state-machine, but without cleanly defined transitions :shrug:
-  setProgress (mode, progress) {
+  setProgress(mode, progress) {
     const isModeChange = mode !== this.mode;
     this.mode = mode;
     if (isModeChange) {
       this.needsPaddingUpdate = true;
     }
     switch (this.mode) {
-      case 'bound':
+      case "bound":
         this.setFeatureMode(null);
         this.applyGlobalPadding();
         this.map.setTerrain(null);
@@ -175,12 +182,14 @@ class PageController {
           this.followTimer.stop();
           this.map.setMarkerPosition(null);
           if (this.route) {
-            this.map.map.fitBounds(this.route.getBbox({mode: 'foot'}), {duration: 1000});
-            this.map.map.once('idle', () => this.map.map.easeTo({pitch: 0}));
+            this.map.map.fitBounds(this.route.getBbox({ mode: "foot" }), {
+              duration: 1000,
+            });
+            this.map.map.once("idle", () => this.map.map.easeTo({ pitch: 0 }));
           }
         }
         break;
-      case 'follow':
+      case "follow":
         if (isModeChange) {
           this.followTimer.start();
         }
@@ -193,7 +202,7 @@ class PageController {
     }
   }
 
-  setSimplifiedMode (isSimplified) {
+  setSimplifiedMode(isSimplified) {
     this.map.setSimplifiedMode(isSimplified);
   }
 }
