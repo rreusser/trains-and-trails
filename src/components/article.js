@@ -109,9 +109,12 @@ function Article({ page, setPath }) {
 
   useEffect(() => {
     if (!contentContainer.current) return;
-    const commentDst = contentContainer.current.querySelector(
-      ".articleContent--conclusion"
-    );
+    let commentDst = contentContainer.current.querySelector(".giscus-comments");
+    if (!commentDst) {
+      commentDst = contentContainer.current.querySelector(
+        ".articleContent--conclusion"
+      );
+    }
 
     if (commentDst) {
       const giscusTag = document.createElement("script");
