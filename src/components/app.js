@@ -27,10 +27,11 @@ function App(props) {
 
   useEffect(() => {
     const search = new URLSearchParams(window.location.search);
-    const pagePath = `${page.baseURL}${path}?${search.toString()}`.replace(
-      /\/\//g,
-      "/"
-    );
+    const searchString = search.toString();
+    const pagePath = searchString
+      ? `${page.baseURL}${path}?${searchString}`.replace(/\/\//g, "/")
+      : `${page.baseURL}${path}`.replace(/\/\//g, "/");
+
     history.pushState({ page, path }, "", pagePath);
     function onChange(event) {
       setPath(event.state.path);
@@ -49,7 +50,7 @@ function App(props) {
     // Persist search params (containing giscus session) when navigating
     const search = new URLSearchParams(window.location.search);
     const contentPath = window.manifest[pathWithoutSearch];
-    const dstPath = `${path}?${search.toString()}`;
+    const dstPath = search.toString() ? `${path}?${search.toString()}` : path;
 
     setFetching(true);
     history.pushState({ dstPath, page: null }, "", dstPath);
