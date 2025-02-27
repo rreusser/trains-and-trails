@@ -334,4 +334,4 @@ And the Dipsea is a seven mile trail that you can run. If you want.
 
 What a day. By the end, this one hurt a moderate amount, more than most, but I'm counting it as a big success.
 
-[Back]()
+[← Back]()

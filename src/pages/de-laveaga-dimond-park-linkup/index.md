@@ -180,4 +180,4 @@ I don't want to overstate how exciting this run was and go calling a little run 
 
 And hopefully not lost in the rain is just how pleased I am with the route. Even though I didn't end up catching the bus home, it would have cut this route down to fifteen miles. Cutting off a couple loops would further reduced it to perhaps twelve or so. Good conditions would have made the running faster, and suddenly you're down into pretty reasonable afternoon run range!
 
-[Back]()
+[← Back]()

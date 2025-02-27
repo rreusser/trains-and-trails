@@ -153,4 +153,4 @@ My holy grail remains to run a longe rsegment of the ridge, from Richmod to Anth
 
 ![](orinda-to-bay-fair-150.jpg)
 
-[Back]()
+[← Back]()

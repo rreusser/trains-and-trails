@@ -198,5 +198,5 @@ The point-to-point format worked great for this route. In contrast, out-and-back
 
 As a recommendation, [Las Trampas Wilderness Regional Preserve](https://www.ebparks.org/parks/las-trampas) is the easiest way to access the area, leaving you free to explore the most interesting areas without committing to a twenty mile trek. Plan ahead. Bring enough water. But definitely don't miss this one.
 
-[Back]()
+[← Back]()
 

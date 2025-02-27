@@ -23,6 +23,6 @@ If there are a couple things which make the running possible, it's [Salomon](htt
 
 Comments? Questions? Let me know on [Mastodon](https://mathstodon.xyz/@rreusser) or by filing an issue [on GitHub](https://github.com/rreusser/trains-and-trails/issues). 🏃‍♂️
 
-[Back]()
+[← Back]()
 
 <span class="giscus-comments"></span>

@@ -185,4 +185,4 @@ Mitchell Canyon is certainly my favorite trailhead. The trail goes right up the 
 
 ☃️
 
-[Back]()
+[← Back]()

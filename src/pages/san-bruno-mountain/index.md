@@ -103,6 +103,6 @@ In hindsight, I'd definitely instead recommend approaching San Bruno Mountain fr
 
 The point is, if you're like me and have ever looked longingly at San Bruno Mountain, I'd very highly recommend giving it a try. If you make slightly better choices than I did, it's very easily accessible from the BART and well within day hike range.
 
-[Back]()
+[← Back]()
 
 
