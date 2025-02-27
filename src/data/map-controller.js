@@ -57,7 +57,7 @@ class MapController {
     this.camera = window.camera = new CameraController(this.map);
 
     this.map.on("load", () => {
-      map.transform.fov = 50;
+      //map.transform.fov = 50;
 
       map.loadImage("pin.png", (error, image) => {
         if (error) throw error;
