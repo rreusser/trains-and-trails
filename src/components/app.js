@@ -58,6 +58,11 @@ function App(props) {
       .then((page) => {
         setPage(page);
         history.replaceState({ dstPath, page }, "", dstPath);
+
+        document.querySelector('title').textContent = [
+          page.metadata.title === 'Trains and Trails' ? '' : page.metadata.title,
+          'Trains and Trails'
+        ].filter(x => !!x).join(' - ');
       })
       .then(
         () => setFetching(false),
