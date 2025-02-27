@@ -1,4 +1,4 @@
-import vec3length from "gl-vec3/length.js";
+/*import vec3length from "gl-vec3/length.js";
 import vec3normalize from "gl-vec3/normalize.js";
 import vec3cross from "gl-vec3/cross.js";
 import vec2normalize from "gl-vec2/normalize.js";
@@ -234,3 +234,5 @@ class CameraController {
 }
 
 export default CameraController;
+
+*/
