@@ -114,7 +114,7 @@ The road had absolutely no shoulder at a couple points, which had me jumping out
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="1.3"></span>
 ![A trail ascends a hillside. THe sky is clear. Sun just touches the tips of the trees.](lagunitas-190.jpg)
 
-I always like it when trails get straight to the point. The Shafter Grade does not mess around as it gently ascends about 1,100 feet to the Bolinas Ridge Trail, which then runs all the way back along the ridge to Stinson Beach. My hands hurt from the cold air in Lagunitas, so I was anxious to get some blood flowing.
+I turned onto the Shafter Grade and was off of paved roads for the rest of the day. The trail doesn't mess around as it gently ascends about 1,100 feet to the Bolinas Ridge Trail, which then runs all the way back along the ridge to Stinson Beach. My hands hurt from the cold air in Lagunitas, so I was anxious to get some blood flowing.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="3.1" data-split></span>
 ## Bolinas Ridge Trail
