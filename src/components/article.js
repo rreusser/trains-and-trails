@@ -4,6 +4,7 @@ import pageControllerContext from "../data/page-controller-context.js";
 import Ratings from "./ratings.js";
 import quadInOut from "eases/quad-in-out.js";
 import lerp from "../util/lerp.js";
+import Comments from './comments.js';
 
 const EXTERNAL_URL_REGEX = /^http/;
 let initialLoad = true;
@@ -107,40 +108,6 @@ function Article({ page, setPath }) {
     };
   }, []);
 
-  useEffect(() => {
-    if (!contentContainer.current) return;
-    let commentDst = contentContainer.current.querySelector(".giscus-comments");
-    if (!commentDst) {
-      commentDst = contentContainer.current.querySelector(
-        ".articleContent--conclusion"
-      );
-    }
-
-    if (commentDst) {
-      const giscusTag = document.createElement("script");
-      giscusTag.setAttribute("src", "https://giscus.app/client.js");
-      giscusTag.setAttribute("data-repo", "rreusser/trains-and-trails");
-      giscusTag.setAttribute("data-repo", "rreusser/trains-and-trails");
-      giscusTag.setAttribute(
-        "data-repo-id",
-        "MDEwOlJlcG9zaXRvcnk0MDUyODUwMjY="
-      );
-      giscusTag.setAttribute("data-category", "Announcements");
-      giscusTag.setAttribute("data-category-id", "DIC_kwDOGCgoos4CnXtQ");
-      giscusTag.setAttribute("data-mapping", "pathname");
-      giscusTag.setAttribute("data-strict", "0");
-      giscusTag.setAttribute("data-reactions-enabled", "1");
-      giscusTag.setAttribute("data-emit-metadata", "0");
-      giscusTag.setAttribute("data-input-position", "bottom");
-      giscusTag.setAttribute("data-theme", "light");
-      giscusTag.setAttribute("data-lang", "en");
-      giscusTag.setAttribute("crossorigin", "anonymous");
-      giscusTag.setAttribute("async", "async");
-
-      requestAnimationFrame(() => commentDst.appendChild(giscusTag));
-    }
-  }, []);
-
   return html` <div
     class="articleContainer ${isFront ? "is-front" : ""} ${isHome
       ? "is-home"
@@ -160,6 +127,11 @@ function Article({ page, setPath }) {
         dangerouslySetInnerHTML=${{ __html: page.articleHTML }}
       />
     </div>
+    ${page.metadata.mastodonId ? html`
+      <div class="articleContent comments">
+        <${Comments} postId=${page.metadata.mastodonId}/>
+      </div>
+    ` : ''}
   </div>`;
 }
 

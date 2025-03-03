@@ -20,6 +20,7 @@ assets:
   "150": IMG_9079.jpg
   "160": IMG_9081.jpg
 coverImage: "cover"
+mastodonId: "114097419175066600"
 ---
 
 <span data-behavior="introduction"></span>

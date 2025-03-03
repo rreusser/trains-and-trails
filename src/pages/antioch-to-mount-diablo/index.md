@@ -44,6 +44,7 @@ assets:
   "400": antioch-400.jpg
   "410": map.jpg
 coverImage: "110"
+mastodonId: "113986875985580617"
 ratings:
   Accessibility: 5
   Wilderness: 3

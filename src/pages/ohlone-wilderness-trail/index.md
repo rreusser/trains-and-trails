@@ -35,6 +35,7 @@ assets:
   'trail-map-2': trail-map-2.jpg
   'trail-map-3': trail-map-3.jpg
 coverImage: '240'
+mastodonId: "111642909191158433"
 ---
 
 <span data-behavior="introduction"></span>

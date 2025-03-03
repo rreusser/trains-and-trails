@@ -46,6 +46,7 @@ assets:
   "1650": lagunitas-1650.jpg
   "1760": lagunitas-1760.jpg
 coverImage: "cover"
+mastodonId: "114046693784863982"
 ---
 
 <span data-behavior="introduction"></span>
