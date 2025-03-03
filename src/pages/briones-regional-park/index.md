@@ -117,7 +117,7 @@ The final stretch on the main road, along the BART Park 'n Ride lot, is a bit un
 ## Lafayette
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
-I caught the Oakland-bound Lafayette train with about a seven minute wait.
+I caught the Oakland-bound Lafayette train with about a seven minute wait. The wait was tolerable, but the chilly breeze really tested me.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="19.0"></span>
 ## 12th Street Oakland
