@@ -64,7 +64,7 @@ The gas station attendant was entertained that I first couldn't figure out the l
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="2.25"></span>
 ![A quiet road, lined in trees](IMG_8986.jpg)
 
-Pleasant Hill is an excellent place to start a run. Compared to the Concord BART station which is surrounded by miles of stop lights and shopping malls, Pleasant Hill pretty quickly dumps you into quiet, almost rural neighborhoods. Five stars; would visit again.
+Pleasant Hill is an excellent place to start a run. Compared to the Concord BART station which is surrounded by miles of stop lights and shopping malls, Pleasant Hill pretty quickly dumps you into quiet, almost rural neighborhoods. Five stars; would run again.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="3.35" data-split></span>
 ## Briones Regional Park
