@@ -75,7 +75,7 @@ I arrived at the 6,117-acre [Briones Regional Park](https://www.ebparks.org/park
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="3.85"></span>
 ![A brilliant green hillside shows through the trees that cover most of it](IMG_8994.jpg)
 
-A significant portion of the park is just cow pasture, but the hills offer Bay Area incredible views that were so oversaturated in the California late rainy season that they hardly looked real.
+A significant portion of the park is just cow pasture, but the hills offer incredible Bay Area views that were so oversaturated in the California late rainy season that they hardly looked real.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="5.4"></span>
 ![A young cow stares at the photographer from about ten feet away](IMG_9002.jpg)
