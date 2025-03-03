@@ -24,7 +24,7 @@ coverImage: "cover"
 
 <span data-behavior="introduction"></span>
 
-<span class="intro-meta intro-meta--distance">**Distance**: 14.2</span>
+<span class="intro-meta intro-meta--distance">**Distance**: 14.2 miles</span>
 <span class="intro-meta intro-meta--elevation">**Elevation**: <span style="color:green">+2,350</span> <span style="color:#ca4747">-2,080</span> feet</span>
 <span class="intro-meta intro-meta--time">**Running time**: 2 hours 17 minutes</span>
 <span class="intro-meta intro-meta--transit">**Transit time**: 52 minutes</span>
