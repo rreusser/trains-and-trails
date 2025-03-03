@@ -124,7 +124,7 @@ I caught the Oakland-bound Lafayette train with about a seven minute wait. The w
 
 <span data-behavior="conclusion"></span>
 
-I couldn't have been happier with the day and with the run. I spent less than an hour in transit, and at any rate I listened to an audiobook of the Kurt Gödel biography, [Journey to the Edge of Reason](https://wwnorton.com/books/9781324005445), so I could have spent longer on the train.
+I couldn't have been happier with the day and with the run. I spent less than an hour in transit, and at any rate I listened to an audiobook of the Kurt Gödel biography, [Journey to the Edge of Reason](https://wwnorton.com/books/9781324005445), so I'd happily have spent longer on the train.
 
 Briones Regional Park is maybe about 3 &times; 3 miles if you had to shoehorn it into a square. It's not huge, but there's a lot to explore. A surprising amount of the park has sweeping views in every direction.
 
