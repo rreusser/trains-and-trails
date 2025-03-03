@@ -20,30 +20,32 @@ const SERVER = 'https://mathstodon.xyz';
 
 async function loadComments(postId) {
   const url = `${SERVER}/api/v1/statuses/${postId}/context`
-
-  try {
-    const response = await fetch(url);
-    if (!response.ok) {
-        throw new Error(`Response status: ${response.status}`);
-    }
-    return await response.json();
-  } catch (error) {
-    alert(`Error loading comments: ${error.message}`);
-    console.error(error.message);
+  const response = await fetch(url);
+  if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
   }
+  return await response.json();
 }
 
 export default function Comments ({postId}) {
   const [comments, setComments] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(async () => {
-    const comments = await loadComments(postId);
-    setComments(comments.descendants);
+    try {
+      const comments = await loadComments(postId);
+      setComments(comments.descendants);
+      setError(null);
+    } catch (e) {
+      setError('Unable to load comments');
+    }
   }, []);
 
-  console.log(comments);
-
-  if (comments === null) {
+  if (error) {
+    return html`
+      <div class="comments_loading">${error}</div>
+    `;
+  } else if (comments === null) {
     return html`
       <div class="comments_loading">
         <div class="spinner threebody">
