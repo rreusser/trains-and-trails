@@ -57,14 +57,14 @@ Mount Diablo, shrouded in clouds. Bigger adversaries for bigger days.
 ## Pleasant Hill / Contra Costa Centre
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="0"></span>
-I started the run right at 11:00 AM. Since I only had a single water bottle for the day, I stopped at the Shell Station and grabbed a Gatorade, drinking it as quickly as I could to fight an ice cream headache.
+I started the run right at 11:00 AM. Since I only had a single water bottle for the day, I stopped at the Shell Station and grabbed a Gatorade, drinking it as quickly as I could while fighting an ice cream headache.
 
 The gas station attendant was entertained that I first couldn't figure out the locked display-only case, then couldn't find my way into the kiosk where the real Gatorade awaited.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="2.25"></span>
 ![A quiet road, lined in trees](IMG_8986.jpg)
 
-Pleasant Hill is an excellent place to start a run. Compared to the Concord BART station which is surrounded by miles of stop lights and shopping malls, Pleasant Hill pretty quickly dumps you into quiet, almost rural neighborhoods. Five stars; would run again.
+Pleasant Hill is an excellent place to start a run. Compared to the Concord BART station which is surrounded by miles of stop lights and shopping malls, Pleasant Hill pretty quickly dumps you into quiet, almost rural-feeling neighborhoods. Five stars; would run again.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="3.35" data-split></span>
 ## Briones Regional Park
