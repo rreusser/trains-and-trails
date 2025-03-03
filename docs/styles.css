@@ -500,16 +500,10 @@ body[data-feature-mode="bus"] .articleCards_markerInner:before {
 .comment_meta {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 10px;
   font-size: 13px;
-}
-
-.comment_user {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
 }
 
 .comment_ago {
@@ -520,6 +514,10 @@ body[data-feature-mode="bus"] .articleCards_markerInner:before {
 }
 
 .comment_user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   color: black;
   text-decoration: none;
   font-family: sans-serif;
@@ -527,6 +525,10 @@ body[data-feature-mode="bus"] .articleCards_markerInner:before {
 }
 .comment_user:visited {
   color: black;
+}
+.comment_commenter {
+  font-weight: 400;
+  color: #666;
 }
 
 .comment_content p:first-child {

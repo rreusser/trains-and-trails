@@ -63,7 +63,11 @@ export default function Comments ({postId}) {
             <div class="comment_meta">
               <a href=${comment.account.url} class="comment_user">
                 <img src=${comment.account.avatar_static}/>
-                ${comment.account.acct}
+                <div>
+                  <div class="comment_displayname">${comment.account.display_name}</div>
+                  <div class="comment_commenter">${comment.account.acct}</div>
+                </div>
+              </div
               </a>
               <a class="comment_ago" href="${SERVER}/@${comment.account.acct}/${comment.id}">
                 ${timeSince(new Date(comment.created_at))} ago
