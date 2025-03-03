@@ -128,7 +128,7 @@ I couldn't have been happier with the day and with the run. I spent less than an
 
 Briones Regional Park is maybe about 3 &times; 3 miles if you had to shoehorn it into a square. It's not huge, but there's a lot to explore. A surprising amount of the park has sweeping views in every direction.
 
-I won't overdo the praise since "best trail I've run in X area" is becoming a bit of a Trains and Trails cliche. The only thing I'll add is that if you see only one section, I'd aim for the southeast section of the park. The Ridge Trail out of Lafayette is convenient and *stunning*.
+I won't overdo the praise since "best trail I've run in X area" is becoming a bit of a Trains and Trails cliche. The only thing I'll add is that if you see only one section, I'd aim for the southeast section of the park. The Lafayette Ridge Trail out of Lafayette is convenient and *stunning*.
 
 I don't know why my mind was stuck on Briones Regional Park not being convenient or not being quite the right distance, but it was both, and I plan to return soon.
 
