@@ -96,7 +96,7 @@ As soon as you exit the forest, it turns into some real Windows XP wallpaper lev
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="9.9"></span>
 ![A rutted single-track trail ascends a hill](IMG_9048.jpg)
 
-The real winner of the day turned out to be the "Unmaintained Trails." I've had bad luck getting too creative in other parks where unmaintained trails quickly fade into nothingness, leaving me crawling through brush and scrambling down embankments. In Briones though, they were all just exceptional single-track paths through forests and over hills.
+The real winner of the day turned out to be the trails listed on GaiaGPS as "Unmaintained Trail." I've had bad luck getting too creative in other parks where unmaintained trails quickly fade into nothingness, leaving me crawling through brush and scrambling down embankments. In Briones though, they were all just exceptional single-track paths through forests and over hills.
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="11.0"></span>
 ![A trail snakes over a row of hills](IMG_9059.jpg)
