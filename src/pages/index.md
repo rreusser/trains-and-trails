@@ -16,6 +16,16 @@ Hi! I'm Ricky. This site presents a small collection of Bay Area trails I've run
       <span>📅 2022-08-09</span>
     </div>
   </a>
+  <a class="route-entry" href="briones-regional-park">
+    <div class="route-title">Briones Regional Park</div>
+    <div class="route-meta">
+      <span>📅 2025-03-02</span>
+      <span>📏 14.2 mi</span>
+      <span>⏱️ 2:17 </span>
+      <span>⛰️ 2350 ft</span>
+      <span>🚆 $8.25</span>
+    </div>
+  </a>
   <a class="route-entry" href="lagunitas-to-mill-valley">
     <div class="route-title">Lagunitas to Mill Valley</div>
     <div class="route-meta">
