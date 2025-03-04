@@ -4,7 +4,7 @@ import pageControllerContext from "../data/page-controller-context.js";
 import Ratings from "./ratings.js";
 import quadInOut from "eases/quad-in-out.js";
 import lerp from "../util/lerp.js";
-import Comments from './comments.js';
+import Comments from "./comments.js";
 
 const EXTERNAL_URL_REGEX = /^http/;
 let initialLoad = true;
@@ -13,6 +13,7 @@ const SIMPLIFY_LAYERS = ["", "introduction/"];
 
 function Article({ page, setPath }) {
   const contentContainer = useRef(null);
+  const articleContainer = useRef(null);
   const pageController = useContext(pageControllerContext);
 
   const isHome = page.metadata.path === "";
@@ -108,10 +109,18 @@ function Article({ page, setPath }) {
     };
   }, []);
 
+  useEffect(() => {
+    if (!articleContainer.current) return;
+    articleContainer.current.addEventListener("click", (event) => {
+      event.stopPropagation();
+    });
+  });
+
   return html` <div
     class="articleContainer ${isFront ? "is-front" : ""} ${isHome
       ? "is-home"
       : ""}"
+    ref=${articleContainer}
   >
     <div class="articleHeader">
       ${isHome
@@ -127,11 +136,13 @@ function Article({ page, setPath }) {
         dangerouslySetInnerHTML=${{ __html: page.articleHTML }}
       />
     </div>
-    ${page.metadata.mastodonId ? html`
-      <div class="articleContent comments">
-        <${Comments} postId=${page.metadata.mastodonId}/>
-      </div>
-    ` : ''}
+    ${page.metadata.mastodonId
+      ? html`
+          <div class="articleContent comments">
+            <${Comments} postId=${page.metadata.mastodonId} />
+          </div>
+        `
+      : ""}
   </div>`;
 }
 
