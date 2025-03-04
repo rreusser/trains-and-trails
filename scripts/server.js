@@ -17,7 +17,7 @@ budo.cli(
     //`src/index.js:${join(process.env.BASE_URL, 'bundle.js')}`
   ],
   {
-    //host: "localhost",
+    host: "localhost",
     //live: true,
     open: false,
     watchGlob: "docs/*.{html,css,js,md,json}",
