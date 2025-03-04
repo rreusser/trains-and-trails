@@ -133,6 +133,7 @@ a:visited {
 }
 
 .articleContainer {
+  pointer-events: none;
   max-width: 520px;
   margin: 70vh auto 100px 0;
   color: #111;
@@ -141,6 +142,15 @@ a:visited {
   box-sizing: border-box;
   padding-bottom: 75vh;
 }
+
+.articleHeader { pointer-events: all; }
+
+
+.articleHeader { pointer-events: all; }
+.articleContent { pointer-events: all; }
+.articleContent.comments { pointer-events: all; }
+.articleCards_marker { pointer-events: all; }
+.articleCard_content { pointer-events: all; }
 
 .articleContainer.is-home {
   padding-bottom: 15px;
