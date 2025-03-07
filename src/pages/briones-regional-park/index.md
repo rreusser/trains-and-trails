@@ -38,7 +38,7 @@ I've figured out alright by now how to do completely unreasonably long runs via 
 
 So in my push to cover more territory on the blog, I decided the day had arrived to try Briones Regional Park. I've run through it just once before, and it was… great. Stopping to think about it, I couldn't figured out why I hadn't returned.
 
-I mapped out a route for about a half marathon, allowing for some creating routefinding along the way, grabbed a water bottle and a couple energy gels, and headed out the door.
+I mapped out a route for about a half marathon, allowing for some creative routefinding along the way, grabbed a water bottle and a couple energy gels, and headed out the door.
 
 <span data-behavior="anchor" data-feature-index="0" data-mile-position="0"></span>
 

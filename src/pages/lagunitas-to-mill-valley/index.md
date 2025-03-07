@@ -82,7 +82,7 @@ I only waited a couple minutes at El Cerrito del Norte for the first bus transfe
 
 <span data-behavior="anchor" data-feature-index="1" data-mile-position="4"></span>
 
-Almost everyone on the bus at 5:45 AM was Hispanic and presumably headed to work. I didn't feel badly out of place, but I'm very aware that it's a huge privilege to head out for a full-weekday run without a second thought, just because the idea popped into my head.
+Almost everyone on the bus at 5:45 AM was presumably headed to work. I didn't feel badly out of place, but I'm very aware that it's a huge privilege to head out for a full-weekday run without a second thought, just because the idea popped into my head.
 
 <span data-behavior="anchor" data-feature-index="2" data-mile-position="0"></span>
 ## San Rafael: 68 Bus to Lagunitas
@@ -229,7 +229,7 @@ I guess the ridges are ridges because they're rocky and don't erode. The exposed
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="22.0"></span>
 ![Tall redwoods line a gently-curving trail. Sun shines through the tree tops, illuminating the forest.](lagunitas-1010.jpg)
 
-I was happy be back on the ridge. It's easily one of my favorite places I've run. I didn't take any pictures for a while. Maybe got a little philosophical. From the time that I left the ocean back at mile 14, the only people I saw until reaching mile 28 and Mount Tam State Park were two mountain bikers.
+I was happy to be back on the ridge. It's easily one of my favorite places I've run. I didn't take any pictures for a while. Maybe got a little philosophical. From the time that I left the ocean back at mile 14, the only people I saw until reaching mile 28 and Mount Tam State Park were two mountain bikers.
 
 <span data-behavior="anchor" data-feature-index="3" data-mile-position="25.3" data-split></span>
 ## Coastal Trail
