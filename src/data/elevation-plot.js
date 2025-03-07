@@ -22,6 +22,8 @@ class ElevationPlot {
     this.container.append("g").attr("class", "grid y-grid");
     this.container.append("path").attr("class", "elevation-fill");
     this.container.append("path").attr("class", "elevation");
+    this.container.append('text').text('↑ feet').attr('class', 'elev-label');
+    this.container.append('text').text('mile →').attr('class', 'dist-label');;
 
     this.data = null;
 
@@ -102,6 +104,18 @@ class ElevationPlot {
       .attr("transform", "translate(0," + this.height + ")")
       .call(xAxis);
     this.container.select(".y-axis").call(yAxis);
+
+    this.container.select('.elev-label')
+      .attr('transform', `translate(2,0)`)
+      .style('font-size', 12)
+      .style('font-family', 'sans-serif')
+      .style('alignment-baseline', 'hanging');
+    this.container.select('.dist-label')
+      .attr('transform', `translate(${this.width},0)`)
+      .style('font-size', 12)
+      .style('font-family', 'sans-serif')
+      .style('text-anchor', 'end')
+      .style('alignment-baseline', 'hanging');
 
     //const xGrid = xAxis.tickSize(-this.height).tickFormat("");
     const yGrid = yAxis.tickSize(-this.width).tickFormat("");

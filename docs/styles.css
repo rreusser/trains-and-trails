@@ -570,26 +570,6 @@ body[data-feature-mode="bus"] .articleCards_markerInner:before {
   padding-top: 3px;
 }
 
-#elevation-plot:after {
-  content: "mile →";
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  background-color: white;
-  font-size: 0.8em;
-  font-family: sans-serif;
-}
-
-#elevation-plot:before {
-  content: "feet ↑";
-  background-color: white;
-  position: absolute;
-  top: 0px;
-  left: 5px;
-  font-size: 0.8em;
-  font-family: sans-serif;
-}
-
 .elevation-marker {
   position: absolute;
   transform: translate(0, 0);
