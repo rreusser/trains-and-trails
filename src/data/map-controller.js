@@ -105,6 +105,35 @@ class MapController {
           "ferry"
         );
 
+        this.map.addSource('homedot', {
+          type: 'geojson',
+          data: {
+            "type": "FeatureCollection",
+            "features": [{
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "coordinates": [ -122.27206065046302, 37.80294946708875 ],
+                "type": "Point"
+              }
+            }]
+          }
+        });
+
+        this.map.addLayer({
+          id: 'homedot',
+          source: 'homedot',
+          type: "circle",
+          paint: {
+            "circle-opacity": 1,
+            "circle-color": "white",
+            "circle-pitch-alignment": "map",
+            "circle-radius": 3,
+            "circle-stroke-width": 1.5,
+            "circle-stroke-color": "#3388ff",
+          },
+        });
+
         this.map.addSource("route", {
           type: "geojson",
           data: EMPTY_GEOJSON,
