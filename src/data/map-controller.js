@@ -120,20 +120,6 @@ class MapController {
           }
         });
 
-        this.map.addLayer({
-          id: 'homedot',
-          source: 'homedot',
-          type: "circle",
-          paint: {
-            "circle-opacity": 1,
-            "circle-color": "white",
-            "circle-pitch-alignment": "map",
-            "circle-radius": 3,
-            "circle-stroke-width": 1.5,
-            "circle-stroke-color": "#3388ff",
-          },
-        });
-
         this.map.addSource("route", {
           type: "geojson",
           data: EMPTY_GEOJSON,
@@ -229,6 +215,21 @@ class MapController {
           },
           INSERTION_POINT
         );
+
+        this.map.addLayer({
+          id: 'homedot',
+          source: 'homedot',
+          type: "circle",
+          paint: {
+            "circle-opacity": 1,
+            "circle-color": "white",
+            "circle-pitch-alignment": "map",
+            "circle-radius": 3,
+            "circle-stroke-width": 1.5,
+            "circle-stroke-color": "#3388ff",
+          },
+        }, INSERTION_POINT);
+
 
         this.map.addLayer(
           {
