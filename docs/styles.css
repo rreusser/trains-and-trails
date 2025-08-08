@@ -24,6 +24,7 @@ body {
 
 .menu a {
   text-decoration: none;
+  margin-left: 3px;
 }
 
 .menu a,
@@ -36,7 +37,7 @@ body {
 }
 
 .menu__item {
-  padding: 5px 10px;
+  padding: 5px 7px;
   font-size: 0.9em;
   text-shadow: 0 0 1px #000;
   color: white;
